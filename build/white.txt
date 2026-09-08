@@ -1,3 +1,19 @@
+# https://github.com/217heidai/adblockfilters/issues/250
+h5.mse.360.cn
+s.360.cn
+# https://github.com/217heidai/adblockfilters/issues/247
+feedback.miui.com
+# https://github.com/217heidai/adblockfilters/issues/244
+#otheve.beacon.qq.com #保留
+# https://github.com/217heidai/adblockfilters/issues/243
+api.sec.miui.com
+srv.sec.miui.com
+# https://github.com/217heidai/adblockfilters/issues/241
+obs.cn-east-2.myhuaweicloud.com
+obs.cn-east-3.myhuaweicloud.com
+obs.cn-north-1.myhuaweicloud.com
+obs.cn-north-2.myhuaweicloud.com
+obs.cn-south-1.myhuaweicloud.com
 # https://github.com/217heidai/adblockfilters/issues/240
 optimizely.com
 # https://github.com/217heidai/adblockfilters/issues/239

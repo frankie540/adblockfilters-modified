@@ -1,11 +1,27 @@
 [Adblock Plus 2.0]
 ! Title: 轻量广告拦截规则
 ! Homepage: https://github.com/damengzhu/banad
-! Update Time: 2026-06-08 09:11:03（北京时间）
-! Version: 20260608091103
-! Total Count: 5867
+! Update Time: 2026-09-07 08:40:57（北京时间）
+! Version: 20260907084057
+! Total Count: 5890
 ! by: 酷安@大萌主
 ! domain name
+||wewubuwgz.com^
+||xn--czru2dx3eszw3lat53b.com^
+||cssstyle.motorcycles^
+||aizhantj.com^
+||lxrjekw.com^
+||131r3lknzg.com^
+||musclesaskewfeeding.com^
+||kettledroopingcontinuation.com^
+||spendsdetachment.com^
+||rzuagqomzl.in^
+||campfirecroutondecorator.com^
+||chnsrv.com^
+||3ie0h3b.com^
+||cmos3.org^
+||mc.yandex.ru^
+||ttkxny.com^
 ||vdo3c.org^
 ||qihang168.top^
 ||malluktig.in^
@@ -4528,6 +4544,7 @@
 ||sugar.zhihu.com^
 ||stat.meitudata.com^
 ! url
+@@||themoviedb.org/assets/
 @@gimg*.baidu.com/gimg/app=$domain=kimivod.com
 @@||iqiyi.com/static/js/adfe.5aa3302c.js
 @@||qhres2.com^$domain=www.n.cn
@@ -4843,6 +4860,7 @@ js/yys/Pfhl365.js
 .xyz:*/hm$third-party
 .top/*cx?17$third-party
 /static/2biqu/twgdh.js
+/js/hf.js
 ||2biqu.com/static/*/*.js
 .com:*/api/v4/*?*=$third-party
 ://*.yinghua*.*/bar$~third-party
@@ -5151,6 +5169,8 @@ cibaipuki.com##A[href^='/article-list-id']
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
 cibaipuki.com##[href*=":"]
 cibaipuki.com##.table2
+ithome.com##.visited-link-color-fixed:has(.tip-gray)
+ithome.com##.op
 ithome.com##.j_iframe_show > iframe
 ithome.com##.placeholder:has([data-original*='newsuploadfiles'])
 bohe.cn##IFRAME[width='400'][height='200']
@@ -5200,6 +5220,8 @@ izaiwen.cn##DIV[carousel-item]
 izaiwen.cn##.item-box
 jianshu.com##[aria-label='lwa-ad-one']
 jianshu.com##.app-float-btn
+blog.csdn.net##.passport-login-container
+blog.csdn.net##[class^='mobileContainer_']
 huya.com###template
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 smartapps.cn##swan-nest-banner-ad.ad-expose
@@ -5508,7 +5530,6 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##body.active > div.myui-panel > DIV#home_slide
-##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
 ##div.page.player > div.main > div.content > div.module.module-player DIV[style='width:100%;height:180px']
 ##div.page.view > div.main > div.content > DIV[style='width:100%;height:100px']
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
@@ -5866,9 +5887,11 @@ javbus.com##.container-fluid:nth-child(9) > .row > .ad-list:nth-child(3)
 ##div.page.list div.small-icon-container
 ##DIV.swiper-container.swiper-container-horizontal.swiper-container-ios.swiper-container-wp8-horizontal.swiper-container-initialized.swiper-container-android
 ##div.pannel > div.grid
+##div.footer-area.mobile DIV#banner_container
 ##div.page-d.page-turn > [style='position: relative; margin: auto; clear: both; width: 300px;']
 ##body.__amp.amp-mode-touch IFRAME[frameborder='0'][framespacing='0']
 ##DIV.small-icon-container.is_mb
+##.ippure-ads.right-one
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 ! gif ads
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']

@@ -1,9 +1,9 @@
 !
 ! Title: HaGeZi's Samsung Tracker Blocklist
 ! Description: Blocks Samsung native broadband trackers that track your activity.
-! Version: 1.0.0.41
+! Version: 1.0.0.50
 ! Homepage: https://github.com/hagezi/dns-blocklists
-! Last modified: 2026-05-13T01:03:52.992Z
+! Last modified: 2026-09-05T00:46:48.175Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -18,7 +18,6 @@
 ||samsung.bimtrackapp.co^
 ||cn-api.mcsvc.samsung.com.cn^
 ||smetrics.samsung.com.cn^
-||push.samsungosp.com.cn^
 ||samsungott.sora.yoyi.com.cn^
 ||fast.samsungsingapore.demdex.net^
 ||samsung.demdex.net^
@@ -100,8 +99,11 @@
 ||bldr.mkt.samsung.com^
 ||analytics.mpay.samsung.com^
 ||images.partnersupport.samsung.com^
+||dc.di.runestone.samsung.com^
+||dls.di.runestone.samsung.com^
+||orsdls.di.runestone.samsung.com^
+||orsfs.di.runestone.samsung.com^
 ||api.runestone.samsung.com^
-||di.runestone.samsung.com^
 ||lp.smartbusiness.samsung.com^
 ||tracking.smartbusiness.samsung.com^
 ||images.ssbusiness.samsung.com^

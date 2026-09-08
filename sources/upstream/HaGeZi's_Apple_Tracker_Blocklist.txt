@@ -1,9 +1,9 @@
 !
 ! Title: HaGeZi's Apple Tracker Blocklist
 ! Description: Blocks Apple native broadband trackers that track your activity.
-! Version: 1.0.0.9
+! Version: 1.0.0.15
 ! Homepage: https://github.com/hagezi/dns-blocklists
-! Last modified: 2026-04-22T19:34:49.447Z
+! Last modified: 2026-09-01T10:19:22.841Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -19,12 +19,12 @@
 ||prod-event-relay-weather-api.v.aaplimg.com^
 ||prod-news-notification-events.v.aaplimg.com^
 ||securemetrics.v.aaplimg.com^
+||securemetrics-cn.v.aaplimg.com^
 ||securemvt.v.aaplimg.com^
 ||smoot-feedback.v.aaplimg.com^
 ||supportmetrics.v.aaplimg.com^
 ||xp.v.aaplimg.com^
 ||ab.apple.com.akadns.net^
-||cstat-lb.apple.com.akadns.net^
 ||diagassets-lb.apple.com.akadns.net^
 ||diagnostics.apple.com.akadns.net^
 ||iadcontent-lb.apple.com.akadns.net^
@@ -32,13 +32,16 @@
 ||idiagnostics.apple.com.akadns.net^
 ||iphonesubmissions.apple.com.akadns.net^
 ||radarsubmissions.apple.com.akadns.net^
-||iad-apple.com.akadns.net^
 ||partiality.itunes-apple.com.akadns.net^
-||xp.itunes-apple.com.akadns.net^
-||xp-cdn-lb.itunes-apple.com.akadns.net^
 ||searchads.lb-apple.com.akadns.net^
+||iad-apple.com.akadns.net^
+||partiality.itunes.apple.com^
+||msc-dct-prod.msc.apple.com^
+||fbs.smoot.apple.com^
+||ads.apple.com^
 ||advertising.apple.com^
 ||advp.apple.com^
+||analytics-events.apple.com^
 ||api-adservices.apple.com^
 ||books-analytics-events.apple.com^
 ||cstat.apple.com^
@@ -61,10 +64,9 @@
 ||internalcheck.apple.com^
 ||iphonesubmissions.apple.com^
 ||iphonesubmissions-old.apple.com^
-||partiality.itunes.apple.com^
 ||launch.apple.com^
 ||metrics.apple.com^
-||msc-dct-prod.msc.apple.com^
+||news-analytics-events.apple.com^
 ||news-app-events.apple.com^
 ||news-events.apple.com^
 ||news-notification-events.apple.com^
@@ -73,33 +75,34 @@
 ||odin-signals.apple.com^
 ||performance-partners.apple.com^
 ||phonesubmissions.apple.com^
+||podcasts-analytics-events.apple.com^
 ||prd-usw2-requestattribution-iad.apple.com^
 ||proxy-skadnetwork.apple.com^
 ||radarsubmissions.apple.com^
 ||searchads.apple.com^
 ||securemetrics.apple.com^
 ||securemvt.apple.com^
-||fbs.smoot.apple.com^
 ||stocks-analytics-events.apple.com^
 ||supportmetrics.apple.com^
+||tv-analytics-events.apple.com^
 ||weather-analytics-events.apple.com^
 ||xp.apple.com^
 ||xp-cdn.apple.com^
 ||feedbackws.fe.apple-dns.cn^
+||feedbackws.fe.apple-dns.net^
 ||feedbackws.fe2.apple-dns.net^
-||me.apple-dns.net^
 ||books-analytics-events.news.apple-dns.net^
 ||notes-analytics-events.news.apple-dns.net^
 ||stocks-analytics-events.news.apple-dns.net^
 ||weather-analytics-events.news.apple-dns.net^
-||applemediaservices.com^
+||me.apple-dns.net^
 ||cstat.cdn-apple.com^
 ||securemetrics.apple.com.cn^
 ||feedbackws.icloud.com.cn^
 ||cdn-xp-ingest.edge.apple^
+||partiality.itunes.apple.com.edgekey.net^
 ||experiments.apple.com.edgekey.net^
 ||iadsdk.apple.com.edgekey.net^
-||partiality.itunes.apple.com.edgekey.net^
 ||xp.apple.com.edgekey.net^
 ||cstat.apple.com.edgesuite.net^
 ||searchads.apple.com.edgesuite.net^
@@ -107,7 +110,8 @@
 ||feedbackws.icloud.com^
 ||metrics.icloud.com^
 ||metrics.mzstatic.com^
-||qwapi.com^
 ||marketing.services.apple^
 ||beacon.shazam.com^
 ||h4g3z1-native.apple.web.app^
+||applemediaservices.com^
+||qwapi.com^
