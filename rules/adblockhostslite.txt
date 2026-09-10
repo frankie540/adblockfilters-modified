@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 12 小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Malicious URL Blocklist、Online Malicious URL Blocklist、PeterLowe、SmartTV、HageziMultiPro、HaGeZi's Apple Tracker Blocklist、HaGeZi's Badware Hoster Blocklist、HaGeZi's Windows/Office Tracker Blocklist、HaGeZi's Xiaomi Tracker Blocklist、HaGeZi's Vivo Tracker Blocklist、HaGeZi's Samsung Tracker Blocklist、HaGeZi's OPPO & Realme Tracker Blocklist、HaGeZi's Gambling Blocklist、HaGeZi's Threat Intelligence Feeds、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist、uBlock Ads、uBlock Privacy、AdGuard Tracking Protection、AdGuard Annoyances、lingeringsound adblock_auto。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/frankie540/adblockfilters-modified
 # Source: https://raw.githubusercontent.com/frankie540/adblockfilters-modified/main/rules/adblockhostslite.txt
-# Version: 20260909160521
-# Last modified: 2026/09/09 16:05:21
-# Blocked domains: 28864
+# Version: 20260910160747
+# Last modified: 2026/09/10 16:07:47
+# Blocked domains: 29433
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -47,6 +47,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	007sbw.cn
 0.0.0.0	0086ch.xyz
 0.0.0.0	008bx.com
+0.0.0.0	008k.com
 0.0.0.0	00984f58e492b16f.com
 0.0.0.0	009b.app
 0.0.0.0	009e08e1ba5e6907.com
@@ -78,12 +79,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	014a9a1fc2f59ca6.com
 0.0.0.0	014b7530f014d545.com
 0.0.0.0	014d3c192313c843.com
-0.0.0.0	015150.com
 0.0.0.0	0160b12e12c2689b.com
 0.0.0.0	0162286x.com
 0.0.0.0	01751.cn
 0.0.0.0	018ch.xyz
-0.0.0.0	01975cf969f20191.com
 0.0.0.0	01c294dcbff746df.com
 0.0.0.0	01times.net
 0.0.0.0	01turf.com
@@ -106,6 +105,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	026skz.xyz
 0.0.0.0	img.0279.net
 0.0.0.0	027dir.com
+0.0.0.0	admin.027dzjl.com
 0.0.0.0	o.027eat.com
 0.0.0.0	028csc.com
 0.0.0.0	029chi.xyz
@@ -121,7 +121,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	034gn56kec.live
 0.0.0.0	jc.0351dvd.cn
 0.0.0.0	0357dc382faf80f5.com
-0.0.0.0	036et.xyz
 0.0.0.0	037yu.xyz
 0.0.0.0	037z.cn
 0.0.0.0	039ch.xyz
@@ -136,23 +135,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	04568.cn
 0.0.0.0	0459.hl.cn
 0.0.0.0	04655.vip
-0.0.0.0	047.net
 0.0.0.0	0471fcw.com
 0.0.0.0	047c96e8c4781fc0.com
 0.0.0.0	04c01e0ad4c891d7.com
 0.0.0.0	04db11e1ea504cf2.com
 0.0.0.0	smbpbuobnctad.04ztof.info
 0.0.0.0	0512office.com.cn
-0.0.0.0	05174.cn
-0.0.0.0	051788.xyz
 0.0.0.0	0523qyfw.cn
 0.0.0.0	0523qyfw.com
-0.0.0.0	0538ly.cn
 0.0.0.0	0546v.com
-0.0.0.0	0550410fe45b6593.com
-0.0.0.0	05712.cn
-0.0.0.0	0574-office.com
-0.0.0.0	0575bbs.com
 0.0.0.0	057707.com
 0.0.0.0	0583f79cf30c493e.com
 0.0.0.0	058ed0543d61b235.com
@@ -205,6 +196,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	07fea775dffd96d4.com
 0.0.0.0	07fefad90326f281.com
 0.0.0.0	07uuu.cn
+0.0.0.0	g1.08160.cn
+0.0.0.0	ssp.08160.cn
 0.0.0.0	img.0818tuan.com
 0.0.0.0	081c7f7db42fbde3.com
 0.0.0.0	081cb0b167fb0618.com
@@ -310,6 +303,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	0xr7ii3df.com
 0.0.0.0	0z.pw
 0.0.0.0	0zn5mg.asia
+0.0.0.0	1-apple.cn
+0.0.0.0	1-apple.com
 0.0.0.0	1.92.101.221
 0.0.0.0	1.92.136.152
 0.0.0.0	1.94.221.183
@@ -319,6 +314,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	10000su.com
 0.0.0.0	10000xing.cn
 0.0.0.0	1000su.com
+0.0.0.0	1000tank.com
 0.0.0.0	1717.1000uc.com
 0.0.0.0	enrichgw.10010.com
 0.0.0.0	jf.10010.com
@@ -333,7 +329,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	huodong.feixin.10086.cn
 0.0.0.0	pull.portal.10086.cn
 0.0.0.0	1008691.com
-0.0.0.0	100fenlm.cn
 0.0.0.0	100tone.com
 0.0.0.0	101.126.11.168
 0.0.0.0	101.35.56.7
@@ -343,10 +338,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	1015600.com
 0.0.0.0	101839190ea15af9.com
 0.0.0.0	101sexmovies.com
+0.0.0.0	101structforge.sbs
 0.0.0.0	1021thesound.com
 0.0.0.0	102863746165.com
 0.0.0.0	10379.com
-0.0.0.0	105581.cc
 0.0.0.0	10592.eu.cc
 0.0.0.0	106.14.58.169
 0.0.0.0	106.14.68.26
@@ -382,6 +377,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	1108cd985e95ad39.com
 0.0.0.0	v.110route.cn
 0.0.0.0	ytx-file.110route.cn
+0.0.0.0	111.228.4.54
 0.0.0.0	1111122.xyz
 0.0.0.0	11111676.com
 0.0.0.0	1.11130.com.cn
@@ -391,14 +387,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	1116fad167.info
 0.0.0.0	1116fad176.info
 0.0.0.0	111773.xyz
-0.0.0.0	11220t.com
-0.0.0.0	11220w.com
 0.0.0.0	oss-asq-static.11222.cn
 0.0.0.0	11241450.xyz
 0.0.0.0	113.45.17.8
 0.0.0.0	113207155.xyz
 0.0.0.0	1133.cc
 0.0.0.0	114.132.77.127
+0.0.0.0	114.242.100.72
 0.0.0.0	114.55.106.136
 0.0.0.0	114369.cn
 0.0.0.0	1.11467.com
@@ -440,6 +435,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	120.46.15.254
 0.0.0.0	120.79.64.164
 0.0.0.0	app.120.net
+0.0.0.0	1200908.xyz
 0.0.0.0	12031xj.com
 0.0.0.0	analysis.120ask.com
 0.0.0.0	ax.120ask.com
@@ -467,8 +463,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.12306.cn
 0.0.0.0	123120.com.cn
 0.0.0.0	12322app.com
-0.0.0.0	matomo.123245.com
-0.0.0.0	matomo4397.123245.com
 0.0.0.0	metrics.123245.com
 0.0.0.0	123456789abc.xyz
 0.0.0.0	1234wu.com
@@ -478,6 +472,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	123cha.com
 0.0.0.0	123jzs.com
 0.0.0.0	123mdw.com
+0.0.0.0	1827897262.v.123pan.cn
 0.0.0.0	bdad.123pan.cn
 0.0.0.0	sentry.123u.com
 0.0.0.0	124.230.216.19
@@ -508,6 +503,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	statistic.live.126.net
 0.0.0.0	webstat.ws.126.net
 0.0.0.0	yt-adp.ws.126.net
+0.0.0.0	12688.wang
 0.0.0.0	126mianfeiyouxiangdenglu.com.cn
 0.0.0.0	126mianfeiyouxiangdenglurukou.com.cn
 0.0.0.0	126qiyeyou.com
@@ -522,19 +518,20 @@ ff02::3	ip6-allhosts
 0.0.0.0	1273.top
 0.0.0.0	12743f.com
 0.0.0.0	12743i.com
+0.0.0.0	128-whatsapp.com.cn
 0.0.0.0	129esrd5q5.com
 0.0.0.0	12a12121211.cn
 0.0.0.0	12da900609182014.com
+0.0.0.0	12ef916d92d482fa.com
 0.0.0.0	12i.cn
-0.0.0.0	12iiih0-jdd.com
 0.0.0.0	heihei.12sf.cn
 0.0.0.0	13084.cn
-0.0.0.0	130gor0ykb.com
 0.0.0.0	13167.cn
 0.0.0.0	13296.cn
 0.0.0.0	13322.net
 0.0.0.0	133998.com
 0.0.0.0	13450.cn
+0.0.0.0	13509.cfd
 0.0.0.0	135309.com
 0.0.0.0	1357902.cn
 0.0.0.0	136136.com
@@ -591,7 +588,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	15419.cn
 0.0.0.0	1552361652.com
 0.0.0.0	155414.cn
-0.0.0.0	15563.com
 0.0.0.0	15564.com
 0.0.0.0	15593e1ee6d77ee7.com
 0.0.0.0	155b0341f4ce6b7f.com
@@ -602,7 +598,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	15890.cn
 0.0.0.0	15895.qpon
 0.0.0.0	158a410b552ba789.com
-0.0.0.0	158bet.com
 0.0.0.0	nz.159632.xyz
 0.0.0.0	15c36482b60111ca.com
 0.0.0.0	15coc.com
@@ -631,7 +626,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	clientlogdep.music.163.com
 0.0.0.0	clientlogsf.music.163.com
 0.0.0.0	count.mail.163.com
-0.0.0.0	countly-realtime.mail.163.com
 0.0.0.0	countly.mail.163.com
 0.0.0.0	crash.163.com
 0.0.0.0	crashlytics.163.com
@@ -664,6 +658,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	temp.163.com
 0.0.0.0	timejs.game.163.com
 0.0.0.0	yaolu.mh.163.com
+0.0.0.0	yaolu.yuedu.163.com
 0.0.0.0	163bc.com
 0.0.0.0	163kuailian.com.cn
 0.0.0.0	163mianfeiyouxiangdenglurukou.com.cn
@@ -699,7 +694,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	16800.my
 0.0.0.0	168369.top
 0.0.0.0	cui.m.1688.com
-0.0.0.0	match.p4p.1688.com
 0.0.0.0	js.1688988.com
 0.0.0.0	tz.1688988.com
 0.0.0.0	1688gwdlrukoushoujiban.com.cn
@@ -755,11 +749,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.17track.net
 0.0.0.0	vstlog.17u.cn
 0.0.0.0	17weilai.net
+0.0.0.0	17zheng.cn
 0.0.0.0	log.17zuoye.net
 0.0.0.0	18-60s.com
-0.0.0.0	180.76.141.175
 0.0.0.0	180.76.153.78
+0.0.0.0	18042.cn
 0.0.0.0	180disk.com
+0.0.0.0	180qy222js3.top
+0.0.0.0	180qy222js4.top
+0.0.0.0	180qy222js5.top
+0.0.0.0	180qy222js6.top
 0.0.0.0	180qy222js7.top
 0.0.0.0	status.1812z.top
 0.0.0.0	181436ec5533ccb7.com
@@ -768,8 +767,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	zpe.klre.18183.com
 0.0.0.0	182.92.99.95
 0.0.0.0	picui.cloudflare.182682.xyz
+0.0.0.0	182918.com
 0.0.0.0	18495.me
+0.0.0.0	184b8af6760e0e9f.com
+0.0.0.0	185c72b7d750569a.com
+0.0.0.0	185d6b26f640b846.com
 0.0.0.0	1866.co
+0.0.0.0	188.vip
+0.0.0.0	1880e7ff134af19f.com
 0.0.0.0	1889cp73.cc
 0.0.0.0	email.189.cn
 0.0.0.0	webwebfenxi.189.cn
@@ -812,6 +817,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	1aa071e45acb08d2.com
 0.0.0.0	1ab77871828f0d80.com
 0.0.0.0	1aeadc32d9f5a7bd.com
+0.0.0.0	1analyticsstellar.sbs
 0.0.0.0	1b1b9ecba3d65a8e.com
 0.0.0.0	1b32449d16fba472.com
 0.0.0.0	1b3e11b2e88c6129.com
@@ -857,12 +863,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	1ghs.cn
 0.0.0.0	1jdi-k22io.com
 0.0.0.0	1kg-43-css.com
-0.0.0.0	1kmb.cn
 0.0.0.0	1kt.top
 0.0.0.0	1l1.cc
 0.0.0.0	1lib.cn
 0.0.0.0	1mm.cc
 0.0.0.0	1mpi.com
+0.0.0.0	1nanoplus.sbs
 0.0.0.0	1nevsf92q.com
 0.0.0.0	ssp.1nmob.com
 0.0.0.0	1office.com.cn
@@ -883,10 +889,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	1s8pj.cn
 0.0.0.0	1s8zfj6p4.com
 0.0.0.0	1sapp.com
+0.0.0.0	1stratalabs.sbs
 0.0.0.0	1suvpg.com
 0.0.0.0	1tlm.cn
 0.0.0.0	1tvg524vih.com
 0.0.0.0	1um5esn1ts3ew06.top
+0.0.0.0	1vortexanalytics.sbs
 0.0.0.0	1wkg.cn
 0.0.0.0	www.wowjs.1www.cn
 0.0.0.0	1wwwqishuiyinyue.com.cn
@@ -914,6 +922,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	20230329.com
 0.0.0.0	2024ev88.com
 0.0.0.0	2025-boye.com.cn
+0.0.0.0	2025infrafund.sbs
 0.0.0.0	2025zwzwzw.com
 0.0.0.0	2026-bendigo.vip
 0.0.0.0	2026-bet-kaiyun.com.cn
@@ -928,6 +937,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	2026fafafafa.top
 0.0.0.0	2026fifaclub.com.cn
 0.0.0.0	2026mycar.vip
+0.0.0.0	2026restbet.icu
 0.0.0.0	2026shijebeiyijngquedingdequdui.com.cn
 0.0.0.0	2026worldcup-online.com.cn
 0.0.0.0	2026worldcup-safe.com.cn
@@ -939,6 +949,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	203606.xyz
 0.0.0.0	2052ce12d523062f.com
 0.0.0.0	2060advisory.com
+0.0.0.0	206mix138.shop
 0.0.0.0	20795dd45b9ba3c2.com
 0.0.0.0	209500.cc
 0.0.0.0	20979.vip
@@ -957,7 +968,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	2144.com
 0.0.0.0	2147ae4e85715ac1.com
 0.0.0.0	214ff46da162af5e.com
-0.0.0.0	216600.com
 0.0.0.0	21826aafe2a48426.com
 0.0.0.0	21b5237a358c4ae7.com
 0.0.0.0	ad.21cn.com
@@ -980,7 +990,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	2255039.com
 0.0.0.0	225f360dca52f6cf.com
 0.0.0.0	22769.cn
-0.0.0.0	228336.com
 0.0.0.0	fugu.2288.org
 0.0.0.0	yldaj.2288.org
 0.0.0.0	2288bet.app
@@ -1038,7 +1047,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	24bb0cd0c3b8480d.com
 0.0.0.0	24coinqianbaoxiazaigw.com.cn
 0.0.0.0	m.24ihe.cn
+0.0.0.0	24maxvector.sbs
 0.0.0.0	24qianbaoappxiazaianzhuanggw.com.cn
+0.0.0.0	25030.cfd
 0.0.0.0	250dc635d2a36512.com
 0.0.0.0	25104ed245a361d6.com
 0.0.0.0	2513.com.cn
@@ -1088,6 +1099,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	28154516379a1cde.com
 0.0.0.0	2824d.net
 0.0.0.0	2828.cfd
+0.0.0.0	2828339.com
 0.0.0.0	282a29cef89e25fe.com
 0.0.0.0	28493.com
 0.0.0.0	285f14b35ea2f4a5.com
@@ -1165,6 +1177,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	2f5f0ba58c42fa3f.com
 0.0.0.0	2f804a4f7125d090.com
 0.0.0.0	2fe43f263e26a3c2.com
+0.0.0.0	2forgetechno.sbs
+0.0.0.0	2found.com
 0.0.0.0	2fpbet.com
 0.0.0.0	2fw.com.cn
 0.0.0.0	btuabilit2026.2hnsfm.info
@@ -1178,9 +1192,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	2rainhaspg.com
 0.0.0.0	smbcarad.2sbduf.info
 0.0.0.0	2suvpg.com
+0.0.0.0	2systemsiocorex.sbs
 0.0.0.0	2te.com
 0.0.0.0	2w819.com
 0.0.0.0	2wm.biz
+0.0.0.0	2xb1h.com
 0.0.0.0	2xt.cn
 0.0.0.0	2yt.cn
 0.0.0.0	2z638d.cn
@@ -1194,6 +1210,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	300year.top
 0.0.0.0	30179.cn
 0.0.0.0	301848.com
+0.0.0.0	301pk.com
 0.0.0.0	302203.com
 0.0.0.0	304974.cn
 0.0.0.0	30670500f2549536.com
@@ -1234,7 +1251,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	320porn.net
 0.0.0.0	32224066.com
 0.0.0.0	32236.cn
-0.0.0.0	322559.at
 0.0.0.0	3227finance.top
 0.0.0.0	3237.com
 0.0.0.0	32457.cn
@@ -1288,7 +1304,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	342158a35bb46a86.com
 0.0.0.0	34361dd9df2ae2a8.com
 0.0.0.0	34519999.com.cn
-0.0.0.0	3456xianlu.com
 0.0.0.0	345888.cn
 0.0.0.0	345ddz.com
 0.0.0.0	346g4247o9.world
@@ -1310,6 +1325,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	354758061653.com
 0.0.0.0	3550z.tv
 0.0.0.0	3558b3020217b9a3.com
+0.0.0.0	3569.vip
 0.0.0.0	3587p.com
 0.0.0.0	358qp6.com
 0.0.0.0	358qp9.com
@@ -1367,6 +1383,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	se.360.cn
 0.0.0.0	service.jiagu.360.cn
 0.0.0.0	show.look.360.cn
+0.0.0.0	soft.data.weather.360.cn
+0.0.0.0	softdl4.360.cn
 0.0.0.0	stat.m.360.cn
 0.0.0.0	stat.sd.360.cn
 0.0.0.0	tf.360.cn
@@ -1397,7 +1415,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	360in.com
 0.0.0.0	360kuai.com
 0.0.0.0	360kuailian.com.cn
+0.0.0.0	360lumenprime.sbs
 0.0.0.0	run.360nenz.top
+0.0.0.0	360nextgenanalytics.pics
 0.0.0.0	360os.com
 0.0.0.0	efd354f1442b23e593cecebdd5a5203f.360panyun.com
 0.0.0.0	aiclean.us.cloud.360safe.com
@@ -1415,11 +1435,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	360safe.com.cn
 0.0.0.0	st.360safe.company
 0.0.0.0	360shuke.com
+0.0.0.0	360smartfusion.pics
 0.0.0.0	p1.360soucha.com
 0.0.0.0	360tiyu2.cn
 0.0.0.0	display.360totalsecurity.com
 0.0.0.0	cdndown.360tpcdn.com
 0.0.0.0	hot.m.shouji.360tpcdn.com
+0.0.0.0	softdl.360tpcdn.com
+0.0.0.0	softdl2.360tpcdn.com
 0.0.0.0	360weishi-360.cn
 0.0.0.0	360weishi.com.cn
 0.0.0.0	360zhibo2.cn
@@ -1438,6 +1461,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	365aadecar.vip
 0.0.0.0	365appqianbaoguanwangxiazai.com.cn
 0.0.0.0	365bankwest.vip
+0.0.0.0	365consultingultra.sbs
+0.0.0.0	365cyberfuture.pics
 0.0.0.0	365dmp.com
 0.0.0.0	365f.vip
 0.0.0.0	365jogo.com
@@ -1570,6 +1595,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	3bed819459aaf33a.com
 0.0.0.0	3bfa7df2909ba879.com
 0.0.0.0	3bkk954sc2.live
+0.0.0.0	3bqnr896.com
 0.0.0.0	3bu.cn
 0.0.0.0	3c88b29ceab0d2e0.com
 0.0.0.0	3c88c021db939a75.com
@@ -1661,7 +1687,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	4008813318.com.cn
 0.0.0.0	4009997658.com
 0.0.0.0	400a.cn
-0.0.0.0	401111b.com
 0.0.0.0	40224.cn
 0.0.0.0	nz.4040.fun
 0.0.0.0	garden.40409.cn
@@ -1717,6 +1742,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	4399mianfeiyouxi.com.cn
 0.0.0.0	4399xiaoyouximianfeidaqan.com.cn
 0.0.0.0	43f0a5a7c6b57684.com
+0.0.0.0	43n3zw5b.com
 0.0.0.0	44104b3088e5c26a.com
 0.0.0.0	44130.com
 0.0.0.0	44219420726877eb.com
@@ -1760,7 +1786,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	44878s.com
 0.0.0.0	448cee8738b7860d.com
 0.0.0.0	449393.vet
-0.0.0.0	44962.com
 0.0.0.0	449944.com
 0.0.0.0	44ae13534fa8d281.com
 0.0.0.0	44b1ff1bea8f8aa6.com
@@ -1783,6 +1808,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	45852.cn
 0.0.0.0	ee.45le.cn
 0.0.0.0	m.45le.cn
+0.0.0.0	460.bet
+0.0.0.0	460.com
 0.0.0.0	462dac3df9661798.com
 0.0.0.0	462e646be16fa55d.com
 0.0.0.0	4630824ef536fc45.com
@@ -1824,12 +1851,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	48571.cn
 0.0.0.0	485b4f453e5fd952.com
 0.0.0.0	4862b7f8c8a8535f.com
-0.0.0.0	4888007.com
 0.0.0.0	4888033.com
-0.0.0.0	4888c.vip
-0.0.0.0	4888df.vip
-0.0.0.0	4888dh5.net
-0.0.0.0	4888f.vip
+0.0.0.0	4888df.net
+0.0.0.0	4888dh3.cc
 0.0.0.0	4888g.vip
 0.0.0.0	489436fd311c3b8c.com
 0.0.0.0	48a00041168132b3.com
@@ -1852,6 +1876,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	49e8a2ce3830d816.com
 0.0.0.0	4a1becf134ff5099.com
 0.0.0.0	4a1feafa3d2c29a5.com
+0.0.0.0	4a2878faaa2fe764.com
 0.0.0.0	4a3c22ef817da021.com
 0.0.0.0	4a4db3f93b302939.com
 0.0.0.0	4a59140c4eedcf2d.com
@@ -1872,6 +1897,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	4b94f0b9d0aa22e8.com
 0.0.0.0	4bc176a325a22b57.com
 0.0.0.0	4bf.cn
+0.0.0.0	4bfcb03a2c20bc3a.com
 0.0.0.0	4bs.cn
 0.0.0.0	4c28539c4f10ad16.com
 0.0.0.0	4c3135282595f7ff.com
@@ -1887,8 +1913,34 @@ ff02::3	ip6-allhosts
 0.0.0.0	4d8dc71d13cc59c8.com
 0.0.0.0	4de7ab130011974d.com
 0.0.0.0	4dec3cfc0794efb4.com
+0.0.0.0	4e16d232ae07f118.com
+0.0.0.0	4e3ff303d878edba.com
+0.0.0.0	4e6fe7920a044f98.com
+0.0.0.0	4e88adcddad150a0.com
+0.0.0.0	4e97c844e3aa1e01.com
 0.0.0.0	4edd4bd55acb5179.com
 0.0.0.0	4erdak.com
+0.0.0.0	4f2ff444a95af4a5.com
+0.0.0.0	4f411973f14e0f10.com
+0.0.0.0	4fc1331c9ecb1cf4.com
+0.0.0.0	4fc91b9aa2967057.com
+0.0.0.0	4fe.cn
+0.0.0.0	4fe55e9f6c893405.com
+0.0.0.0	4ffbace1f38aeffc.com
+0.0.0.0	4fiz-jo.shop
+0.0.0.0	4fiz-jos.shop
+0.0.0.0	4fizjo-pl.shop
+0.0.0.0	4fizjofb.shop
+0.0.0.0	4fizjofitness.shop
+0.0.0.0	4fizjoslp.shop
+0.0.0.0	4fizjosolp.shop
+0.0.0.0	4fizjosport.shop
+0.0.0.0	4fizjoutdoor.shop
+0.0.0.0	4fizsale.shop
+0.0.0.0	4fizstore.shop
+0.0.0.0	4fpbet.com
+0.0.0.0	4gkuailian.com.cn
+0.0.0.0	4h44.com
 0.0.0.0	jb.4hw.com.cn
 0.0.0.0	js.4hw.com.cn
 0.0.0.0	ssp.4hw.com.cn
@@ -1923,6 +1975,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	4xr7sy3gu.com
 0.0.0.0	4zw.cn
 0.0.0.0	5-g.cn
+0.0.0.0	500-years.com
 0.0.0.0	50005.my
 0.0.0.0	1.5000yan.com
 0.0.0.0	50011114.com
@@ -1963,6 +2016,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	urchin.5173.com
 0.0.0.0	517m.cn
 0.0.0.0	517mian.com
+0.0.0.0	51857.cfd
 0.0.0.0	518ad.com
 0.0.0.0	518ii.com
 0.0.0.0	519397.com
@@ -2075,6 +2129,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	51xuex.com.cn
 0.0.0.0	51yes.com
 0.0.0.0	51yhzp.com
+0.0.0.0	51ynedu.com
 0.0.0.0	51yuguang.com
 0.0.0.0	game.51yund.com
 0.0.0.0	51yycm.cn
@@ -2097,6 +2152,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	52469bf2d5405d3b.com
 0.0.0.0	5251.net
 0.0.0.0	52524118.com
+0.0.0.0	526mariobet.cam
 0.0.0.0	527b73fa407cd56b.com
 0.0.0.0	52817181.com
 0.0.0.0	52aoteman.com
@@ -2166,7 +2222,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	54zc.cn
 0.0.0.0	55.la
 0.0.0.0	ie.5500w.com
-0.0.0.0	550336.com
 0.0.0.0	550d8e4e4e6191ce.com
 0.0.0.0	55114008.com
 0.0.0.0	5515100.com
@@ -2206,7 +2261,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	5577937.com
 0.0.0.0	5577943.com
 0.0.0.0	5577956.com
-0.0.0.0	5578w.com
 0.0.0.0	558355.com
 0.0.0.0	5588294.com
 0.0.0.0	5588492.com
@@ -2231,6 +2285,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	56.js.cn
 0.0.0.0	560023ac79093411.com
 0.0.0.0	56099443.com
+0.0.0.0	56199.cfd
 0.0.0.0	563228.xyz
 0.0.0.0	563c7f9a10153f57.com
 0.0.0.0	5646.cn
@@ -2238,7 +2293,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	56539.top
 0.0.0.0	566zhibo.com
 0.0.0.0	567030.com
-0.0.0.0	567273.com
 0.0.0.0	567878.cn
 0.0.0.0	568518.cn
 0.0.0.0	568qp9.com
@@ -2385,6 +2439,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	5djl61.cc
 0.0.0.0	5djl65.cc
 0.0.0.0	5djl83.cc
+0.0.0.0	5e02ed768eca88eb.com
 0.0.0.0	5e15eb83e86cbb94.com
 0.0.0.0	5e17fc2cca2967e2.com
 0.0.0.0	5e929e64119bd4e6.com
@@ -2461,13 +2516,19 @@ ff02::3	ip6-allhosts
 0.0.0.0	600bbb.cn
 0.0.0.0	6012af51ea6bc381.com
 0.0.0.0	6016c977f2030c58.com
+0.0.0.0	60207.cn
 0.0.0.0	602255.cn
 0.0.0.0	60301c31eca86940.com
+0.0.0.0	603603b.com
 0.0.0.0	603603d.com
 0.0.0.0	6042.com.cn
 0.0.0.0	6044faac164dbe06.com
+0.0.0.0	60582ce6688bd14e.com
+0.0.0.0	605f40b0b174f4ea.com
+0.0.0.0	60608787.com
 0.0.0.0	60662.com
 0.0.0.0	6071.com
+0.0.0.0	607b7ba5dd9305f0.com
 0.0.0.0	60806.my
 0.0.0.0	6080be25f29c0b5a.com
 0.0.0.0	60819.cn
@@ -2477,7 +2538,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ee.60w3s.cn
 0.0.0.0	61.184.10.103
 0.0.0.0	61046.cn
-0.0.0.0	61100x.com
 0.0.0.0	61104.cn
 0.0.0.0	61165.com
 0.0.0.0	6122cec31dfe86dd.com
@@ -2504,7 +2564,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	62tv260102.top
 0.0.0.0	632121d3c4f46e67.com
 0.0.0.0	6334x.com
-0.0.0.0	634166.com
 0.0.0.0	server.635206.cn
 0.0.0.0	63610.vip
 0.0.0.0	6369999bdf.cn
@@ -2545,6 +2604,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	653f81ef2532780a.com
 0.0.0.0	653ktv.xyz
 0.0.0.0	653qp5.com
+0.0.0.0	6545.cn
 0.0.0.0	656f6f664b514804.com
 0.0.0.0	656qp9.com
 0.0.0.0	658789.cn
@@ -2581,6 +2641,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	6677243.com
 0.0.0.0	66786.cc
 0.0.0.0	667f46342ace5437.com
+0.0.0.0	66849931.s3.amazonaws.com
 0.0.0.0	6686.com
 0.0.0.0	6686a9.com
 0.0.0.0	6686appwangyebandlrukoushenqing.com.cn
@@ -2651,6 +2712,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	68fdd6494399c72c.com
 0.0.0.0	68fe958fd7727335.com
 0.0.0.0	68ip.net
+0.0.0.0	68k.cn
 0.0.0.0	68qp3.com
 0.0.0.0	68shui.com
 0.0.0.0	test.api.68wx.com
@@ -2668,7 +2730,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	69749.cn
 0.0.0.0	69763578.com
 0.0.0.0	697e43da249f79cd.com
-0.0.0.0	6988w.com
 0.0.0.0	69bfe01be02b42e8.com
 0.0.0.0	69cgua6.com
 0.0.0.0	69d0b9f8c7a2aeaa.com
@@ -2795,7 +2856,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	729341.xyz
 0.0.0.0	72c8b923d1594330.com
 0.0.0.0	72wan.cn
-0.0.0.0	730555e.com
 0.0.0.0	7325b724710d04b9.com
 0.0.0.0	73261825f768447d.com
 0.0.0.0	73336zubo25326.com
@@ -2811,7 +2871,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	74326.cn
 0.0.0.0	7441a334d13a0000.com
 0.0.0.0	74478fd3b9cca85f.com
-0.0.0.0	745188.co
 0.0.0.0	74615ee887a99dd7.com
 0.0.0.0	s.7477.com
 0.0.0.0	748a6949c31d9d7b.com
@@ -2858,7 +2917,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	76c924edf5d167be.com
 0.0.0.0	76c9c1aa27766f1d.com
 0.0.0.0	77-223255.com
-0.0.0.0	77026.vip
 0.0.0.0	77112007.com
 0.0.0.0	77125.org
 0.0.0.0	77169.com.cn
@@ -2871,7 +2929,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	7733577.com
 0.0.0.0	7733706.com
 0.0.0.0	7733728.com
-0.0.0.0	7740i.com
+0.0.0.0	773ll.com
 0.0.0.0	77455.com
 0.0.0.0	775201314.top
 0.0.0.0	7755028.com
@@ -2891,10 +2949,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	7766362.com
 0.0.0.0	7766380.com
 0.0.0.0	7766398.com
+0.0.0.0	77718.cfd
 0.0.0.0	7775777.com
+0.0.0.0	777743.com
 0.0.0.0	7777452.net
 0.0.0.0	7777637.net
 0.0.0.0	7777661.net
+0.0.0.0	777771.com
 0.0.0.0	777884.com
 0.0.0.0	777aa.com
 0.0.0.0	777aa0.com
@@ -2963,6 +3024,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	78537.cn
 0.0.0.0	7857p.com
 0.0.0.0	785836.com
+0.0.0.0	7859.cc
 0.0.0.0	785956.com
 0.0.0.0	786e7138b09934b3.com
 0.0.0.0	7877p.com
@@ -3023,6 +3085,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	7db33ddbf0d0f254.com
 0.0.0.0	7dc20a92cc1da04d.com
 0.0.0.0	7dj6t.com
+0.0.0.0	7dot.cn
 0.0.0.0	7dspace.com
 0.0.0.0	7e1ba74508765678.com
 0.0.0.0	7e2be6aa30c664dc.com
@@ -3071,6 +3134,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	7ylucky.net
 0.0.0.0	7yylucky.com
 0.0.0.0	7z4bz6e2cp.world
+0.0.0.0	7zgarb7.com
 0.0.0.0	7zip-com.hl.cn
 0.0.0.0	7zip.top
 0.0.0.0	7zwqy9fshp.top
@@ -3089,6 +3153,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	8080w.cn
 0.0.0.0	80811daa56184e5f.com
 0.0.0.0	808524f736328d02.com
+0.0.0.0	8087hhh.com
+0.0.0.0	8087kkk.com
+0.0.0.0	8087lll.com
+0.0.0.0	8087q.com
 0.0.0.0	8087sss.com
 0.0.0.0	8087vvv.com
 0.0.0.0	80895.cn
@@ -3103,7 +3171,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	808qianbaoappxiazaiguanwanggw.com.cn
 0.0.0.0	808qianbaopingguoxiazai.com.cn
 0.0.0.0	808qianbaoxiazaigw.com.cn
-0.0.0.0	a.80982.org
 0.0.0.0	80c06050c17a7f9f.com
 0.0.0.0	80de65997d4fd4ea.com
 0.0.0.0	80fc6408125f338d.com
@@ -3111,6 +3178,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	80sdyw.hl.cn
 0.0.0.0	80w19v.cn
 0.0.0.0	80zk.cn
+0.0.0.0	8101.com
 0.0.0.0	81106bdade3ddccc.com
 0.0.0.0	81241g43cj.world
 0.0.0.0	81265.com
@@ -3124,6 +3192,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	8159v.cc
 0.0.0.0	8159v.com
 0.0.0.0	8159w.cc
+0.0.0.0	8161.com
 0.0.0.0	8162t.com
 0.0.0.0	816818.xyz
 0.0.0.0	81730450affbad30.com
@@ -3136,6 +3205,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	8207uu.net
 0.0.0.0	82127a0f9874d223.com
 0.0.0.0	8235c30f4dce895c.com
+0.0.0.0	82363.cfd
+0.0.0.0	824cb31e7b4d16fe.com
 0.0.0.0	824ff8052478e2e4.com
 0.0.0.0	82686677.com
 0.0.0.0	82686699.com
@@ -3237,6 +3308,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	875e1461281115b2.com
 0.0.0.0	8765043b5db2cbcb.com
 0.0.0.0	8767p.com
+0.0.0.0	87688.cfd
 0.0.0.0	b17.8794.cn
 0.0.0.0	87b041a2019314d7.com
 0.0.0.0	87ea8f613bc0b0c5.com
@@ -3282,6 +3354,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	889024.xyz
 0.0.0.0	8899se.cn
 0.0.0.0	88bra.com
+0.0.0.0	88c6e5d7.com
 0.0.0.0	88ef6da5790ba853.com
 0.0.0.0	88eg.cn
 0.0.0.0	88f1.cn
@@ -3393,7 +3466,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	900a88dfce1fe331.com
 0.0.0.0	901016927582d763.com
 0.0.0.0	90231611e4973cbb.com
-0.0.0.0	9023w.com
 0.0.0.0	902fd799842db250.com
 0.0.0.0	90370.com
 0.0.0.0	904aaa.com
@@ -3413,6 +3485,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	911.cc
 0.0.0.0	91114066.com
 0.0.0.0	911233.cc
+0.0.0.0	sentry.91160.com
 0.0.0.0	911bl01.com
 0.0.0.0	911bl02.com
 0.0.0.0	911bl06.com
@@ -3553,7 +3626,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	9513123.cn
 0.0.0.0	952f218546e49447.com
 0.0.0.0	9530c8163d8b33f7.com
-0.0.0.0	953177.com
+0.0.0.0	95335.cfd
 0.0.0.0	9540f8f83e1e7a8c.com
 0.0.0.0	954742a76fe81f8e.com
 0.0.0.0	954a564799c1c67b.com
@@ -3801,7 +3874,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	99isex95.xyz
 0.0.0.0	99itv22.xyz
 0.0.0.0	99itv37.xyz
-0.0.0.0	99kz.cn
 0.0.0.0	p.99mssj.com
 0.0.0.0	99tf.cn
 0.0.0.0	99vpn.cn
@@ -3868,8 +3940,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	9pkb.cn
 0.0.0.0	9rainhaspg.com
 0.0.0.0	smbcarad.9rbsso.info
+0.0.0.0	9s92z2ax.com
 0.0.0.0	status.9sb.net
 0.0.0.0	9studio.cc
+0.0.0.0	9tkn7.com
 0.0.0.0	9v.cn
 0.0.0.0	9v7sbm9zc.com
 0.0.0.0	9vcpp.cn
@@ -3941,6 +4015,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	a2jv0t050v.live
 0.0.0.0	a2pfs5k90i.com
 0.0.0.0	a2vuuputz3.top
+0.0.0.0	a32a.com.cn
+0.0.0.0	a335cb802c120705.com
+0.0.0.0	a34b718ad63f67b4.com
+0.0.0.0	a360053476.xyz
+0.0.0.0	a390dbce7d8c65cc.com
+0.0.0.0	a397369759.cn
 0.0.0.0	a39f3b727e1dea8e.com
 0.0.0.0	a3d57db2ce93b9a1.com
 0.0.0.0	a3f08fc45b90de6e.com
@@ -3949,7 +4029,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a4376a0b644c73e2.com
 0.0.0.0	a4586fe4ec36041c.com
 0.0.0.0	a479f0043be93b94.com
-0.0.0.0	a4bc2bc23ceed7cf.com
 0.0.0.0	a4xvv2g18l.com
 0.0.0.0	a50870975c3b0155.com
 0.0.0.0	a549543886.asia
@@ -3958,12 +4037,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	a56d330deab8ed65.com
 0.0.0.0	a5806.cn
 0.0.0.0	a5a870841d7e0e3d.com
-0.0.0.0	a5cb302a4f70b510.com
 0.0.0.0	a5wlr2yplf.com
 0.0.0.0	a601c40c57bbf452.com
 0.0.0.0	a60a3d5ddcf1f6f7.com
 0.0.0.0	a61cee76f4df41b1.com
-0.0.0.0	a62ac30e21e1344c.com
 0.0.0.0	a65a9119ab2ec4e6.com
 0.0.0.0	a6c8d36cbb049540.com
 0.0.0.0	a6e222fdb554cc9f.com
@@ -4015,7 +4092,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aaa-youdao.com.cn
 0.0.0.0	aaaa1234567.cn
 0.0.0.0	aaaa123456789.cn
-0.0.0.0	aaaae.site
 0.0.0.0	aaajiaoyu.com
 0.0.0.0	aaaswzcsdfz.shop
 0.0.0.0	aaaweb.cn
@@ -4057,7 +4133,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ab3nv6bta7.top
 0.0.0.0	ab61a7f910799fc7.com
 0.0.0.0	aba067ef69be9f85.com
-0.0.0.0	abaoxianshu.com
 0.0.0.0	abargainescort.com
 0.0.0.0	abbreviat.com
 0.0.0.0	abbyychina.com
@@ -4163,6 +4238,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	acmooore.com
 0.0.0.0	acmw.cn
 0.0.0.0	acoxcv.cn
+0.0.0.0	acpoker.xyz
 0.0.0.0	acraplus.com
 0.0.0.0	acrossthepondinteriors.com
 0.0.0.0	acrx.online
@@ -4198,6 +4274,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adb93821cd034b91.com
 0.0.0.0	adbclaw.com.cn
 0.0.0.0	adbpfnh.cn
+0.0.0.0	adbufrd.cn
 0.0.0.0	c.adbxb.cn
 0.0.0.0	opgirl-tmp.adbxb.cn
 0.0.0.0	t.adbxb.cn
@@ -4259,6 +4336,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adroit-hth.com.cn
 0.0.0.0	ads-click.com
 0.0.0.0	ads360.cn
+0.0.0.0	ads711.com
 0.0.0.0	adsage.cn
 0.0.0.0	adsaide.cn
 0.0.0.0	adsame.com
@@ -4280,6 +4358,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	aduu.cn
 0.0.0.0	adview.cn
 0.0.0.0	adview.com
+0.0.0.0	advisoryapex.pics
 0.0.0.0	advlion.com
 0.0.0.0	advmob.cn
 0.0.0.0	t.advuser.com
@@ -4288,7 +4367,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adwidecenter.com
 0.0.0.0	adwo.com
 0.0.0.0	adwz.cn
-0.0.0.0	adx1js.s3.amazonaws.com
 0.0.0.0	adxhi.com
 0.0.0.0	adxmi.com
 0.0.0.0	adxpand.com
@@ -4314,6 +4392,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	aejvspot.com
 0.0.0.0	aerial-whatsapp.com.cn
 0.0.0.0	aeronet.online
+0.0.0.0	aeroonefund.sbs
 0.0.0.0	aethv-malll.vip
 0.0.0.0	af1tsjdta.com
 0.0.0.0	af26a21252823cc6.com
@@ -4334,7 +4413,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	afoltools.com
 0.0.0.0	afrique.cn
 0.0.0.0	status.afrit.cn
-0.0.0.0	afterhours.click
 0.0.0.0	aftp001.com
 0.0.0.0	aftss.cn
 0.0.0.0	afuyy.com
@@ -4553,7 +4631,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	akb-wps.com.cn
 0.0.0.0	akebuop.cn
 0.0.0.0	aketys.com
-0.0.0.0	akfkhub-110pp.com
 0.0.0.0	akh-kuailian.com.cn
 0.0.0.0	as-datareceiver.aki-game.net
 0.0.0.0	eu-datareceiver.aki-game.net
@@ -4575,7 +4652,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	alakik.info
 0.0.0.0	alapihixkge.eu
 0.0.0.0	alcasa.cn
-0.0.0.0	aldf.online
 0.0.0.0	tracker-prd.aldi.com.cn
 0.0.0.0	aldoofficial.shop
 0.0.0.0	alelectronics.com
@@ -4613,7 +4689,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	h-adashx.ut.alibaba.com
 0.0.0.0	hydra.alibaba.com
 0.0.0.0	img.alibaba.com
-0.0.0.0	marketing.alibaba.com
 0.0.0.0	o2o-ad-clicking.alibaba.com
 0.0.0.0	offer.alibaba.com
 0.0.0.0	p4psearch.china.alibaba.com
@@ -4653,7 +4728,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ats6.alicdnvip.net
 0.0.0.0	alicemolly.shop
 0.0.0.0	0a7f5fa230764283a248cae2bd35f121-cn-hangzhou.alicloudapi.com
-0.0.0.0	e365aac901114d3db00d42b59e56a037-cn-hangzhou.alicloudapi.com
 0.0.0.0	alienskins.cn
 0.0.0.0	acookie.aliexpress.com
 0.0.0.0	adservice.aliexpress.com
@@ -4700,7 +4774,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	errors.aliyun.com
 0.0.0.0	update.aegis.aliyun.com
 0.0.0.0	yundun.aliyun.com
-0.0.0.0	10-9mopub.oss-ap-southeast-6.aliyuncs.com
 0.0.0.0	107-136a.oss-cn-beijing.aliyuncs.com
 0.0.0.0	126sand.oss-accelerate.aliyuncs.com
 0.0.0.0	1398747042169696.cn-hangzhou.fc.aliyuncs.com
@@ -5095,9 +5168,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ma36twegt.oss-accelerate.aliyuncs.com
 0.0.0.0	machin.oss-ap-southeast-6.aliyuncs.com
 0.0.0.0	magically.oss-eu-central-1.aliyuncs.com
-0.0.0.0	managed.oss-cn-beijing.aliyuncs.com
-0.0.0.0	margar.oss-me-east-1.aliyuncs.com
-0.0.0.0	maxuu.oss-eu-central-1.aliyuncs.com
 0.0.0.0	maybee.oss-us-west-1.aliyuncs.com
 0.0.0.0	maybethreislvd.oss-ap-northeast-2.aliyuncs.com
 0.0.0.0	me-east-1.oss.aliyuncs.com
@@ -5160,7 +5230,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	opiu.oss-eu-central-1.aliyuncs.com
 0.0.0.0	osmosis.oss-me-east-1.aliyuncs.com
 0.0.0.0	oss3333.oss-cn-shanghai.aliyuncs.com
-0.0.0.0	ossb6.oss-cn-beijing.aliyuncs.com
 0.0.0.0	ossyqztest.oss-cn-beijing.aliyuncs.com
 0.0.0.0	overhead.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	overseas-ad-bucket.oss-cn-hongkong.aliyuncs.com
@@ -5237,6 +5306,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	singgproletupdate.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	skullali.oss-me-east-1.aliyuncs.com
 0.0.0.0	skyfull.oss-ap-northeast-2.aliyuncs.com
+0.0.0.0	snuggle.oss-eu-central-1.aliyuncs.com
+0.0.0.0	soft2down.oss-ap-southeast-1.aliyuncs.com
+0.0.0.0	softres.oss-accelerate.aliyuncs.com
 0.0.0.0	somany.oss-ap-northeast-1.aliyuncs.com
 0.0.0.0	specially.oss-ap-northeast-1.aliyuncs.com
 0.0.0.0	speedshare.oss-cn-hongkong.aliyuncs.com
@@ -5397,7 +5469,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	conn-service-gl-01.allawntech.com
 0.0.0.0	allcars.cn
 0.0.0.0	webtrack.allcitygo.com
-0.0.0.0	allcobras.com
 0.0.0.0	alldk.com
 0.0.0.0	sensors-log.allfootballapp.com
 0.0.0.0	stat.allfootballapp.com
@@ -5411,6 +5482,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	aloppw.cn
 0.0.0.0	aloud-boyusports.com.cn
 0.0.0.0	alpenora.shop
+0.0.0.0	alpha247network.pics
+0.0.0.0	alphabureaupoint.pics
 0.0.0.0	alphakws.cfd
 0.0.0.0	alphal.cn
 0.0.0.0	alphcmk.cfd
@@ -5448,6 +5521,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	alqen.cn
 0.0.0.0	altan5.com
 0.0.0.0	altzx.cn
+0.0.0.0	alucolead.com
 0.0.0.0	alwansolarhq.shop
 0.0.0.0	always-boyusports.com.cn
 0.0.0.0	always-casino.com
@@ -5525,6 +5599,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	analogix.cn
 0.0.0.0	analysys.cn
 0.0.0.0	analytics-api-external-alb-222534322.cn-north-1.elb.amazonaws.com.cn
+0.0.0.0	analyticsnovazenith.sbs
 0.0.0.0	anaqua.cn
 0.0.0.0	ancw-9betsports.com.cn
 0.0.0.0	andayiyuan.com
@@ -5545,6 +5620,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	animon.ai
 0.0.0.0	anitatomek.shop
 0.0.0.0	anji85167073.top
+0.0.0.0	soft.anjian.com
 0.0.0.0	anjieqifu.cn
 0.0.0.0	appcrash-report.anjuke.com
 0.0.0.0	anjuu.cn
@@ -5552,7 +5628,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	annajat.com
 0.0.0.0	annlivyoung.com
 0.0.0.0	anontexter.com
-0.0.0.0	anpeiex.com
 0.0.0.0	anpostti.one
 0.0.0.0	anqi88.cn
 0.0.0.0	anqianlaw.com
@@ -5566,9 +5641,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	www.antonkreil.com.cn
 0.0.0.0	antony0127.cn
 0.0.0.0	antpaytech.cn
+0.0.0.0	soft.antutu.com
 0.0.0.0	bu.antutu.net
 0.0.0.0	show.antutu.net
 0.0.0.0	srtj.antutu.net
+0.0.0.0	yanjiapi.antutu.net
 0.0.0.0	anushemakeover.com
 0.0.0.0	anwemk.com
 0.0.0.0	anxin360.cn
@@ -5629,8 +5706,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	apccghg.com
 0.0.0.0	apd-dingtalk.com.cn
 0.0.0.0	apec.qpon
+0.0.0.0	apexbureauventures.pics
+0.0.0.0	apexfusiondynamics.sbs
 0.0.0.0	apexglass.ah.cn
 0.0.0.0	apexlpi.com
+0.0.0.0	apexpatternunion.sbs
+0.0.0.0	apexturbopattern.sbs
 0.0.0.0	apf-wps.com.cn
 0.0.0.0	api-auth-gateway.xyz
 0.0.0.0	analytics.api.myqnapcloud.cn
@@ -5756,6 +5837,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	appsdt.com
 0.0.0.0	tracking.apptrackerlink.com
 0.0.0.0	apptw-wps.com.cn
+0.0.0.0	appular.com
 0.0.0.0	appuu.cn
 0.0.0.0	appx-web-whatsapp.com.cn
 0.0.0.0	apresys.com
@@ -5834,7 +5916,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	assets-bet365.com.cn
 0.0.0.0	asta-killer.com
 0.0.0.0	astpoest.click
-0.0.0.0	astroboymail.com
 0.0.0.0	astrolink.cn
 0.0.0.0	astronclaw.com.cn
 0.0.0.0	dashboard.astroqore.cn
@@ -5851,7 +5932,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	at98.com
 0.0.0.0	tz.atcn.nyc.mn
 0.0.0.0	aiseet.aa.atianqi.com
-0.0.0.0	atlasds.cn
+0.0.0.0	uc2.atobo.com.cn
 0.0.0.0	atomicdeathray.com
 0.0.0.0	atomscience.cn
 0.0.0.0	atpanel.com
@@ -5891,6 +5972,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	somni.australia.cn
 0.0.0.0	authority-the.net
 0.0.0.0	auto-px.com
+0.0.0.0	so.auto999.cn
 0.0.0.0	autoclicker.cn
 0.0.0.0	autodesk-atc.com.cn
 0.0.0.0	autofirst.cn
@@ -5975,6 +6057,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	axbdlox.cn
 0.0.0.0	axeladams.shop
 0.0.0.0	axiba66.com
+0.0.0.0	axis360union.sbs
+0.0.0.0	axissmartmodule.sbs
 0.0.0.0	axkbces.cn
 0.0.0.0	axnfw.cn
 0.0.0.0	axomltd.com
@@ -6174,6 +6258,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	banca.bacsoluciones.help
 0.0.0.0	bacsolutions.help
 0.0.0.0	ime-ad-reporter.badambiz.com
+0.0.0.0	badasusoziusadvisoryco.pics
 0.0.0.0	badzhmr.cn
 0.0.0.0	qmlog.baertt.com
 0.0.0.0	baf566dfd40e3413.com
@@ -6311,6 +6396,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	shadu.baidu.com
 0.0.0.0	share.baidu.com
 0.0.0.0	sjh.baidu.com
+0.0.0.0	sobar.baidu.com
+0.0.0.0	sofire.baidu.com
 0.0.0.0	sp0.baidu.com
 0.0.0.0	sp1.baidu.com
 0.0.0.0	sp2.baidu.com
@@ -6348,11 +6435,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	youxi.baidu.com
 0.0.0.0	znsv.baidu.com
 0.0.0.0	newlcs.zhidao.baidu.com.cn
-0.0.0.0	4176rbz8vepn6.cfc-execute.bj.baidubce.com
-0.0.0.0	a3tf75e7k596x.cfc-execute.bj.baidubce.com
-0.0.0.0	bxx2rghe05kng.cfc-execute.bj.baidubce.com
-0.0.0.0	fq3gm5xphax8c.cfc-execute.bj.baidubce.com
-0.0.0.0	frk9qw3pqt0dx.cfc-execute.bj.baidubce.com
 0.0.0.0	httpdns.baidubce.com
 0.0.0.0	baidufanyivv.com.cn
 0.0.0.0	run.baidup.top
@@ -6381,12 +6463,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	bakbitionb.com
 0.0.0.0	a.bake818.cn
 0.0.0.0	dpd.balik.info
-0.0.0.0	balmbalm.com.cn
 0.0.0.0	balticladies.com
+0.0.0.0	baluravadexadvisory.pics
 0.0.0.0	changan.bama555.com
 0.0.0.0	dl.bamengame.com
-0.0.0.0	j.baminw.cn
 0.0.0.0	n.baminw.com.cn
+0.0.0.0	q.baminw.com.cn
 0.0.0.0	bananababes.com
 0.0.0.0	banbeng.cn
 0.0.0.0	bancaend.com
@@ -6444,7 +6526,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	onlinetips.baofeng5.baofeng.net
 0.0.0.0	ploy.baofeng.net
 0.0.0.0	baofu.life
-0.0.0.0	a.baomihua.com
 0.0.0.0	baoqinylmall.com
 0.0.0.0	baoxian05.cn
 0.0.0.0	bapalal.com
@@ -6452,9 +6533,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	barakahfishmart.com
 0.0.0.0	barbecue777.top
 0.0.0.0	barrister.org.cn
-0.0.0.0	bartec.pro
 0.0.0.0	bartender.cc
 0.0.0.0	baschengbaodianshijuzaxianguankanmianfei.com.cn
+0.0.0.0	base36-5orbit.pics
 0.0.0.0	basic-9yousports.com.cn
 0.0.0.0	basic-bet365.com.cn
 0.0.0.0	baswz.com
@@ -6545,6 +6626,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bd682bc7d22322eb.com
 0.0.0.0	bd6c2c773e75f18b.com
 0.0.0.0	bd7c24b74c12bc1c.com
+0.0.0.0	bd9898.com
 0.0.0.0	bdba7d71aed7edb5.com
 0.0.0.0	bdbaq.cn
 0.0.0.0	bdcb64628f2f0fdd.com
@@ -6568,6 +6650,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ae.bdstatic.com
 0.0.0.0	mipcache.bdstatic.com
 0.0.0.0	s.bdstatic.com
+0.0.0.0	sofire.bdstatic.com
 0.0.0.0	su.bdstatic.com
 0.0.0.0	zz.bdstatic.com
 0.0.0.0	miniapp-ad.cdn.bcebos.com.a.bdydns.com
@@ -6615,6 +6698,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	belie-whatsapp.com.cn
 0.0.0.0	belingspace.com
 0.0.0.0	bellinturf.cn
+0.0.0.0	beloink.cyou
 0.0.0.0	doc.belstar.com.cn
 0.0.0.0	belzycearabians.com
 0.0.0.0	bench-whatsapp.com.cn
@@ -6642,6 +6726,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	beqjfccsye.top
 0.0.0.0	berniejones.shop
 0.0.0.0	berrydiyshop.com
+0.0.0.0	best-casino-sites-go-uk.best
 0.0.0.0	best-ding-ding.com.cn
 0.0.0.0	best-home-decor.com
 0.0.0.0	best-pronostic.com
@@ -6692,6 +6777,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	bet9367.com
 0.0.0.0	bet9882.com
 0.0.0.0	beta-bet365.com.cn
+0.0.0.0	betanetblockchain1.sbs
+0.0.0.0	betanetequity.sbs
 0.0.0.0	betbb.com
 0.0.0.0	betbigwager.cn
 0.0.0.0	bethhh.bet
@@ -6701,13 +6788,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	betkbk.com
 0.0.0.0	betok.game
 0.0.0.0	betokgame.online
+0.0.0.0	betsat1613.cam
 0.0.0.0	betsg99.com
+0.0.0.0	betsmove2006.cam
 0.0.0.0	betterzip.net
 0.0.0.0	betterzipcn.com
 0.0.0.0	betwayoo.com
 0.0.0.0	betweb.app
 0.0.0.0	betylife.com
 0.0.0.0	bewinwin.cn
+0.0.0.0	bewomowecaisservices.sbs
 0.0.0.0	beyai.com
 0.0.0.0	beyai.net
 0.0.0.0	beyondcompare.cc
@@ -6723,6 +6813,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bftrading.com.cn
 0.0.0.0	bfxpj888.com
 0.0.0.0	bfyer.com
+0.0.0.0	bga100.cn
 0.0.0.0	info.bgi.com
 0.0.0.0	bgn.sc.cn
 0.0.0.0	bgq-sbetsports.com.cn
@@ -6905,7 +6996,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bjgfyg.top
 0.0.0.0	bjhjhx.cn
 0.0.0.0	bjhjw.com.cn
-0.0.0.0	bjhuaya.cn
 0.0.0.0	bjhzlr.com
 0.0.0.0	bjjdkj.com
 0.0.0.0	as.bjmama.net
@@ -6925,6 +7015,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bjyinze.org.cn
 0.0.0.0	bjyxty.net
 0.0.0.0	bjyzrx.com.cn
+0.0.0.0	bjzhy.asia
 0.0.0.0	bjzksj.com.cn
 0.0.0.0	018.bjzs114.cn
 0.0.0.0	bjzsyx.cn
@@ -6991,7 +7082,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bnxxw.com
 0.0.0.0	bo-at-google.com.cn
 0.0.0.0	bo09.cn
-0.0.0.0	bo1t.cn
 0.0.0.0	board-wending.com.cn
 0.0.0.0	board-wendinggame.com.cn
 0.0.0.0	boardingarts.com
@@ -7018,6 +7108,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.bokecc.com
 0.0.0.0	p.bokecc.com
 0.0.0.0	adimage.bokee.com
+0.0.0.0	bokewin.cn
 0.0.0.0	bol.bet
 0.0.0.0	boldfrontierdesign.com
 0.0.0.0	bolesnodete.com
@@ -7055,6 +7146,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	botify.ltd
 0.0.0.0	status.botium.cn
 0.0.0.0	botouxinxi.com.cn
+0.0.0.0	boxezovatexindustries26.sbs
 0.0.0.0	boxgroda.cfd
 0.0.0.0	boxgrode.cfd
 0.0.0.0	boxgrodh.cfd
@@ -7125,7 +7217,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	brgame.com
 0.0.0.0	brgame.vip
 0.0.0.0	brgame.win
+0.0.0.0	bright-factorycore.pics
+0.0.0.0	bright101pulse.pics
+0.0.0.0	bright365pulse.pics
+0.0.0.0	brightblockpro.pics
+0.0.0.0	brightfuturechain.pics
+0.0.0.0	brightmaxnetwork.sbs
+0.0.0.0	brightnextlink.pics
 0.0.0.0	brightnovanetworks.com
+0.0.0.0	brightplatform.sbs
 0.0.0.0	britishexpertiseawards.com
 0.0.0.0	britishstandardschool.org
 0.0.0.0	broakom.com
@@ -7147,6 +7247,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bsbaswq.cn
 0.0.0.0	bsbet88.com
 0.0.0.0	bsccdn.net
+0.0.0.0	bshcti.cn
 0.0.0.0	a.bshu.com
 0.0.0.0	bslso.com
 0.0.0.0	bsnniubi.com
@@ -7155,7 +7256,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bsqkfv.com
 0.0.0.0	bsrkt.com
 0.0.0.0	bst3322.cn
-0.0.0.0	bstzcs.cn
 0.0.0.0	bt-telegram.com.cn
 0.0.0.0	download.bt.cn
 0.0.0.0	btb-events.com
@@ -7194,7 +7294,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	butou.cn
 0.0.0.0	buydeem.shop
 0.0.0.0	buyingofficex.com
-0.0.0.0	buyjacknjellify.shop
 0.0.0.0	buymattelcreations.shop
 0.0.0.0	buzfi.cn
 0.0.0.0	bv-kuailian.hl.cn
@@ -7203,7 +7302,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bvkuailian.hl.cn
 0.0.0.0	bvmbzob.shop
 0.0.0.0	bvmlt.top
-0.0.0.0	bvnbhy.shop
 0.0.0.0	bvviksou.click
 0.0.0.0	bw-bybit.hl.cn
 0.0.0.0	bw-htx.hl.cn
@@ -7315,7 +7413,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	c00zpy6jx2.live
 0.0.0.0	c0188.com
 0.0.0.0	c0329006eda2561c.com
-0.0.0.0	c0383q7i1a1pj98fkdrb.s3.us-east-1.amazonaws.com
 0.0.0.0	c080447e4853b13f.com
 0.0.0.0	c0a5440b93422850.com
 0.0.0.0	c0aa652484dd6589.com
@@ -7430,6 +7527,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ca88b.cn
 0.0.0.0	ca9d3a8e67ce00d2.com
 0.0.0.0	cabkuailian.com.cn
+0.0.0.0	cablepeakdynamics.com
 0.0.0.0	cac2667b8c265fb8.com
 0.0.0.0	game.cactiapi.com
 0.0.0.0	caduka.cn
@@ -7476,7 +7574,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	zc1.campaign-view.com.cn
 0.0.0.0	campsofindia.com
 0.0.0.0	canadaclaimbenefits-url.online
+0.0.0.0	canard-gov.com
 0.0.0.0	count.candou.com
+0.0.0.0	candycasino295.cam
 0.0.0.0	canfuo.com
 0.0.0.0	cangpinhui.com.cn
 0.0.0.0	canjeahorabac.help
@@ -7498,6 +7598,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	caomeixz7.xyz
 0.0.0.0	caoyuanmuye.com.cn
 0.0.0.0	capitalnet.cn
+0.0.0.0	capitalomnidelta.sbs
 0.0.0.0	caqy.cn
 0.0.0.0	carclaw.com.cn
 0.0.0.0	card678.cn
@@ -7521,14 +7622,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	casino-18-07.lol
 0.0.0.0	casino-18-07.space
 0.0.0.0	casino-19-07.team
+0.0.0.0	casino-live-go-belgique.best
 0.0.0.0	casino-poker-casinos.com
 0.0.0.0	casino88th.com
 0.0.0.0	casino8online.com
+0.0.0.0	casinodior-mobil.cam
 0.0.0.0	casinoforumu.com
 0.0.0.0	casinofriends.click
 0.0.0.0	casinooreanda.com
 0.0.0.0	casinorulz.com
 0.0.0.0	casinosnepal.com
+0.0.0.0	casinovenedik-hizgir.cam
 0.0.0.0	caststonemantels.com
 0.0.0.0	cat-like.com
 0.0.0.0	super.cat898.com
@@ -7546,7 +7650,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cba2502ddf3e9d23.com
 0.0.0.0	cbalsaigfzhidingyongqu.com.cn
 0.0.0.0	cbapaimingjbenyiding.com.cn
-0.0.0.0	cbcnt.com
 0.0.0.0	cbe19c731ea1b1ca.com
 0.0.0.0	cbef.cn
 0.0.0.0	cbgolf.cn
@@ -7559,7 +7662,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cbiqianbaoxiazairukougw.com.cn
 0.0.0.0	cbjlnxaaqf.cn
 0.0.0.0	cbplaw.cn
-0.0.0.0	cbvfrd.shop
 0.0.0.0	cc-feishu.com.cn
 0.0.0.0	cc-googie.com.cn
 0.0.0.0	cc-google.com.cn
@@ -7736,8 +7838,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.123huodong.com.cloud.cdntip.com
 0.0.0.0	node.cdntxt.com
 0.0.0.0	cdoffice.com.cn
+0.0.0.0	cdpjcar.cn
 0.0.0.0	cdqxjs.cn
+0.0.0.0	cdragon.com.cn
 0.0.0.0	cdu.cc
+0.0.0.0	cdwps.com.cn
 0.0.0.0	cdwufan.com
 0.0.0.0	m.cdxtny.cn
 0.0.0.0	cdyulai.top
@@ -7746,6 +7851,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	adimg.ce.cn
 0.0.0.0	ads.ce.cn
 0.0.0.0	wy.ce22d.cn
+0.0.0.0	ce846536d01ab80a.com
+0.0.0.0	ce85928dd8ddcbc1.com
 0.0.0.0	ce8ea25d3322842f.com
 0.0.0.0	ceb13b87e13196d7.com
 0.0.0.0	ads.cecb2b.com
@@ -7756,25 +7863,33 @@ ff02::3	ip6-allhosts
 0.0.0.0	nezha.ceeee.cn
 0.0.0.0	cef.cn
 0.0.0.0	cehu9.com
-0.0.0.0	ceke.cn
+0.0.0.0	cekipihiqiiasystems88.sbs
 0.0.0.0	cekuailian.com.cn
 0.0.0.0	celebritain.com
 0.0.0.0	celedar.vip
+0.0.0.0	cellphonelocation.net
 0.0.0.0	cemscn.com
 0.0.0.0	cenbom.love
 0.0.0.0	cenjiu.cn
 0.0.0.0	cenpian.cn
 0.0.0.0	centaurusbio.com
 0.0.0.0	center-live-kaiyun.com.cn
+0.0.0.0	centerpartnersnano.sbs
 0.0.0.0	central-bet365.com.cn
+0.0.0.0	centralonline.sbs
+0.0.0.0	centralproxi.sbs
+0.0.0.0	centricstrataplus.sbs
+0.0.0.0	centrioedgenode.sbs
 0.0.0.0	ceotz.click
 0.0.0.0	cers-ai.cn
 0.0.0.0	certificationforum.help
 0.0.0.0	ceshi.com
 0.0.0.0	webapi.ceshi897.cn
+0.0.0.0	cesumin.cn
 0.0.0.0	cetanfa.wiki
 0.0.0.0	cetcf.cn
 0.0.0.0	ceyun.net
+0.0.0.0	cezemahaqorservices.pics
 0.0.0.0	cf-kuailian.com.cn
 0.0.0.0	cfa8b980a2e6fc13.com
 0.0.0.0	cfcc-caf.org.cn
@@ -7827,9 +7942,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	metrics.chacha.com
 0.0.0.0	tracking.chacha.com
 0.0.0.0	status.chahuyun.cn
+0.0.0.0	chaincyberx.sbs
 0.0.0.0	chaindexau.com
 0.0.0.0	chaindexca.com
 0.0.0.0	chaindexhk.com
+0.0.0.0	chainxsmart.sbs
 0.0.0.0	chajuanwang.com
 0.0.0.0	challenge-wending.com.cn
 0.0.0.0	championpowerequipmentoutdoor.shop
@@ -7878,6 +7995,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cheappricebarbour.cn
 0.0.0.0	cheatengine.com.cn
 0.0.0.0	checkingref.cn
+0.0.0.0	cheeck-cheeck.ru
 0.0.0.0	cheerspartners.com
 0.0.0.0	cheerycouture.com
 0.0.0.0	atrace.chelaile.net.cn
@@ -7914,6 +8032,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	qc1.cheshipin.com
 0.0.0.0	chesono.com
 0.0.0.0	chetanbansal.shop
+0.0.0.0	z1.chezhuzhinan.com
 0.0.0.0	chgql.com
 0.0.0.0	chgzaishen.cn
 0.0.0.0	chhrromee-google.hl.cn
@@ -7961,6 +8080,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	adq.chinaso.com
 0.0.0.0	chinasoftoem.com.cn
 0.0.0.0	m.chinasuteng.cn
+0.0.0.0	a2put.chinaz.com
 0.0.0.0	ip.chinaz.com
 0.0.0.0	stats.chinaz.com
 0.0.0.0	chinazmob.com
@@ -8051,6 +8171,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	chtgeo.cn
 0.0.0.0	chuairan.com
 0.0.0.0	ad.chuandong.com
+0.0.0.0	chuangbo.cn
 0.0.0.0	chuangyeoffice.com.cn
 0.0.0.0	api-ad.chuangyuejoy.com
 0.0.0.0	ads.chuanmeixing.com
@@ -8061,6 +8182,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	chuanqishijieshengdazhengbanguanwangxiazai.org.cn
 0.0.0.0	common2.chuanshusvr.tech
 0.0.0.0	chuansuo.hl.cn
+0.0.0.0	chuanxing.cn
 0.0.0.0	chuanyuehuoxiandianshijuqanjmianfeiguankan.com.cn
 0.0.0.0	chucai.cn
 0.0.0.0	y66xvgo5i.chuimg.com
@@ -8114,12 +8236,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	cig.com.cn
 0.0.0.0	cihc.cn
 0.0.0.0	cilihezi.com
+0.0.0.0	cimupeyummanagement.sbs
 0.0.0.0	cinemaxcinemas.com
 0.0.0.0	cioln.help
 0.0.0.0	www.cippe.com.cn
-0.0.0.0	ciptp.org
 0.0.0.0	circle.hl.cn
 0.0.0.0	circultural.com
+0.0.0.0	cisaxaneumanalytics26.sbs
 0.0.0.0	cisco-to.cfd
 0.0.0.0	metrics.citi.cn
 0.0.0.0	metrics.citi.com.cn
@@ -8155,6 +8278,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sysdk.cl2009.com
 0.0.0.0	clahsduu.hl.cn
 0.0.0.0	claiks.com
+0.0.0.0	clam.cn
 0.0.0.0	clarins.com.cn
 0.0.0.0	clash-aa.hl.cn
 0.0.0.0	clash-clash.hl.cn
@@ -8198,7 +8322,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.com.cn
 0.0.0.0	clickeye.cn
 0.0.0.0	clicki.cn
-0.0.0.0	a.clicksor.cn
 0.0.0.0	clickvalue.cn
 0.0.0.0	client-wending-pg.com.cn
 0.0.0.0	clientservices.googleapis.com
@@ -8206,6 +8329,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	clkads.com
 0.0.0.0	cloudbreach.digital
 0.0.0.0	cloudcome.net
+0.0.0.0	cloudconnectenterprise.sbs
 0.0.0.0	7mnpeh.com1.z0.glb.clouddn.com
 0.0.0.0	7xi9g1.com1.z0.glb.clouddn.com
 0.0.0.0	bkt.clouddn.com
@@ -8213,11 +8337,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	rus3rcqtp.hn-bkt.clouddn.com
 0.0.0.0	s6rxifhln.hn-bkt.clouddn.com
 0.0.0.0	cloudflare.hi.cn
+0.0.0.0	cloudglobalpoint.sbs
 0.0.0.0	advertise.cloudlinks.cn
+0.0.0.0	cloudmaxsolutions.sbs
+0.0.0.0	cloudonealliance.sbs
 0.0.0.0	cloudq.cn
 0.0.0.0	cloudsports-live.com
 0.0.0.0	cloudstudio.club
 0.0.0.0	cloudwps.cn
+0.0.0.0	cloudxmanagement.sbs
 0.0.0.0	clr.cn
 0.0.0.0	club22224.com
 0.0.0.0	clwnc.com
@@ -8334,6 +8462,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cnfy-youdao.com.cn
 0.0.0.0	cngoogle-google.hl.cn
 0.0.0.0	cngoogle.org.cn
+0.0.0.0	down.cngr.cn
 0.0.0.0	cnhdin.cn
 0.0.0.0	cnhile-hl.com
 0.0.0.0	cdn-wx.cnhis.cc
@@ -8359,6 +8488,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cnn-google-google.hl.cn
 0.0.0.0	cnn-google.hl.cn
 0.0.0.0	cnn-wps.com.cn
+0.0.0.0	smuc.cnnfootballclub.com
 0.0.0.0	adi.cnool.net
 0.0.0.0	adi2007.cnool.net
 0.0.0.0	adp.cnool.net
@@ -8394,6 +8524,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cnzh-kuailian.hl.cn
 0.0.0.0	cnzz.cn
 0.0.0.0	cnzz.com
+0.0.0.0	co-in-google.com.cn
 0.0.0.0	co-sogou.com.cn
 0.0.0.0	inckwp.co.ltd
 0.0.0.0	passport.co188.com
@@ -8430,6 +8561,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	coinbaim.com
 0.0.0.0	coinbaseapp.com.cn
 0.0.0.0	coinbased.cc
+0.0.0.0	coinbasee.vip
 0.0.0.0	coinbasjaoyisuoappxiazai.com.cn
 0.0.0.0	coinbis.com
 0.0.0.0	coinbsim.com
@@ -8482,6 +8614,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	commiex.online
 0.0.0.0	community-wendinggame.com.cn
 0.0.0.0	trk.compair.com.cn
+0.0.0.0	compart.cn
 0.0.0.0	complemeny.com
 0.0.0.0	comtecltd.com.cn
 0.0.0.0	sure.comttc.top
@@ -8499,8 +8632,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	conquerom.com
 0.0.0.0	conquerore.com
 0.0.0.0	cons.top
-0.0.0.0	consultarahorabac.help
-0.0.0.0	consultareahorabac.help
+0.0.0.0	consultingproprime.sbs
 0.0.0.0	continuedsys.cn
 0.0.0.0	cu-cn-north00001.gala.convection.cn
 0.0.0.0	cu-cn-north00002.gala.convection.cn
@@ -8531,6 +8663,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cool-pgsimulator.com.cn
 0.0.0.0	cool-qwhsports.com.cn
 0.0.0.0	cool-v88sports.com.cn
+0.0.0.0	weblogger-wss.coolacloud.com
 0.0.0.0	detaillog-global.coolbcloud.com
 0.0.0.0	detaillog-global-dual.coolbcloud.com
 0.0.0.0	logreport-global-dual.coolbcloud.com
@@ -8543,7 +8676,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	wslog-global-dual.coolccloud.com
 0.0.0.0	detaillog-global.coolecloud.com
 0.0.0.0	coolercore.com
+0.0.0.0	weblogger-wss.coolgcloud.com
 0.0.0.0	coolhair.com.cn
+0.0.0.0	weblogger-wss.coolhcloud.com
 0.0.0.0	coolkaba.com
 0.0.0.0	coolnamemart.cn
 0.0.0.0	detaillog-global.coolzcloud.com
@@ -8561,9 +8696,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	ws2.cootekservice.com
 0.0.0.0	bdu1.coozhi.cn
 0.0.0.0	copecvip.top
+0.0.0.0	core360media.sbs
+0.0.0.0	corecorex1.sbs
 0.0.0.0	coreldrawchina.com
 0.0.0.0	coreos.cfd
+0.0.0.0	corex1partners.pics
 0.0.0.0	corexahubgrounp.com
+0.0.0.0	corexoneenterprise.pics
+0.0.0.0	corexstrategy.sbs
 0.0.0.0	corki.site
 0.0.0.0	corner-office.cn
 0.0.0.0	sentry.coros.com
@@ -8577,6 +8717,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	correspvgt.click
 0.0.0.0	corrretu.help
 0.0.0.0	cortocabeloepinto.com
+0.0.0.0	cosesosuissolutionsnet.sbs
 0.0.0.0	cosideabl.com
 0.0.0.0	cost-kaiyun.com.cn
 0.0.0.0	cotnetwork.com
@@ -8597,6 +8738,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	covxzaes.cfd
 0.0.0.0	covxzaez.cfd
 0.0.0.0	coxiksf.top
+0.0.0.0	coyeqebusuminvestments2026.pics
 0.0.0.0	cozaxscx.cfd
 0.0.0.0	cozaxvo.bond
 0.0.0.0	space-static.coze.site
@@ -8619,9 +8761,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cpmoz.com
 0.0.0.0	cpmq.cn
 0.0.0.0	cpoad.qpon
-0.0.0.0	1.tcp.vip.cpolar.cn
-0.0.0.0	12.tcp.vip.cpolar.cn
-0.0.0.0	6.tcp.vip.cpolar.cn
 0.0.0.0	102bd03.r9.cpolar.top
 0.0.0.0	mmmooo.cpolar.top
 0.0.0.0	tcp.cpolar.top
@@ -8666,14 +8805,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	crafty-bet365.com.cn
 0.0.0.0	crasheye.cn
 0.0.0.0	crashlyticsreports-pa.googleapis.com
-0.0.0.0	c8y.crazyporn.xxx
 0.0.0.0	crdh1.com
 0.0.0.0	shence.cread.com
 0.0.0.0	create-tide.com
 0.0.0.0	creditinfoweb.com
 0.0.0.0	crescent-live.com
 0.0.0.0	crf999.cn
-0.0.0.0	matomo.crionline.cn
 0.0.0.0	crispy-bet365.com.cn
 0.0.0.0	criticalltech.com
 0.0.0.0	crm-experts.cn
@@ -8719,7 +8856,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zhannei-dm.csdn.net
 0.0.0.0	kunpeng-sc.csdnimg.cn
 0.0.0.0	csgo-games.net
-0.0.0.0	csgo10.com
 0.0.0.0	cshrxl.com
 0.0.0.0	csjplatform.com
 0.0.0.0	csjzaj.cn
@@ -8823,6 +8959,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cvzoansc.cfd
 0.0.0.0	bugcnc.cw0.cc
 0.0.0.0	cw50.cn
+0.0.0.0	z1.cwbaike.com
 0.0.0.0	cwmzt.cn
 0.0.0.0	cwo-sbetsports.com.cn
 0.0.0.0	cx.cc
@@ -8836,6 +8973,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	news.cxxtv.com
 0.0.0.0	cxyw.net
 0.0.0.0	ad.cyapi.cn
+0.0.0.0	cyber247pro.sbs
+0.0.0.0	cybergeostack.pics
+0.0.0.0	cybersmartcore.sbs
+0.0.0.0	cybersolutions2025.sbs
 0.0.0.0	cycl.online
 0.0.0.0	cycloudbio.com
 0.0.0.0	cydbjx.com
@@ -9021,6 +9162,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	daishuqianbaogw.com.cn
 0.0.0.0	daisuo.cn
 0.0.0.0	dajukui.com
+0.0.0.0	dakaloexpartners.sbs
 0.0.0.0	dakuailian.com.cn
 0.0.0.0	dalevip.com
 0.0.0.0	dalians.cn
@@ -9030,6 +9172,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	daloradius.com.cn
 0.0.0.0	mcds.dalyfeds.com
 0.0.0.0	profiler-collector.dalyfeds.com
+0.0.0.0	damaskdews.shop
 0.0.0.0	damengni.com
 0.0.0.0	damibook.com
 0.0.0.0	y.damifan.cn
@@ -9069,7 +9212,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	daque.cn
 0.0.0.0	daquexing.com
 0.0.0.0	daraz.com
-0.0.0.0	marketing.net.daraz.lk
 0.0.0.0	net.daraz.pk
 0.0.0.0	sgtm.darryring.com
 0.0.0.0	dartsearch-cn.net
@@ -9087,6 +9229,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	datacenter.xj.cn
 0.0.0.0	datacenter.yn.cn
 0.0.0.0	datacenter.zj.cn
+0.0.0.0	datafutureplatform.pics
+0.0.0.0	datagammacore.sbs
+0.0.0.0	datagenesis.pics
 0.0.0.0	datamaster.com.cn
 0.0.0.0	datanine.com.cn
 0.0.0.0	datapronet.com
@@ -9156,6 +9301,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	metrics-drcn.dt.dbankcloud.cn
 0.0.0.0	metrics-dre.data.dbankcloud.cn
 0.0.0.0	metrics-dre.dt.dbankcloud.cn
+0.0.0.0	metrics-drru.data.dbankcloud.cn
 0.0.0.0	metrics.dt.dbankcloud.cn
 0.0.0.0	metrics1-drcn.dt.dbankcloud.cn
 0.0.0.0	metrics1.data.dbankcloud.cn
@@ -9266,7 +9412,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dch56489nf.com
 0.0.0.0	ac2.dcloud.net.cn
 0.0.0.0	dcoopay.com.cn
-0.0.0.0	dcvbnng.com
 0.0.0.0	dd-didingtalk.com.cn
 0.0.0.0	dd-ding.com.cn
 0.0.0.0	dd-google.hl.cn
@@ -9436,7 +9581,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ddqp999.com
 0.0.0.0	ddqslot.com
 0.0.0.0	ddsatdiy.cn
-0.0.0.0	ddsdsad.com
 0.0.0.0	ad.ddxq.mobi
 0.0.0.0	trackercollect.ddxq.mobi
 0.0.0.0	trackerfeed.ddxq.mobi
@@ -9458,7 +9602,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	decadence.online
 0.0.0.0	decd.site
 0.0.0.0	decodewisdom.com.cn
-0.0.0.0	decorava.shop
 0.0.0.0	dedd0b775acc9559.com
 0.0.0.0	ad.dedecms.com
 0.0.0.0	dedeeims.com
@@ -9492,6 +9635,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	delies.com.cn
 0.0.0.0	deliner.com.cn
 0.0.0.0	delixixl.com
+0.0.0.0	delta24enterprise.pics
+0.0.0.0	delta365module.pics
+0.0.0.0	deltametric.sbs
 0.0.0.0	demfd.cn
 0.0.0.0	demontha.cn
 0.0.0.0	s.demoshow.xin
@@ -9520,6 +9666,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	devondale.com.cn
 0.0.0.0	nginx-imfi.fcv3.1197883384467965.cn-hangzhou.fc.devsapp.net
 0.0.0.0	nginx.web-framework-kesh.1398747042169696.cn-shanghai.fc.devsapp.net
+0.0.0.0	devvortexglobal.sbs
 0.0.0.0	api.dewmobile.net
 0.0.0.0	downloada.dewmobile.net
 0.0.0.0	downloadb.dewmobile.net
@@ -9541,13 +9688,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	df2a99af2c694270.com
 0.0.0.0	df2cc4de81446476.com
 0.0.0.0	df321b81208721f1.com
-0.0.0.0	df343ds.pro
 0.0.0.0	df54bbc3abec1a86.com
 0.0.0.0	df569d5e671272b2.com
 0.0.0.0	df884.com
 0.0.0.0	df9477f807f2ec61.com
 0.0.0.0	df9c705d7a7508b3.com
-0.0.0.0	df9z8.com
 0.0.0.0	dfangxcl.com
 0.0.0.0	dfblandarch.com
 0.0.0.0	dfbworld.shop
@@ -9594,7 +9739,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dhcorrpt.click
 0.0.0.0	dhelsk.click
 0.0.0.0	dhelvn.click
-0.0.0.0	dhgdp.cn
 0.0.0.0	dhih-9betsports.com.cn
 0.0.0.0	dhl-99.com
 0.0.0.0	dhl-exp.com.cn
@@ -9727,8 +9871,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	dietiran.com
 0.0.0.0	diettopseek.cn
 0.0.0.0	digi-earth.org
+0.0.0.0	digita-lpartners24.sbs
 0.0.0.0	digital-control.com.cn
+0.0.0.0	digital2025metrics.sbs
+0.0.0.0	digitaledgepartners.sbs
+0.0.0.0	digitalglobalone.sbs
+0.0.0.0	digitalmetricsio.sbs
 0.0.0.0	digitalmind.cn
+0.0.0.0	digitalpoint.sbs
 0.0.0.0	digitalunion.cn
 0.0.0.0	status.dijun.cc
 0.0.0.0	dil19.cn
@@ -9811,6 +9961,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	displink.com
 0.0.0.0	code.ditiezu.net
 0.0.0.0	dived.top
+0.0.0.0	dixigijuorcapital99.sbs
 0.0.0.0	diyhome.online
 0.0.0.0	b.diyifanwen.com
 0.0.0.0	img16.diyifanwen.com
@@ -9845,7 +9996,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dkwings.co.uk
 0.0.0.0	dky-xcx.cn
 0.0.0.0	dl-wps.hl.cn
-0.0.0.0	dlads.cn
 0.0.0.0	dlasdbj.cn
 0.0.0.0	dlbdb.cn
 0.0.0.0	r2esa.dlbun.com
@@ -9881,7 +10031,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dn2ebxjb2r.top
 0.0.0.0	dncvj.cn
 0.0.0.0	dnf404.com
-0.0.0.0	dnfmd.com
+0.0.0.0	dnhmozop.icu
 0.0.0.0	dnmmarket.com
 0.0.0.0	dnpz123.com
 0.0.0.0	sp.dnqc.com
@@ -9921,6 +10071,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	image.baidu.cn.cdn.dnsv1.com.cn
 0.0.0.0	kani-cn.bytedance.net.cdn.dnsv1.com.cn
 0.0.0.0	office.live.cn.cdn.dnsv1.com.cn
+0.0.0.0	socks.ccb.com.cdn.dnsv1.com.cn
 0.0.0.0	src.baidu.cn.cdn.dnsv1.com.cn
 0.0.0.0	static.cgbchina.com.cn.cloud.360.net.cdn.dnsv1.com.cn
 0.0.0.0	update.asiainfo-sec.com.cdn.dnsv1.com.cn
@@ -9988,7 +10139,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	at3.doubanio.com
 0.0.0.0	doubao-zh.hl.cn
 0.0.0.0	log.doubao.com
-0.0.0.0	doubaoaixue.cn
+0.0.0.0	double-bet365.com.cn
 0.0.0.0	double-wendingyule.com.cn
 0.0.0.0	doubleclick-cn.net
 0.0.0.0	doubleclick.cn
@@ -10034,6 +10185,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	openclaw.dowstone.com.cn
 0.0.0.0	doxipups.com
 0.0.0.0	img.doyo.cn
+0.0.0.0	s.doyo.cn
 0.0.0.0	umami.dp.tech
 0.0.0.0	dpbat.qpon
 0.0.0.0	dpd-at.com
@@ -10142,6 +10294,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dty6kxf3.cn
 0.0.0.0	du03.cn
 0.0.0.0	dualspace.com
+0.0.0.0	src.duanxin520.com
 0.0.0.0	ck1.duanzipai.com.cn
 0.0.0.0	duapp.com
 0.0.0.0	duapps.com
@@ -10174,7 +10327,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gamecollaborate.yy.duowan.com
 0.0.0.0	gt.duowan.com
 0.0.0.0	ka.duowan.com
-0.0.0.0	market.duowan.com
 0.0.0.0	mstat.duowan.com
 0.0.0.0	other.v.duowan.com
 0.0.0.0	pflq.duowan.com
@@ -10189,6 +10341,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sentry.duozhuayu.net
 0.0.0.0	duoziwang.com
 0.0.0.0	a.dusays.com
+0.0.0.0	duvutevuyiummanagement.sbs
 0.0.0.0	duxiangai.com
 0.0.0.0	adsmis.duxiaoman.com
 0.0.0.0	duye2zaxianguankanwanzhengmianfeigaoqingdianying2.com.cn
@@ -10198,7 +10351,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sentry.dvdfab.cn
 0.0.0.0	servo-report.dvdfab.cn
 0.0.0.0	dverer.com
-0.0.0.0	dvertyg.com
 0.0.0.0	dvhlsdk.click
 0.0.0.0	dvhlsdz.click
 0.0.0.0	dvnofknrf.cn
@@ -10214,6 +10366,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dw-kuailian.com.cn
 0.0.0.0	dw365.cn
 0.0.0.0	dweixin.cn
+0.0.0.0	tr.dwjq.com.cn
 0.0.0.0	dwsca.poker
 0.0.0.0	untitled.dwstatic.com
 0.0.0.0	status.dwyu.com.cn
@@ -10243,6 +10396,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	arnaozn.dylovest.com
 0.0.0.0	dynamicbridgecorp.com
 0.0.0.0	cc.dynamicdns.co.uk
+0.0.0.0	dynamicshorizonorbit.sbs
 0.0.0.0	dynmhng.cn
 0.0.0.0	by.dyq.cn
 0.0.0.0	hl.dyq.cn
@@ -10296,7 +10450,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	e23f691c1063fbd6.com
 0.0.0.0	e258a84b006b0078.com
 0.0.0.0	e27b63f13f35c4e2.com
-0.0.0.0	e28d6c661b1e669f.com
 0.0.0.0	e2b1f17a7db0562a.com
 0.0.0.0	e2c6181d91b06229.com
 0.0.0.0	gusbern.e2qh68.info
@@ -10410,6 +10563,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	js4.eastmoney.com
 0.0.0.0	mobappconfig.securities.eastmoney.com
 0.0.0.0	same.eastmoney.com
+0.0.0.0	easy-pl-pay.shop
 0.0.0.0	easygbd.cn
 0.0.0.0	easyliao.com
 0.0.0.0	easyparkil.eu.cc
@@ -10462,7 +10616,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	ecjg.cn
 0.0.0.0	eco-in-homeservice.com
 0.0.0.0	ecoalfonline.shop
+0.0.0.0	ecocloudstrategy.sbs
+0.0.0.0	ecomatrix.sbs
 0.0.0.0	ecomhiveship.com
+0.0.0.0	ecoproedge.sbs
 0.0.0.0	ecotripbd.com
 0.0.0.0	ecp-kuailian.com.cn
 0.0.0.0	ecqgoyev.shop
@@ -10935,6 +11092,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	eknz.cn
 0.0.0.0	ekpsn3kja.com
 0.0.0.0	ekuailian.com.cn
+0.0.0.0	ekvskdkcwkvre.sbs
 0.0.0.0	ekzf.cn
 0.0.0.0	elchuleo.com
 0.0.0.0	adashx.ut.ele.me
@@ -10947,8 +11105,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	www1.elecfans.com
 0.0.0.0	electris.shop
 0.0.0.0	elegooworks.shop
+0.0.0.0	smetrics.element14.cn
 0.0.0.0	target.element14.cn
 0.0.0.0	elementaw.com
+0.0.0.0	elevatecenter.sbs
+0.0.0.0	elevatefinancepoint.pics
+0.0.0.0	elevateinsight2.pics
+0.0.0.0	elevateriselink.sbs
 0.0.0.0	elevatoredu.com.cn
 0.0.0.0	elevensky.net
 0.0.0.0	elinetech.com.cn
@@ -11016,7 +11179,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	enniarief.com
 0.0.0.0	eap.enorth.com.cn
 0.0.0.0	eap.big5.enorth.com.cn
-0.0.0.0	enro-s3sciencet-store.s3.us-east-1.amazonaws.com
 0.0.0.0	enshuxx77x.xyz
 0.0.0.0	enterpriser.com.cn
 0.0.0.0	js.entm.top
@@ -11055,6 +11217,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mo.erkesi.cn
 0.0.0.0	eroticsuperheroines.com
 0.0.0.0	sentry.erp321.com
+0.0.0.0	www.errornuker.com
 0.0.0.0	ert100.com
 0.0.0.0	ertongdianyingtuijan.com.cn
 0.0.0.0	erun-tech.com
@@ -11092,14 +11255,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	et666.xyz
 0.0.0.0	etaxtw.cn
 0.0.0.0	eteun.cn
-0.0.0.0	etgul.cn
 0.0.0.0	ethan.wang
 0.0.0.0	ethlulanqiqukuaichaxun.com.cn
 0.0.0.0	ethus.us
 0.0.0.0	ad.etnetchina.cn
 0.0.0.0	etomwbn.cn
 0.0.0.0	etoolads.cn
-0.0.0.0	marketing.etouch.cn
 0.0.0.0	static.etouch.cn
 0.0.0.0	zhwnlapi.etouch.cn
 0.0.0.0	etr407.net
@@ -11130,6 +11291,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	evn73u05.cn
 0.0.0.0	dw.evo.cn
 0.0.0.0	g.x.evolife.cn
+0.0.0.0	evolvenanoadvisory.sbs
 0.0.0.0	evoly.cn
 0.0.0.0	evoqueebikeshop.shop
 0.0.0.0	evq-pc-binance.com.cn
@@ -11157,6 +11319,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ey-gate.hl.cn
 0.0.0.0	veepai-device-log.eye4.cn
 0.0.0.0	eyewand.cn
+0.0.0.0	eyhae.icu
 0.0.0.0	eylqbeu.cn
 0.0.0.0	eyouonline.com.cn
 0.0.0.0	eyouv.cn
@@ -11277,6 +11440,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	facebookma.cn
 0.0.0.0	facegod9.com
 0.0.0.0	faceton.com
+0.0.0.0	factornetwork.sbs
 0.0.0.0	fad9e7ce5a0de13c.com
 0.0.0.0	fada12888888.work
 0.0.0.0	fada777.com
@@ -11378,6 +11542,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fast-k1sports.com.cn
 0.0.0.0	fastapi.net
 0.0.0.0	fastcache.com.cn
+0.0.0.0	fastmor.com
 0.0.0.0	fatkuailian.com.cn
 0.0.0.0	fatly-mlsports.com.cn
 0.0.0.0	favfot.com
@@ -11421,7 +11586,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bejing-basfezghkf.cn-beijing.fcapp.run
 0.0.0.0	c-c-backelmjyx.cn-hangzhou.fcapp.run
 0.0.0.0	c-c-backelmjyx.cn-shanghai.fcapp.run
-0.0.0.0	c-proxy-xjmkjgbsdn.cn-hangzhou.fcapp.run
 0.0.0.0	cbaidu-gaphidfohs.cn-hangzhou.fcapp.run
 0.0.0.0	cloud-sync-bcjxmnarpb.cn-shanghai.fcapp.run
 0.0.0.0	cngov-gov-xejpcmqhyb.cn-shanghai.fcapp.run
@@ -11442,6 +11606,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	test-idnhxejcpy.cn-hangzhou.fcapp.run
 0.0.0.0	test-ueicbfazir.cn-hangzhou.fcapp.run
 0.0.0.0	yhs-gthjhxltud.cn-zhangjiakou.fcapp.run
+0.0.0.0	smetrics.fcbarcelona.cn
 0.0.0.0	fcbba1b77cde2ad5.com
 0.0.0.0	dsp.fcbox.com
 0.0.0.0	hugelog.fcbox.com
@@ -11531,11 +11696,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	feitianma.com
 0.0.0.0	feivhfgev.cn
 0.0.0.0	feixiasusong.cn
+0.0.0.0	felecazaexcollective.pics
 0.0.0.0	felizpg.com
+0.0.0.0	fuckyou.femboy-e.date
+0.0.0.0	fuckyou.femboys.dating
 0.0.0.0	femdom-sissy.com
 0.0.0.0	cgdh.fenbengpan.cn
 0.0.0.0	data-api.fenbi.com
-0.0.0.0	fenbo.cn
 0.0.0.0	ggllqs.fengak.cn
 0.0.0.0	fengjinbao.com
 0.0.0.0	api-fp-retry-na.fengkongcloud.com
@@ -11645,6 +11812,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fileshider.com
 0.0.0.0	filetool.cn
 0.0.0.0	finalshell.com.cn
+0.0.0.0	finance92-itaque15.sbs
 0.0.0.0	find-dingsheng.com.cn
 0.0.0.0	ad.findic.com
 0.0.0.0	finegl.com
@@ -11699,6 +11867,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	fkkbet4.com
 0.0.0.0	fkkuailian.hl.cn
 0.0.0.0	datareport.fkw.com
+0.0.0.0	flar-ecode365.sbs
+0.0.0.0	flareedgemedia.sbs
 0.0.0.0	flash.cn
 0.0.0.0	news.flashget.com
 0.0.0.0	flashpdf.cn
@@ -11730,7 +11900,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	floh.cn
 0.0.0.0	nezha.floqo.cn
 0.0.0.0	floralwhim.com
+0.0.0.0	flowcoreprime.sbs
+0.0.0.0	flowcorexlink.pics
+0.0.0.0	flowfundcenter.sbs
 0.0.0.0	flowgrid.digital
+0.0.0.0	flownextlink.sbs
+0.0.0.0	flowsmartchain.sbs
+0.0.0.0	flowworksmodule.sbs
 0.0.0.0	flowyaipc.cn
 0.0.0.0	flsfzr.cn
 0.0.0.0	flstudiochina.com
@@ -11748,7 +11924,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cfgc.flysleep.cn
 0.0.0.0	log-auth.flysleep.cn
 0.0.0.0	upc.flysleep.cn
-0.0.0.0	flyye.cn
 0.0.0.0	fm1007.net
 0.0.0.0	fm120.cn
 0.0.0.0	fm120.com
@@ -11760,6 +11935,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fnd-inc.com
 0.0.0.0	fndeo.cn
 0.0.0.0	fnuj.cn
+0.0.0.0	foc-us1logic.sbs
 0.0.0.0	focus-pl.shop
 0.0.0.0	adv-sv-show.focus.cn
 0.0.0.0	adv-sv-stat.focus.cn
@@ -11780,8 +11956,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	focusgardm.shop
 0.0.0.0	focusgardom.shop
 0.0.0.0	focusgpl.shop
+0.0.0.0	focusgroupchain.pics
 0.0.0.0	focussklep.shop
 0.0.0.0	focustaze.shop
+0.0.0.0	focusturboventures.pics
 0.0.0.0	focuzuh.cn
 0.0.0.0	foeo.cn
 0.0.0.0	foisonad.com
@@ -11802,12 +11980,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	foozrrli.shop
 0.0.0.0	for-wps.com.cn
 0.0.0.0	metrics.ford.com
+0.0.0.0	smetrics.ford.com
+0.0.0.0	smetrics.sandbox.ford.com
+0.0.0.0	3zmb53.fordmodels.cn
 0.0.0.0	forestbooks.cn
 0.0.0.0	foresterphoto.com
 0.0.0.0	forestseasons.com.cn
 0.0.0.0	foreverlin.cn
 0.0.0.0	forfizjo.shop
 0.0.0.0	forfizjopl.shop
+0.0.0.0	forgeelevate.sbs
+0.0.0.0	forgestudiodigital.pics
 0.0.0.0	forleedia.com
 0.0.0.0	formal-youdao.com.cn
 0.0.0.0	formysql.com
@@ -11833,6 +12016,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fpga-china.com
 0.0.0.0	fpwg.cn
 0.0.0.0	fpxunnw.cn
+0.0.0.0	fqgbcis.icu
 0.0.0.0	fqgty.com
 0.0.0.0	fqmgb.com
 0.0.0.0	fqncn.com
@@ -11867,6 +12051,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	fr-wps.com.cn
 0.0.0.0	fractionu.com
 0.0.0.0	fraichepr.com
+0.0.0.0	frame2025orbit.pics
 0.0.0.0	francis-eck.com
 0.0.0.0	frank-bet365.com.cn
 0.0.0.0	phish.frank.xin
@@ -11900,6 +12085,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	friweb3.top
 0.0.0.0	frodzo.club
 0.0.0.0	front-wendingyule.com.cn
+0.0.0.0	smetrics.frontline.com.cn
 0.0.0.0	c044bc8809ed5.cname.frontwize.com
 0.0.0.0	cda3944048299.cname.frontwize.com
 0.0.0.0	cn-bj1-kvlqs4ee.frp.cool
@@ -11914,12 +12100,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	fscfeug.cn
 0.0.0.0	fshonly.com
 0.0.0.0	fspwxalu.cc
-0.0.0.0	fsrzcnc.com
 0.0.0.0	fsslg.com
 0.0.0.0	fsxc.com.cn
 0.0.0.0	fsycgc.com
 0.0.0.0	image.fsyule.net
-0.0.0.0	ftdg.com.cn
 0.0.0.0	ftgyvyy.cn
 0.0.0.0	fthfqnri.shop
 0.0.0.0	ftmarkets.com
@@ -11928,12 +12112,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	ftservices.cn
 0.0.0.0	fttdtshmudsfffhhtgjs.top
 0.0.0.0	fu-qing.com.cn
+0.0.0.0	fucahotabeusinvestments.sbs
 0.0.0.0	fuckspin.com
 0.0.0.0	fucnm.com
 0.0.0.0	amoeba.fudata.cn
 0.0.0.0	fudingmajangqun.com.cn
 0.0.0.0	fudouqianbaoxiazaigw.com.cn
 0.0.0.0	fuelpass-account.cc
+0.0.0.0	fufesajainvestments24.sbs
 0.0.0.0	fugetech.com
 0.0.0.0	fugkkarh.shop
 0.0.0.0	fuiouyes.com
@@ -11981,12 +12167,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	furnmuse.com
 0.0.0.0	fusebase.cn
 0.0.0.0	fushigroup.cn
+0.0.0.0	fusionchainstation.sbs
+0.0.0.0	fusionedgeglobal.sbs
+0.0.0.0	fusiontokenio.sbs
 0.0.0.0	futengbao.com.cn
 0.0.0.0	futongdf.com.cn
 0.0.0.0	futucrypto.com
 0.0.0.0	trk.futureelectronics.cn
+0.0.0.0	futuremeshhyper.pics
 0.0.0.0	fututrade.com
-0.0.0.0	m.fuwosi.cn
 0.0.0.0	fuwpyeot.shop
 0.0.0.0	fuyuancc.com
 0.0.0.0	download.fuyuncc.com
@@ -12009,8 +12198,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.fx168api.com
 0.0.0.0	fx455rrt4b.com
 0.0.0.0	dms.fx678.com
-0.0.0.0	user.fxbtg-en.wiki
-0.0.0.0	user.fxbtg.trading
 0.0.0.0	fxdh.art
 0.0.0.0	fxexuov.xyz
 0.0.0.0	fxgh.art
@@ -12049,9 +12236,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	fzy1344.cn
 0.0.0.0	fzyjwl09.cn
 0.0.0.0	simulatelab-datasink.fzzixun.com
+0.0.0.0	g-at-whatsapp.com.cn
 0.0.0.0	g-chrome-google.com.cn
+0.0.0.0	g-or-whatsapp.com.cn
 0.0.0.0	g-security.cn
+0.0.0.0	g-w-hatsapp.com.cn
 0.0.0.0	g-way.cn
+0.0.0.0	g-whatsap-p.com.cn
 0.0.0.0	g-z-z-x.com
 0.0.0.0	g15wt3ci68.com
 0.0.0.0	r01.g1c5.com
@@ -12096,6 +12287,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ng-vn-notice.gameitop.com
 0.0.0.0	gamekk2.com
 0.0.0.0	ad.gameley.com
+0.0.0.0	gameqiruyoonconsulting36.sbs
 0.0.0.0	ab3de9.gamersky.com
 0.0.0.0	click.gamersky.com
 0.0.0.0	ja.gamersky.com
@@ -12106,6 +12298,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	sentry.gametaptap.com
 0.0.0.0	gamexbase.com
 0.0.0.0	gamingcloud.online
+0.0.0.0	gamma-neonode.pics
+0.0.0.0	gammainfo.sbs
 0.0.0.0	gangda.info
 0.0.0.0	gangnizhi.com
 0.0.0.0	jiaoben.ganji.cn
@@ -12210,7 +12404,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gb686.cn
 0.0.0.0	gbdggsm.vip
 0.0.0.0	gbgglogistics.com
-0.0.0.0	web.gbhysaxa.cn
 0.0.0.0	gbskptu1044.vip
 0.0.0.0	gbw600.com
 0.0.0.0	gcclife.cn
@@ -12245,6 +12438,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	gdtqq.cn
 0.0.0.0	gduel.cn
 0.0.0.0	gduell.cn
+0.0.0.0	gdxt10.cn
 0.0.0.0	gdxyty.cn
 0.0.0.0	gdzql.com
 0.0.0.0	ge.cn
@@ -12260,15 +12454,21 @@ ff02::3	ip6-allhosts
 0.0.0.0	g.gegeyingshi.com
 0.0.0.0	geindex.com
 0.0.0.0	apk.gelinboer.cn
+0.0.0.0	gemabebunoisholdings.sbs
 0.0.0.0	gemkuailian.com.cn
 0.0.0.0	gems-tech.cn
 0.0.0.0	genecine.com.cn
+0.0.0.0	generaly.top
+0.0.0.0	genesiscloud.sbs
 0.0.0.0	geniusara.com
 0.0.0.0	learning.gensci-china.com
 0.0.0.0	webanalytics.internet.genscript.com
 0.0.0.0	gensokyo.asia
 0.0.0.0	gentle-bet365.com.cn
 0.0.0.0	geobaodan.com
+0.0.0.0	geodeltametrics.sbs
+0.0.0.0	geoevolvelogic.pics
+0.0.0.0	geologicfinance.sbs
 0.0.0.0	code.geonamebase.com
 0.0.0.0	geotmt.com
 0.0.0.0	gepush.com
@@ -12303,6 +12503,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	getzw.com
 0.0.0.0	biz.gexing.com
 0.0.0.0	a1.gexing.me
+0.0.0.0	geyuwiongroupinc.pics
 0.0.0.0	gf-clahs.com.cn
 0.0.0.0	gf-telegram.com.cn
 0.0.0.0	gfi-firefox.com.cn
@@ -12319,6 +12520,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	ggkbnotnox.cn
 0.0.0.0	ggmm777.com
 0.0.0.0	ggoogle.com.cn
+0.0.0.0	ggpoker-cctv.com.cn
+0.0.0.0	ggpoker-cntv.com.cn
+0.0.0.0	ggpoker-live.com.cn
+0.0.0.0	ggpoker-sohu.com.cn
 0.0.0.0	ggsa-wps.com.cn
 0.0.0.0	ggsp-sbetsports.com.cn
 0.0.0.0	ggstnyw.cn
@@ -12335,7 +12540,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ghanapiost.eu.cc
 0.0.0.0	ghanapoest.eu.cc
 0.0.0.0	ghaposti.cn
-0.0.0.0	gharieni.cn
 0.0.0.0	ghhw-wps.com.cn
 0.0.0.0	ghi-sougou.com.cn
 0.0.0.0	ghkuailian.com.cn
@@ -12344,7 +12548,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ghtwf01.cn
 0.0.0.0	ghuzfkw.cn
 0.0.0.0	ghyufo.cn
-0.0.0.0	gi.cn
 0.0.0.0	giant-bet365.com.cn
 0.0.0.0	giantank.cn
 0.0.0.0	sxl1979.gicp.net
@@ -12376,6 +12579,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	giocdn.com
 0.0.0.0	giomeru.com
 0.0.0.0	stats.gioneemobile.net
+0.0.0.0	girlstalks.ru
 0.0.0.0	gises.top
 0.0.0.0	gistalco.shop
 0.0.0.0	gitco.com.cn
@@ -12467,11 +12671,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	mobile.tradeshow.globalsources.com
 0.0.0.0	premierbuyer.edm.globalsources.com
 0.0.0.0	sentry.globalsources.com
+0.0.0.0	smkt.edm.globalsources.com
 0.0.0.0	summit.edm.globalsources.com
 0.0.0.0	techgifts.tradeshow.globalsources.com
 0.0.0.0	tradeshow.edm.globalsources.com
+0.0.0.0	globalsphere1.pics
 0.0.0.0	globaltradenetworks.com
 0.0.0.0	globaltrustledgers.com
+0.0.0.0	globeerp.com
 0.0.0.0	globego.life
 0.0.0.0	hnjgdl.geps.glodon.com
 0.0.0.0	1.glook.cn
@@ -12577,6 +12784,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	gobeipe.qpon
 0.0.0.0	gobepe.qpon
 0.0.0.0	gobipe.qpon
+0.0.0.0	gobrightconnect.sbs
 0.0.0.0	gobupe.qpon
 0.0.0.0	gocye.com
 0.0.0.0	god123.cn
@@ -12607,6 +12815,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	gokutahya.shop
 0.0.0.0	nezha.goldage.top
 0.0.0.0	goldengoosee.com
+0.0.0.0	goldenmister-casino.bond
 0.0.0.0	goldennumis.store
 0.0.0.0	goldenpoker.cn
 0.0.0.0	goldpoem.com
@@ -12622,8 +12831,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	gonglue1.com
 0.0.0.0	gongxifc.com
 0.0.0.0	gongyichuangyi.net
+0.0.0.0	gonocetaisgroup.sbs
 0.0.0.0	gonzatocontract.cn
 0.0.0.0	e.goodgz.cn
+0.0.0.0	cdn.file6.goodid.com
 0.0.0.0	file3.goodid.com
 0.0.0.0	statistics.goodix.com
 0.0.0.0	goodlabel.cn
@@ -12874,7 +13085,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	goubaoqianbaoappxiazaigw.com.cn
 0.0.0.0	goubaoqianbaoguanwangxiazaigw.com.cn
 0.0.0.0	goujipao.com.cn
-0.0.0.0	goupopo.cn
 0.0.0.0	goutao.top
 0.0.0.0	ddd.gouwuke.cn
 0.0.0.0	gouzhibao.cn
@@ -12920,7 +13130,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gpthink.com
 0.0.0.0	gpxxbyf.cn
 0.0.0.0	gq-kuailian.com.cn
-0.0.0.0	gqdfgyz.cn
 0.0.0.0	gqhe-wending.com.cn
 0.0.0.0	gr-wps.com.cn
 0.0.0.0	cms.grandcloud.cn
@@ -12942,8 +13151,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	cp.greenxf.cn
 0.0.0.0	greindustry.com
 0.0.0.0	z.grfyw.com
+0.0.0.0	gridanalyticsunion.sbs
+0.0.0.0	gridastropattern.sbs
 0.0.0.0	gridsum.com
 0.0.0.0	gridsumdissector.com
+0.0.0.0	gridventuresventures.sbs
 0.0.0.0	gripgrabactive.shop
 0.0.0.0	grixnwy.cn
 0.0.0.0	groupde.click
@@ -12952,6 +13164,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	growingio.cn
 0.0.0.0	growingio.com
 0.0.0.0	growith.digital
+0.0.0.0	growthfusion.sbs
 0.0.0.0	growthsource.net
 0.0.0.0	event-log-api-data-platform-data-lake-prod.gryphline.com
 0.0.0.0	eventlog.gryphline.com
@@ -12984,7 +13197,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gtcqbnu.cn
 0.0.0.0	sentry.gtech.asia
 0.0.0.0	gth-whatsapp.com.cn
-0.0.0.0	telemetry.gtht.com
 0.0.0.0	oldk.gtifund.cn
 0.0.0.0	g.gtimg.cn
 0.0.0.0	pgdt.gtimg.cn
@@ -13027,17 +13239,20 @@ ff02::3	ip6-allhosts
 0.0.0.0	gucigj.com
 0.0.0.0	gucihand.com
 0.0.0.0	gudongchunjingshui.cn
+0.0.0.0	guducawaexmanagement2026.sbs
 0.0.0.0	guge-wps.com.cn
 0.0.0.0	cdn-cms.guguread.com
 0.0.0.0	fbapi.guguread.com
 0.0.0.0	umami.guguwo.top
 0.0.0.0	guitarpro.cc
+0.0.0.0	gujehavioninvestments.sbs
 0.0.0.0	gujian8888.xyz
 0.0.0.0	gulongonline.com.cn
 0.0.0.0	gulshantwospa.com
 0.0.0.0	gultendye.com
 0.0.0.0	gumgo.cn
 0.0.0.0	gunmi.cn
+0.0.0.0	gunnarvelten.shop
 0.0.0.0	1.gunsuo.com
 0.0.0.0	guochanjumianfeiguankanwanzhengbangaoqng.com.cn
 0.0.0.0	old.guodaiwang.com
@@ -13053,6 +13268,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ggw.gusuwang.com
 0.0.0.0	gutousoft.com
 0.0.0.0	m.guvdfs.cn
+0.0.0.0	guyureoroperations.sbs
 0.0.0.0	guzhibo.cn
 0.0.0.0	guzsjdl.cn
 0.0.0.0	gva.cc
@@ -13084,7 +13300,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gxprokang.com
 0.0.0.0	gxsrcs.com
 0.0.0.0	gxssjz.com
-0.0.0.0	gxtvu.com.cn
 0.0.0.0	status.gxusb.com
 0.0.0.0	gxv-sogou.com.cn
 0.0.0.0	gxv-wps.com.cn
@@ -13288,9 +13503,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	hbjgyfl.com
 0.0.0.0	img1.hblds.com
 0.0.0.0	hblfcl.com.cn
+0.0.0.0	hblhxx.com.cn
 0.0.0.0	datareportapi.hbooker.com
 0.0.0.0	sensorsdata.hbooker.com
 0.0.0.0	hbqxbj.com
+0.0.0.0	hbsjx.sh.cn
 0.0.0.0	hbssjd.cn
 0.0.0.0	hbssyy.cn
 0.0.0.0	hbsztzqc.com
@@ -13374,6 +13591,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hemubd.com
 0.0.0.0	henanfa.com
 0.0.0.0	hengdadoor.com
+0.0.0.0	hengde.cn
 0.0.0.0	hengfashipping.com
 0.0.0.0	hengfumachine.cn
 0.0.0.0	henghangjiaoyu.com
@@ -13643,7 +13861,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	api.eu.hismarttv.com
 0.0.0.0	auth-em.hismarttv.com
 0.0.0.0	auth-eu.hismarttv.com
-0.0.0.0	auth-jp.hismarttv.com
 0.0.0.0	auth-launcher-em.hismarttv.com
 0.0.0.0	auth-launcher-eu.hismarttv.com
 0.0.0.0	auth-launcher-jp.hismarttv.com
@@ -13754,6 +13971,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hly.com
 0.0.0.0	hm7sw2.shop
 0.0.0.0	mrxubri.hmctmm.cn
+0.0.0.0	pzyiku.hmctmy.cn
 0.0.0.0	hmdjmona.cn
 0.0.0.0	hml8888.com
 0.0.0.0	hmlkppk.cn
@@ -13769,7 +13987,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hnf.cn
 0.0.0.0	kn.hnfxty.cn
 0.0.0.0	yp.hnggzyjy.cn
-0.0.0.0	hnhb123.cn
 0.0.0.0	hnitat.com.cn
 0.0.0.0	hnjczg.cn
 0.0.0.0	hnjrdzkj.xyz
@@ -13789,16 +14006,21 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.hnzls8.cn
 0.0.0.0	v.hnzls8.cn
 0.0.0.0	hnzzdy.cn
+0.0.0.0	ho521.cn
 0.0.0.0	hoaihe.store
 0.0.0.0	hofosoft.cn
 0.0.0.0	hohap11hub-1.com
 0.0.0.0	metrics.hollisterco.cn
+0.0.0.0	smetrics.hollisterco.cn
 0.0.0.0	home.holmesian.org
 0.0.0.0	hologramid.cn
+0.0.0.0	home-bwinsport.com.cn
 0.0.0.0	home-clash.hl.cn
 0.0.0.0	home-live-anbo.com.cn
 0.0.0.0	home-match-hth-sports.com.cn
 0.0.0.0	home-score-iyx-sports.com.cn
+0.0.0.0	home-ueg-whatsappm.com.cn
+0.0.0.0	home-you.ink
 0.0.0.0	bd1.home8080.cn
 0.0.0.0	bd2.home8080.cn
 0.0.0.0	homespl.shop
@@ -13821,12 +14043,43 @@ ff02::3	ip6-allhosts
 0.0.0.0	hopemobi.net
 0.0.0.0	hoplasingapore.shop
 0.0.0.0	hoppg.com
+0.0.0.0	hori-zonsystems.sbs
 0.0.0.0	horizon-continental.cn
+0.0.0.0	horizon101capital.pics
 0.0.0.0	hornytraffic.com
 0.0.0.0	wxmini-log.hortorgames.com
 0.0.0.0	horu.world
+0.0.0.0	hosamefudumoperations16.sbs
 0.0.0.0	hoshinasuzu.cn
 0.0.0.0	hospital.gd.cn
+0.0.0.0	host03s.cfd
+0.0.0.0	host07s.cfd
+0.0.0.0	host11s.cfd
+0.0.0.0	host20s.cfd
+0.0.0.0	host28p.cfd
+0.0.0.0	host30p.cfd
+0.0.0.0	host30v.cfd
+0.0.0.0	host32s.cfd
+0.0.0.0	host39p.cfd
+0.0.0.0	host42q.cfd
+0.0.0.0	host45p.cfd
+0.0.0.0	host48p.cfd
+0.0.0.0	host55p.cfd
+0.0.0.0	host59s.cfd
+0.0.0.0	host62k.cfd
+0.0.0.0	host64s.cfd
+0.0.0.0	host68p.cfd
+0.0.0.0	host69p.cfd
+0.0.0.0	host77k.cfd
+0.0.0.0	host77s.cfd
+0.0.0.0	host78k.cfd
+0.0.0.0	host78p.cfd
+0.0.0.0	host78v.cfd
+0.0.0.0	host88s.cfd
+0.0.0.0	host88v.cfd
+0.0.0.0	host94k.cfd
+0.0.0.0	host97s.cfd
+0.0.0.0	host99k.cfd
 0.0.0.0	hostads.cn
 0.0.0.0	hostgozar.com
 0.0.0.0	set.dcim-test-docker2.hostinginside.com
@@ -14049,9 +14302,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	inner-hw.huazirc.com
 0.0.0.0	hub-wending.com.cn
 0.0.0.0	hub-wendinggame.com.cn
+0.0.0.0	hubastrotech1.sbs
 0.0.0.0	hubcloud.com.cn
 0.0.0.0	hubeixuekao.com
 0.0.0.0	hubong.com
+0.0.0.0	hubquantum1.sbs
 0.0.0.0	hubrixodex.com
 0.0.0.0	download2.huduntech.com
 0.0.0.0	sentry.huhuguanjia.com
@@ -14214,7 +14469,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	hyjctech.com
 0.0.0.0	hyjinlu.cn
 0.0.0.0	hykryc.cn
+0.0.0.0	hypercorelab.sbs
+0.0.0.0	hyperd-ynamics.sbs
+0.0.0.0	hyperglobalcapital.sbs
+0.0.0.0	hyperglobalgroup.sbs
+0.0.0.0	hyperinsight.sbs
 0.0.0.0	hyperliquid.hk.cn
+0.0.0.0	hypero-neenterprise.sbs
 0.0.0.0	hypers.com
 0.0.0.0	hypers.com.cn
 0.0.0.0	hyperz.top
@@ -14245,6 +14506,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad-collect.hzyoka.com
 0.0.0.0	hzzxxny.com
 0.0.0.0	i-fk.cn
+0.0.0.0	i-h-d-a.com
 0.0.0.0	i-monero.com
 0.0.0.0	i-quark.com.cn
 0.0.0.0	download.i-tax.cn
@@ -14277,7 +14539,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gdl.i9dhjx.ru
 0.0.0.0	iaae-wending.com.cn
 0.0.0.0	iako.cn
-0.0.0.0	iamiracle.com
 0.0.0.0	dd.iask.cn
 0.0.0.0	2z213948z7.iask.in
 0.0.0.0	ib00.cn
@@ -14330,6 +14591,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	icy-bet365.com.cn
 0.0.0.0	id-line.com.cn
 0.0.0.0	id-sogou.com.cn
+0.0.0.0	id3506436.shop
 0.0.0.0	id6.me
 0.0.0.0	idc.hl.cn
 0.0.0.0	idcfengye.com
@@ -14399,6 +14661,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	online.3g.ifeng.com
 0.0.0.0	qcvf.ifeng.com
 0.0.0.0	rugncn.ifeng.com
+0.0.0.0	snbnhngl.ifeng.com
 0.0.0.0	stadig.ifeng.com
 0.0.0.0	stadig0.ifeng.com
 0.0.0.0	survey.news.ifeng.com
@@ -14456,6 +14719,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	iimedia.cn
 0.0.0.0	3389.iis7.com
 0.0.0.0	3389.iis7.net
+0.0.0.0	iiyout.cn
 0.0.0.0	ij-sougou.com.cn
 0.0.0.0	ij1kuailian.com.cn
 0.0.0.0	ij2-kuailian.com.cn
@@ -14478,8 +14742,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads.ilive.cn
 0.0.0.0	ilkuailian.com.cn
 0.0.0.0	ilkwork.com
+0.0.0.0	smetrics.illumina.com.cn
 0.0.0.0	ilovejili.net
 0.0.0.0	metrics.ilovematlab.cn
+0.0.0.0	smetrics.ilovematlab.cn
 0.0.0.0	iloveyou.com.bd
 0.0.0.0	im-wending.com.cn
 0.0.0.0	api.im.sb
@@ -14487,6 +14753,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	imageter.com
 0.0.0.0	imaginariopresente.com
 0.0.0.0	imagiraffe.shop
+0.0.0.0	imajbetgirisyapin.cam
 0.0.0.0	imalloc.cn
 0.0.0.0	imba97.cn
 0.0.0.0	imbbs.in
@@ -14500,6 +14767,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tj.img4399.com
 0.0.0.0	imglt.com
 0.0.0.0	stat.titan.imgo.tv
+0.0.0.0	imgoogle.cn
 0.0.0.0	imgpop.online
 0.0.0.0	imindmap.cc
 0.0.0.0	imlb2c.com
@@ -14525,6 +14793,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	imtken.cn
 0.0.0.0	imtodo.cn
 0.0.0.0	imtokan.com.cn
+0.0.0.0	www.imtokcn.com.cn
 0.0.0.0	imtokec.com.cn
 0.0.0.0	imtokee.com.cn
 0.0.0.0	imtoken-android.org.cn
@@ -14537,6 +14806,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	imtuken.com.cn
 0.0.0.0	2313u080t2.imwork.net
 0.0.0.0	imw100pass.imwork.net
+0.0.0.0	smiss.imwork.net
 0.0.0.0	imzone.in
 0.0.0.0	status.imzzh.cn
 0.0.0.0	in-line.com.cn
@@ -14590,7 +14860,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	infopaypay.net
 0.0.0.0	informing.top
 0.0.0.0	infoskycargo.com
+0.0.0.0	infoventuresxgo.pics
 0.0.0.0	vps.infpro.cn
+0.0.0.0	infracloudnetwork.sbs
+0.0.0.0	infraflownode.pics
+0.0.0.0	infrapatt-ern101.pics
 0.0.0.0	x.infzm.com
 0.0.0.0	sentry.ingka-system.cn
 0.0.0.0	app.inke.com
@@ -14609,11 +14883,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	innocentia-cats.com
 0.0.0.0	qfy.innotechx.com
 0.0.0.0	innotimegood.com
+0.0.0.0	innoviq.sbs
 0.0.0.0	inping.com
 0.0.0.0	input-whatsapp.com.cn
 0.0.0.0	inschool.top
 0.0.0.0	insenz.com
+0.0.0.0	insight247token.sbs
+0.0.0.0	insight365network.pics
 0.0.0.0	insightrix.digital
+0.0.0.0	insightstellar247.sbs
 0.0.0.0	api-data-collection.insta360.cn
 0.0.0.0	sentry.insta360.cn
 0.0.0.0	sentry-sg.insta360.com
@@ -14640,6 +14918,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cane.intel.cn
 0.0.0.0	dogo.intel.cn
 0.0.0.0	intely.cn
+0.0.0.0	smetrics.marketing.interact-lighting.com.cn
 0.0.0.0	log.interface003.com
 0.0.0.0	interiorous.com
 0.0.0.0	interknot.site
@@ -14733,6 +15012,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	policy.video.iqiyi.com
 0.0.0.0	puma-api.iqiyi.com
 0.0.0.0	puma.api.iqiyi.com
+0.0.0.0	sns-paopao.iqiyi.com
 0.0.0.0	static-s.iqiyi.com
 0.0.0.0	static.g.iqiyi.com
 0.0.0.0	store.iqiyi.com
@@ -14745,7 +15025,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	irallcpartner.com
 0.0.0.0	irantourinfo.com
 0.0.0.0	irbazdid.com
-0.0.0.0	ircadcn.com
 0.0.0.0	trk.irco.com.cn
 0.0.0.0	ircrec.com
 0.0.0.0	irdtp.one
@@ -14898,6 +15177,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jackpot.de
 0.0.0.0	jackrogers.cn
 0.0.0.0	jaclynreid.shop
+0.0.0.0	jafujubiiasystems.sbs
 0.0.0.0	jajx.com
 0.0.0.0	jameelmotors.cn
 0.0.0.0	s.jandan.com
@@ -14917,6 +15197,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jb-kuailian.com.cn
 0.0.0.0	icws.jb51.net
 0.0.0.0	jbcbio.cn
+0.0.0.0	soft.jbdown.net
 0.0.0.0	jbfhf.cn
 0.0.0.0	jbflil.cn
 0.0.0.0	ledger.jbhjiaju.com
@@ -14928,6 +15209,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jbzj.com
 0.0.0.0	gg1.jc001.cn
 0.0.0.0	stat.jc001.cn
+0.0.0.0	jc1.cn
 0.0.0.0	jiankong.jc12.cn
 0.0.0.0	jc615cezcq.world
 0.0.0.0	jcab.cn
@@ -14969,8 +15251,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	jzt.jd.com
 0.0.0.0	kepler.jd.com
 0.0.0.0	log.jd.com
-0.0.0.0	mapi.m.jd.com
-0.0.0.0	mars.jd.com
 0.0.0.0	mercury.jd.com
 0.0.0.0	mllog.jd.com
 0.0.0.0	nfa.jd.com
@@ -15007,8 +15287,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	jerrys.market
 0.0.0.0	jesan.net
 0.0.0.0	jesgoo.com
+0.0.0.0	jesofodifaonoperationsinc.sbs
 0.0.0.0	jessicajacob.shop
 0.0.0.0	jetrise.digital
+0.0.0.0	jeyikegizumconsulting88.pics
 0.0.0.0	jfegn.cn
 0.0.0.0	jfleasing.com
 0.0.0.0	jfmfmgj.cn
@@ -15018,6 +15300,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jfwv6yhzer.top
 0.0.0.0	jfy-stone.cn
 0.0.0.0	jg3f.cn
+0.0.0.0	m.jg59q.cn
 0.0.0.0	jgbet2.com
 0.0.0.0	jgid.cn
 0.0.0.0	jgitvf.cn
@@ -15045,6 +15328,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ji86yu.cn
 0.0.0.0	rczp.jia.com
 0.0.0.0	jiaixin.com
+0.0.0.0	jialeague.hl.cn
 0.0.0.0	api.jialiangad.com
 0.0.0.0	jiamianqishiyouxi.com.cn
 0.0.0.0	ads.jianchiapp.com
@@ -15069,6 +15353,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lc.jiathis.com
 0.0.0.0	v2.jiathis.com
 0.0.0.0	v3.jiathis.com
+0.0.0.0	api.book.jiaxiaobang.cn
 0.0.0.0	jiaxinkang.cn
 0.0.0.0	jiayi-luxury.com
 0.0.0.0	daima.jiazhao.com
@@ -15076,6 +15361,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jieanguoji.com
 0.0.0.0	jiedaibao.com
 0.0.0.0	jiedian970.online
+0.0.0.0	soft.jiegeng.com
 0.0.0.0	jiehunmishu.com
 0.0.0.0	jieinchangan.cn
 0.0.0.0	jielimag.com
@@ -15103,14 +15389,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	jilip05.xyz
 0.0.0.0	jilipt.cn
 0.0.0.0	jillrepp.shop
+0.0.0.0	jillstuart.cn
 0.0.0.0	jiluyisheng.com
 0.0.0.0	jimeisi.net
+0.0.0.0	jimilaluhiaventures.sbs
 0.0.0.0	jin1ri.top
 0.0.0.0	jinaiyuanyi.com
 0.0.0.0	jinbaoscoreline.com.cn
 0.0.0.0	jinbott.com
 0.0.0.0	jinchengreen.com
 0.0.0.0	sentry-prod.jindidata.com
+0.0.0.0	jinegoxuyonholdings.sbs
 0.0.0.0	jingbaotiyuzaixianzhibonbakuaichuanduiduitaiyang.com.cn
 0.0.0.0	jingcaionline.com.cn
 0.0.0.0	jingcaiw.com
@@ -15178,7 +15467,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	jjjwgc.net.cn
 0.0.0.0	jjmrgj.com
 0.0.0.0	jjrau1656.com
-0.0.0.0	jjsf.net.cn
 0.0.0.0	jjvbubodsfds.cn
 0.0.0.0	jjylwd.com
 0.0.0.0	jjyx.com
@@ -15245,6 +15533,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jnwan9diandingjunhuibisaizhibomianfei.com.cn
 0.0.0.0	jnykjgs.cn
 0.0.0.0	jnyngg.cn
+0.0.0.0	jnzrgvka.icu
 0.0.0.0	joanclimie.shop
 0.0.0.0	joannehorne.shop
 0.0.0.0	joannfultz.shop
@@ -15258,6 +15547,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	joeknowsgayporn.com
 0.0.0.0	joesclock.com
 0.0.0.0	joespunk.com
+0.0.0.0	jofizaceiainvestments2026.pics
 0.0.0.0	jogo004f.com
 0.0.0.0	jogo005f.com
 0.0.0.0	jogo006f.com
@@ -15270,6 +15560,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	johnsoncontrols.top
 0.0.0.0	joi09110pt.com
 0.0.0.0	joinbee.cn
+0.0.0.0	jojobet-anlikgirisliadres.icu
+0.0.0.0	jojobet-girisiyeniadres.icu
+0.0.0.0	jojobet-girisleritr.cfd
+0.0.0.0	jojobet-guncelsayfagiris.icu
+0.0.0.0	jojobet-orjinali.icu
+0.0.0.0	jojobet-resmigir.cfd
+0.0.0.0	jojobetgiris-23temmuz.cam
+0.0.0.0	jojobetquncel2026.cfd
+0.0.0.0	jojobettekampanya.icu
 0.0.0.0	joker77.bet
 0.0.0.0	joker77.club
 0.0.0.0	joker77.shop
@@ -15287,7 +15586,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.jooancloud.com
 0.0.0.0	telemetry.api.joox.com
 0.0.0.0	jooytec.com
+0.0.0.0	jopoqawiorresources.sbs
+0.0.0.0	josikulaexindustries.sbs
 0.0.0.0	jotoglobal.com
+0.0.0.0	joxebupirumservices.sbs
 0.0.0.0	joy-bet365.com.cn
 0.0.0.0	sentry.joybest.com.cn
 0.0.0.0	joybuysshoppe.com
@@ -15312,6 +15614,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jpuv.cn
 0.0.0.0	jpwq.cn
 0.0.0.0	jq-kuailian.com.cn
+0.0.0.0	jqfuser.icu
 0.0.0.0	jqkbet.bet
 0.0.0.0	jqki.cn
 0.0.0.0	jqkweb.bet
@@ -15398,6 +15701,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	julalova.com
 0.0.0.0	juliasbookbag.com
 0.0.0.0	juliuscasino77.com
+0.0.0.0	juluneumconsulting.pics
 0.0.0.0	jumbotutor.com
 0.0.0.0	jumcf.com
 0.0.0.0	c.jumorecn.com.cn
@@ -15420,6 +15724,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	justnowmn.com
 0.0.0.0	nezha.justss.site
 0.0.0.0	juuhe.com
+0.0.0.0	juwdbos.icu
 0.0.0.0	juxing365.top
 0.0.0.0	juyi-wl.com.cn
 0.0.0.0	juyide.com
@@ -15441,7 +15746,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aodlchangwangyj.jxckd.shop
 0.0.0.0	jxdown.com
 0.0.0.0	jxdqyx.com
-0.0.0.0	jxedf.org.cn
 0.0.0.0	richmanapi.jxedt.com
 0.0.0.0	richmanmain.jxedt.com
 0.0.0.0	richmanrules.jxedt.com
@@ -15470,6 +15774,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jyqpq.com
 0.0.0.0	jys-binance.com.cn
 0.0.0.0	prom-sdkv2.jysper.net
+0.0.0.0	jystsz.cn
 0.0.0.0	jyvac.com
 0.0.0.0	jyyunxing.cn
 0.0.0.0	jyzmsy.com.cn
@@ -15498,6 +15803,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	k1-binance.com.cn
 0.0.0.0	k11bet.cn
 0.0.0.0	t.k12.com.cn
+0.0.0.0	sodata.k12kc.com
 0.0.0.0	k2238.top
 0.0.0.0	k2252.top
 0.0.0.0	k2n0f.cn
@@ -15505,6 +15811,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	k55bet.com
 0.0.0.0	k69wes8q8.com
 0.0.0.0	k6bet7.com
+0.0.0.0	k6fg3.com
 0.0.0.0	k6p9m1.vip
 0.0.0.0	k8.com
 0.0.0.0	k8velr77p.com
@@ -15549,7 +15856,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.kangai100.cn
 0.0.0.0	v.kangai100.cn
 0.0.0.0	kangda1818.com
-0.0.0.0	kangshenshiji.cn
 0.0.0.0	img2.user.kanimg.com
 0.0.0.0	biz5.co.kankan.com
 0.0.0.0	float.co.kankan.com
@@ -15569,6 +15875,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	kaorouliu.com
 0.0.0.0	data.kaoyany.top
 0.0.0.0	kapai360.com
+0.0.0.0	kaqowojukoncollective.pics
+0.0.0.0	smetrics.karcher.cn
 0.0.0.0	karhusports.shop
 0.0.0.0	bee.kascend.com
 0.0.0.0	kasv.cn
@@ -15611,7 +15919,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	doit.kccqgj.cn
 0.0.0.0	kckj.xyz
 0.0.0.0	kclash.hl.cn
-0.0.0.0	kd5566kd.com
+0.0.0.0	kcxe.net
 0.0.0.0	kdd.cn
 0.0.0.0	kdings.com.cn
 0.0.0.0	kdmmm.cn
@@ -15693,6 +16001,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kf4kwomxhl.com
 0.0.0.0	ssp1.kfadx.tech
 0.0.0.0	kfbet.com
+0.0.0.0	kfbtrading.com.cn
 0.0.0.0	j.kfd3sm2c.com
 0.0.0.0	seo.kfj.cc
 0.0.0.0	kfjkddfmm.top
@@ -15733,6 +16042,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	khit.cn
 0.0.0.0	khsbt.com
 0.0.0.0	kht82.vip
+0.0.0.0	kibejukusindustries.sbs
 0.0.0.0	kickarea.cn
 0.0.0.0	kickoff-match-kaiyun.com.cn
 0.0.0.0	kihje.cn
@@ -15764,6 +16074,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	cloudservice27.kingsoft-office-service.com
 0.0.0.0	up.wps.kingsoft.com
 0.0.0.0	kinleung.cn
+0.0.0.0	smetrics.kioxia.com.cn
 0.0.0.0	kissfang.cn
 0.0.0.0	kivo.fun
 0.0.0.0	kiwf.cn
@@ -15780,7 +16091,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adl.kkguan.com
 0.0.0.0	kkie-wending.com.cn
 0.0.0.0	kkkgenieyesl.cn
-0.0.0.0	kkkkkk.icu
 0.0.0.0	houyi.kkmh.com
 0.0.0.0	ipv4.kkmh.com
 0.0.0.0	kkoe-wending.com.cn
@@ -15849,6 +16159,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	info.kollmorgen.cn
 0.0.0.0	dpi.networkorder.komect.com
 0.0.0.0	komfortoutlets-pl.shop
+0.0.0.0	smetrics.kone.cn
 0.0.0.0	kongyiji.cc
 0.0.0.0	adsmart.konka.com
 0.0.0.0	konutlarim2026.sbs
@@ -15934,6 +16245,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dw-online.ksosoft.com
 0.0.0.0	ic.ksosoft.com
 0.0.0.0	ksrsy.com
+0.0.0.0	kssbzx.net.cn
 0.0.0.0	ksshunheng.com
 0.0.0.0	kstore.space
 0.0.0.0	kstore.vip
@@ -16453,6 +16765,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sdn.kugou.com
 0.0.0.0	sentry.kugou.com
 0.0.0.0	serveraddr.service.kugou.com
+0.0.0.0	softstart.kugou.com
 0.0.0.0	splashimgbssdl.yun.kugou.com
 0.0.0.0	tj.kugou.com
 0.0.0.0	tracker.kugou.com
@@ -16561,6 +16874,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	kzki21j8f6.com
 0.0.0.0	kzkuailian.com.cn
 0.0.0.0	kztzmggf.cn
+0.0.0.0	kzvipslots.pics
 0.0.0.0	e.kzwsh.cn
 0.0.0.0	kzyyjs.com
 0.0.0.0	kzyyls.com.cn
@@ -16597,6 +16911,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lalaiyh.cn
 0.0.0.0	lalakss.cn
 0.0.0.0	lalamak.cn
+0.0.0.0	lalelowihuonsystemsinc.sbs
 0.0.0.0	lameubleshop.shop
 0.0.0.0	lop.lamimi.cn
 0.0.0.0	lamro.cn
@@ -16639,7 +16954,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	lantuclient.com
 0.0.0.0	applog-metrics.lanxin.cn
 0.0.0.0	glores2.lanzoui.com
-0.0.0.0	laochuan520.cn
 0.0.0.0	laodingfeng.com.cn
 0.0.0.0	laodx.cn
 0.0.0.0	laofa16888.cn
@@ -16656,9 +16970,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	sensors.larkplayerapp.com
 0.0.0.0	b8376mghi5d.jp.larksuite.com
 0.0.0.0	images.newsletter.larksuite.com
+0.0.0.0	vp3s0bkysan.jp.larksuite.com
 0.0.0.0	laskd.qpon
 0.0.0.0	c.lattebank.com
 0.0.0.0	lawanaresort.com
+0.0.0.0	lawebcamporno.com
+0.0.0.0	lawyerjn.cn
 0.0.0.0	un1.lawyernet.cn
 0.0.0.0	nezhasss.lawyi.com
 0.0.0.0	c.laxnlqn.cn
@@ -16687,7 +17004,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	lazaro.cn
 0.0.0.0	lazona21.com
 0.0.0.0	lazyshop.com
-0.0.0.0	matomo.lb-link.cn
 0.0.0.0	lb123.cn
 0.0.0.0	m.lbaij.com
 0.0.0.0	cc.lbesec.com
@@ -16758,6 +17074,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ledgerwallet.cn
 0.0.0.0	ledkuailian.com.cn
 0.0.0.0	analysis.leetcode.cn
+0.0.0.0	leftykreh.com
 0.0.0.0	legcash.com
 0.0.0.0	legend.ac.cn
 0.0.0.0	legmnfnp.shop
@@ -16869,6 +17186,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	leybc.com
 0.0.0.0	leyu-safe.com.cn
 0.0.0.0	lfbhr.cn
+0.0.0.0	lffayqcu.icu
 0.0.0.0	lfii7u98zaj49tk.top
 0.0.0.0	lfktax.com.cn
 0.0.0.0	lfree.org
@@ -16992,7 +17310,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	lingjuglobal.com
 0.0.0.0	lingken.com.cn
 0.0.0.0	sentry1.lingkou.xyz
-0.0.0.0	lingllm.cn
 0.0.0.0	lingyan.net
 0.0.0.0	lining1990.xyz
 0.0.0.0	linjiang.com.cn
@@ -17010,6 +17327,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	linkjg.cn
 0.0.0.0	linklaw.com.cn
 0.0.0.0	linkpage.cn
+0.0.0.0	linkpbowiny.cfd
 0.0.0.0	tracking.io.linksfield.net
 0.0.0.0	linksjg.cn
 0.0.0.0	linkupedu.com
@@ -17022,6 +17340,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	lirentz.com
 0.0.0.0	lirpm.com
 0.0.0.0	listentomac.com
+0.0.0.0	lisukisorconsulting.sbs
 0.0.0.0	litchi.online
 0.0.0.0	litchiads.com
 0.0.0.0	liteautotop.cn
@@ -17069,6 +17388,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	live-ya-bo.com
 0.0.0.0	livecommerce.cn
 0.0.0.0	liverpool.hl.cn
+0.0.0.0	livi.com.cn
 0.0.0.0	status.lixda.top
 0.0.0.0	tz.lixda.top
 0.0.0.0	lixiaoen.com
@@ -17154,6 +17474,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.lofter.com
 0.0.0.0	logagent-rum-292398709.cn-north-1.elb.amazonaws.com.cn
 0.0.0.0	logic-bet365.com.cn
+0.0.0.0	logictech.pics
 0.0.0.0	login-match-kaiyun.com.cn
 0.0.0.0	login-xingkongzh.com.cn
 0.0.0.0	webanalytics.logitech.com.cn
@@ -17178,7 +17499,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	api-all-monitor.lookatthesky.cn
 0.0.0.0	telegram.lookbao.net
 0.0.0.0	looyu.com
+0.0.0.0	lordcasino-game.cam
+0.0.0.0	lordcasino609.cam
 0.0.0.0	lordking.net
+0.0.0.0	lordpalacecasino-vip.icu
 0.0.0.0	losdhd.cn
 0.0.0.0	losfind.top
 0.0.0.0	losslesscut.cn
@@ -17202,6 +17526,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	low-huohusports.com.cn
 0.0.0.0	low-wukongsports.com.cn
 0.0.0.0	low-yw28.com.cn
+0.0.0.0	loxuzaceumadvisory.sbs
 0.0.0.0	nezha.lp.fyi
 0.0.0.0	lp88.vip
 0.0.0.0	lpjk.cn
@@ -17273,6 +17598,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	luluxiong.com
 0.0.0.0	luluxj.icu
 0.0.0.0	luluyingyuandianshijumianfeiguankanzuixinzhangje.com.cn
+0.0.0.0	lumendigital2025.pics
+0.0.0.0	lumengloballink.pics
+0.0.0.0	lumeninfrasphere.sbs
+0.0.0.0	lumenvertexpulse.pics
+0.0.0.0	lumenzonemetrics.sbs
 0.0.0.0	lumeo.cn
 0.0.0.0	monitor.lumora.cn
 0.0.0.0	lunacoin.live
@@ -17302,6 +17632,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	luyibaluoke.com
 0.0.0.0	192168.luyouwang.com
 0.0.0.0	luyouxia.net
+0.0.0.0	luzoqupiacapital26.sbs
 0.0.0.0	lv-wps.com.cn
 0.0.0.0	lvcasino1.com
 0.0.0.0	lve-esperanto.com
@@ -17426,7 +17757,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m43ocq1uoj.com
 0.0.0.0	m5555.vip
 0.0.0.0	p.m5bn.com
-0.0.0.0	h67as5d5x.m6p3wca1.cc
 0.0.0.0	m6w3d1.vip
 0.0.0.0	cuk.m88mz.cn
 0.0.0.0	m9d2p6s3.vip
@@ -17435,18 +17765,23 @@ ff02::3	ip6-allhosts
 0.0.0.0	ma-gate.com.cn
 0.0.0.0	ma-sogou.com.cn
 0.0.0.0	maab.cn
+0.0.0.0	mabupoxorventuresinc.pics
 0.0.0.0	mac-sogou.com.cn
 0.0.0.0	mac-wpsoffice.com.cn
 0.0.0.0	new.macartu.cn
 0.0.0.0	macattic.com
 0.0.0.0	xc.macd.cn
 0.0.0.0	machati.cn
+0.0.0.0	macro2innovateio.sbs
+0.0.0.0	macro360ve-ntures.pics
 0.0.0.0	macron.cn
+0.0.0.0	macropartners247.sbs
 0.0.0.0	macyy.cn
 0.0.0.0	made-bet365.com.cn
 0.0.0.0	stat.made-in-china.com
 0.0.0.0	madhouse.cn
 0.0.0.0	madouchuanmeizaxian.com.cn
+0.0.0.0	madridbet-guncel-giris.cam
 0.0.0.0	dashboard.maenze.com
 0.0.0.0	maextromotors.cn
 0.0.0.0	advert.mafengwo.cn
@@ -17461,123 +17796,33 @@ ff02::3	ip6-allhosts
 0.0.0.0	magicwindow.cn
 0.0.0.0	magicwings.com.cn
 0.0.0.0	magicwinmail.com
-0.0.0.0	maguan.com.cn
 0.0.0.0	mahnograd.com
 0.0.0.0	maifile.cn
 0.0.0.0	maihaoba9.cn
 0.0.0.0	maihehd.com
 0.0.0.0	me.mailkv.com
 0.0.0.0	zc1.maillist-manage.com.cn
-0.0.0.0	mailonline.com.cn
 0.0.0.0	sentry.maimemo.com
 0.0.0.0	photo.maimi88.cn
-0.0.0.0	main-bundesliga-kaiyun.com.cn
-0.0.0.0	main-nba-kaiyun.com.cn
-0.0.0.0	mains-wending.com.cn
-0.0.0.0	mainternetashuganj.com
-0.0.0.0	maiqiuzhan-online.com.cn
-0.0.0.0	maiqiuzhan-quick-login.com.cn
-0.0.0.0	maiqiuzhan-review.com.cn
-0.0.0.0	maiqiuzhan-windows.com.cn
-0.0.0.0	maiquer.tech
-0.0.0.0	maisui360.com
-0.0.0.0	maixunkeji.com
-0.0.0.0	majangguandiaoding.com.cn
-0.0.0.0	majangzhuodingdeng.com.cn
-0.0.0.0	majangzidingyi.com.cn
-0.0.0.0	majianghule.cn
-0.0.0.0	major-bet365.com.cn
-0.0.0.0	makanigermanyshop.shop
-0.0.0.0	make-bet365.com.cn
-0.0.0.0	make-wendingyule.com.cn
-0.0.0.0	makeblock.com.cn
-0.0.0.0	makeding.com
 0.0.0.0	usejj.makepolo.cn
-0.0.0.0	makeupfornice.com
 0.0.0.0	monitor.maktub.cn
 0.0.0.0	adx.mala.cn
-0.0.0.0	malawicichlidhomepage.com
-0.0.0.0	maltarrapost.cfd
-0.0.0.0	maltasttpost.cfd
 0.0.0.0	statis1.mama.cn
-0.0.0.0	mamipg.com
-0.0.0.0	manage-wending.com.cn
-0.0.0.0	manage-wendinggame.com.cn
-0.0.0.0	manbetxoo.com
-0.0.0.0	manbetxrr.com
-0.0.0.0	mangalamceramics.com
-0.0.0.0	mangguo.info
-0.0.0.0	mangokol.com
-0.0.0.0	mangomob.net
-0.0.0.0	manhua5.com
 0.0.0.0	adsapi.manhuaren.com
 0.0.0.0	bi.manhuaren.com
 0.0.0.0	euadsapi.manhuaren.com
 0.0.0.0	sentry.manjuu.com
-0.0.0.0	manlyfor.com
 0.0.0.0	m.manparis.cn
-0.0.0.0	mantian.cc
-0.0.0.0	manuscripk.com
 0.0.0.0	monitor.manxun.net
-0.0.0.0	manyou.com
-0.0.0.0	mao0.cn
-0.0.0.0	maotaibulao.cn
 0.0.0.0	ad.maoyan.com
-0.0.0.0	maoyl.top
-0.0.0.0	map-wps.com.cn
-0.0.0.0	mapib.cn
-0.0.0.0	mapkuailian.com.cn
 0.0.0.0	adx.maplehaze.cn
-0.0.0.0	mapsence.com
 0.0.0.0	gap-telemetry-api.marathonerectors.com
-0.0.0.0	marcopoloturkey.com
 0.0.0.0	monex-co-jp.marcynail.cn
-0.0.0.0	marginalk.com
-0.0.0.0	mariahcarey.cn
-0.0.0.0	mariejo.com.cn
-0.0.0.0	marimekko-hots.com
-0.0.0.0	markets-binance.com.cn
 0.0.0.0	sdk.markmedia.com.cn
-0.0.0.0	marleneritts.com
-0.0.0.0	marsbro.com
-0.0.0.0	marshaclub.com
-0.0.0.0	marveousarise.com
-0.0.0.0	maryhelverson.com
-0.0.0.0	marykaytrading.com.cn
-0.0.0.0	maryvegas.com
-0.0.0.0	mascareignesplongee.com
-0.0.0.0	mashangyoushu.cn
-0.0.0.0	masrm.cn
 0.0.0.0	sentry.mastergo.com
-0.0.0.0	masterlaser.cn
-0.0.0.0	masterofmalteu.shop
-0.0.0.0	matchday-live-kaiyun.com.cn
-0.0.0.0	matchjia.cn
-0.0.0.0	math4teens.com
-0.0.0.0	mathclaw.com.cn
-0.0.0.0	mathtype.cn
 0.0.0.0	metrics.mathworks.cn
+0.0.0.0	smetrics.mathworks.cn
 0.0.0.0	analytics.matpool.com
-0.0.0.0	matrika.cn
-0.0.0.0	mattelcreationshq.shop
-0.0.0.0	mawsterlcard.dpdns.org
-0.0.0.0	max-bet365.com.cn
-0.0.0.0	max-wending.com.cn
-0.0.0.0	max-wps.com.cn
-0.0.0.0	maxiscc.vip
-0.0.0.0	maxisck.cfd
-0.0.0.0	maxiseri.com
-0.0.0.0	maxisho.com
-0.0.0.0	maxisko.bid
-0.0.0.0	maxisle.com
-0.0.0.0	maxisnz.com
-0.0.0.0	maxissf.com
-0.0.0.0	maxissr.com
-0.0.0.0	maxisuc.com
-0.0.0.0	maxiszt.com
-0.0.0.0	maxpulser.com
-0.0.0.0	maxshopping.cn
-0.0.0.0	maxspeedlogistic.com
 0.0.0.0	mm.maxthon.cn
 0.0.0.0	maybank2edrn.vip
 0.0.0.0	maybank2n.vip
@@ -17625,7 +17870,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	md-kuailian.com.cn
 0.0.0.0	md00i.com
 0.0.0.0	blockchain.md5.vip
-0.0.0.0	uid.mdbchina.com
 0.0.0.0	mdbdy001.com
 0.0.0.0	mdbdy002.com
 0.0.0.0	mdbdy003.com
@@ -17752,7 +17996,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	umid.orion.meizu.com
 0.0.0.0	uxip.meizu.com
 0.0.0.0	melbettapp-hazz.cyou
-0.0.0.0	matomo.meldingcloud.com
 0.0.0.0	mellowactivy.com
 0.0.0.0	memflow.top
 0.0.0.0	menedy.top
@@ -17772,6 +18015,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	tracking.m.mercedes-benz.com.cn
 0.0.0.0	tracking.t.mercedes-benz.com.cn
 0.0.0.0	merenumerrous.com
+0.0.0.0	meritbet1837.cam
+0.0.0.0	meritbet858.cam
 0.0.0.0	merkur24.com
 0.0.0.0	merocilline.com.cn
 0.0.0.0	messawith.com
@@ -17787,6 +18032,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	metaword.cn
 0.0.0.0	metmask.cn
 0.0.0.0	meto.cc
+0.0.0.0	metricsnano360.sbs
 0.0.0.0	analytics.metro.cn
 0.0.0.0	metro.hl.cn
 0.0.0.0	dump.mewcdn.online
@@ -17865,6 +18111,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mianfeigaoqingzaxianguankanmianfeidedianshiju.com.cn
 0.0.0.0	mianfeiguankandianshijuqanjzaxianbofanggaoqing.com.cn
 0.0.0.0	mianfeizidingyizhuanpan.org.cn
+0.0.0.0	mianfenjixie.cn
 0.0.0.0	miannai.cn
 0.0.0.0	miaofuqianbaoxiazaiappgw.com.cn
 0.0.0.0	miaokongrr.com
@@ -17877,6 +18124,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	micro-xdb.com
 0.0.0.0	microad-cn.com
 0.0.0.0	microcloud.live
+0.0.0.0	microhyperfund.sbs
 0.0.0.0	microsofe.com.cn
 0.0.0.0	microsoft-crm.cn
 0.0.0.0	microsoft-ppe.cn
@@ -17949,6 +18197,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.mileinfo.cc
 0.0.0.0	us1-bwh.milktea.info
 0.0.0.0	millenniumstar.com.cn
+0.0.0.0	milobifidaiaresources.pics
 0.0.0.0	miltalk.cn
 0.0.0.0	miltonroy.com.cn
 0.0.0.0	mimeihui.com
@@ -18105,6 +18354,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	mknjyiw.cn
 0.0.0.0	mkoutline.com.cn
 0.0.0.0	mkplastic.cn
+0.0.0.0	mktdesigns.com
 0.0.0.0	mo.mktrkn.cn
 0.0.0.0	mkue.cn
 0.0.0.0	mkwin4.com
@@ -18187,6 +18437,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	moderatep.com
 0.0.0.0	modificatiy.com
 0.0.0.0	modline.com.cn
+0.0.0.0	modulequantummotion.sbs
 0.0.0.0	moebun.com
 0.0.0.0	ddapi.mogooba.cn
 0.0.0.0	advertisement.moguv.com
@@ -18252,6 +18503,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	morphocoin.vip
 0.0.0.0	morphocoin.xin
 0.0.0.0	morphocoo.one
+0.0.0.0	mosanuonpartnersnet.sbs
+0.0.0.0	motionbure-au101.sbs
+0.0.0.0	motionsynthconsulting.sbs
 0.0.0.0	motoronline.com.cn
 0.0.0.0	motovi.com
 0.0.0.0	motsjnv.cn
@@ -18263,12 +18517,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	moviejq.com
 0.0.0.0	track.moviestation.cn
 0.0.0.0	moxin.chat
+0.0.0.0	moyamioncapitalco.sbs
 0.0.0.0	mp-kuailian.com.cn
 0.0.0.0	mp-tech.cn
 0.0.0.0	mpayqianbaoguanwangxiazaigw.com.cn
 0.0.0.0	mpayqianbaoxiazai.com.cn
 0.0.0.0	mpimg.cn
 0.0.0.0	mpimiyrl.com
+0.0.0.0	text.mplayer.org.cn
 0.0.0.0	mppcn.com
 0.0.0.0	mo.mptckm.cn
 0.0.0.0	mpue-wending.com.cn
@@ -18327,6 +18583,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	smart.789.image.mucang.cn
 0.0.0.0	mucfo.cn
 0.0.0.0	much-bet365.com.cn
+0.0.0.0	mudedeongroup.sbs
+0.0.0.0	mudedugoorholdingsltd.pics
 0.0.0.0	mudpuppy.shop
 0.0.0.0	mueyc.qpon
 0.0.0.0	muffmeister.com
@@ -18346,6 +18604,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	muo.cc
 0.0.0.0	eaienx.muoapeicp.top
 0.0.0.0	oueozpq.muoapeicp.top
+0.0.0.0	muqeyeusservicesco.pics
 0.0.0.0	murroliving.com.cn
 0.0.0.0	musescort.com
 0.0.0.0	museupg.win
@@ -18356,6 +18615,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	musk.cool
 0.0.0.0	mustafareda.net
 0.0.0.0	muyunqichen.com
+0.0.0.0	muzaviorsolutions.sbs
 0.0.0.0	muzikeji.com
 0.0.0.0	mv9.cn
 0.0.0.0	mvad.com
@@ -18385,7 +18645,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	mx-binance.com.cn
 0.0.0.0	mxevdii.cn
 0.0.0.0	m.mxguan.com
-0.0.0.0	mxhd.top
 0.0.0.0	mxkuailian.hl.cn
 0.0.0.0	mxqbj.com
 0.0.0.0	qfile.mxrcorp.cn
@@ -18530,11 +18789,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	mzzpmtrs.shop
 0.0.0.0	n-google.hl.cn
 0.0.0.0	n-su.cn
+0.0.0.0	n-ua-whatsapp.com.cn
 0.0.0.0	n04i.one
 0.0.0.0	n1-binance.com.cn
 0.0.0.0	n1m.top
 0.0.0.0	n26mc.cn
 0.0.0.0	n3ndprwec1gng9e.top
+0.0.0.0	n3r.xyz
 0.0.0.0	n4d3ev3m1.com
 0.0.0.0	n5318.com
 0.0.0.0	n5793.com
@@ -18568,6 +18829,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	static.live.nagezan.net
 0.0.0.0	yiyuan.nagezan.net
 0.0.0.0	ytapi1.nagezan.net
+0.0.0.0	nagowoissystems.sbs
 0.0.0.0	nailbytes1.com
 0.0.0.0	nainiuyx.xyz
 0.0.0.0	naisbet.co
@@ -18578,12 +18840,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	nancysapp.shop
 0.0.0.0	logs.nandu.com
 0.0.0.0	nanjngtongxidingpiaogw.com.cn
+0.0.0.0	nanomatrix360.sbs
+0.0.0.0	nanon-eocapital.sbs
+0.0.0.0	nanoventuresx.pics
 0.0.0.0	1.nanrenwo.net
 0.0.0.0	2.nanrenwo.net
 0.0.0.0	fp.nanrenwo.net
 0.0.0.0	nanweng.cn
 0.0.0.0	tz.nanyan.cc
 0.0.0.0	naok-pl.shop
+0.0.0.0	napisenuusresources.sbs
 0.0.0.0	napolicn.hl.cn
 0.0.0.0	napoliweb.hl.cn
 0.0.0.0	naqszc.com
@@ -18622,6 +18888,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	nbazhiboshipinzaixianzhibokuaichuan.com.cn
 0.0.0.0	nbcctv.net.cn
 0.0.0.0	nbdsjjwgwl.com
+0.0.0.0	nbjcgl.com
 0.0.0.0	nbjiyu-tech.com
 0.0.0.0	nbshute.com.cn
 0.0.0.0	nbspwj.com
@@ -18668,6 +18935,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	neimaowang.com
 0.0.0.0	neimengqc.com
 0.0.0.0	nejmqianyan.cn
+0.0.0.0	nekatokonholdings.sbs
 0.0.0.0	nezha.neko7ina.com
 0.0.0.0	h6.nekoh5.com
 0.0.0.0	nenzhao.cn
@@ -18676,14 +18944,18 @@ ff02::3	ip6-allhosts
 0.0.0.0	jump.neoimaging.cn
 0.0.0.0	recommend.neoimaging.cn
 0.0.0.0	neoleap.site
-0.0.0.0	neotv.vip
+0.0.0.0	neometricsdigital.sbs
+0.0.0.0	neosportsklep.shop
+0.0.0.0	neostrategydomain.sbs
 0.0.0.0	neoup.cn
+0.0.0.0	neovaultgroup.sbs
 0.0.0.0	neptunelive.com.cn
+0.0.0.0	nesinecasinolive.icu
 0.0.0.0	nesnts.cn
 0.0.0.0	tracking.nesox.com
 0.0.0.0	net-sogou.com.cn
 0.0.0.0	sea.net.edu.cn
-0.0.0.0	netclawapi.top
+0.0.0.0	netcloudavs.shop
 0.0.0.0	ad-tj-gorgon.ntes53.netease.com
 0.0.0.0	ad.bn.netease.com
 0.0.0.0	advert.lx.netease.com
@@ -18695,7 +18967,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	httpdns.n.netease.com
 0.0.0.0	hubble.netease.com
 0.0.0.0	log.cc.netease.com
-0.0.0.0	mam.netease.com
 0.0.0.0	pr.nss.netease.com
 0.0.0.0	sentry.netease.com
 0.0.0.0	sentry.epay.ntes53.netease.com
@@ -18709,9 +18980,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	netflixzuixindianying555zaixianguankan.com.cn
 0.0.0.0	netmods.cn
 0.0.0.0	netplosion.com
-0.0.0.0	netrice.net
 0.0.0.0	netuyc.qpon
 0.0.0.0	networkbench.com
+0.0.0.0	networkdigitalomnix.sbs
+0.0.0.0	neural-ventures24.sbs
+0.0.0.0	neuraldigitalventures.sbs
+0.0.0.0	neuralglobalanalytics.sbs
+0.0.0.0	neuralterradev.pics
 0.0.0.0	cyuvc.neus.cn
 0.0.0.0	new-bet365.com.cn
 0.0.0.0	new-style-precious.com
@@ -18719,7 +18994,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	new66688.com
 0.0.0.0	new777.com
 0.0.0.0	newdevelopment-bank.vip
-0.0.0.0	newknow.top
 0.0.0.0	newkuailian.com.cn
 0.0.0.0	newmark.top
 0.0.0.0	dl.newnsgames.top
@@ -18741,7 +19015,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	al.newxue.com
 0.0.0.0	ad.newzgc.com
 0.0.0.0	nextbuilderinc.com
+0.0.0.0	nextgenhub.pics
+0.0.0.0	nextgeninnovatego.sbs
+0.0.0.0	nextgenpulsex.sbs
 0.0.0.0	livechat.nextop.com
+0.0.0.0	nexus1future.sbs
+0.0.0.0	nexusglobalfinance.pics
+0.0.0.0	nexusonebur-eau.sbs
+0.0.0.0	nexustoken24.sbs
 0.0.0.0	nez.ha.cn
 0.0.0.0	nf-whats-app.com.cn
 0.0.0.0	nf3jcw4g22.shop
@@ -18783,13 +19064,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	tron.nicetride.top
 0.0.0.0	niflheimr.cn
 0.0.0.0	nightkitchenseattle.com
-0.0.0.0	nightslikethis.club
 0.0.0.0	status.niina.top
 0.0.0.0	nike666.com
 0.0.0.0	nikesizb.cn
 0.0.0.0	nikkojakarta.com
 0.0.0.0	pt.niko.org.cn
 0.0.0.0	niliy.cn
+0.0.0.0	nimacasino-aktif.cam
 0.0.0.0	m.nimenzaina.cn
 0.0.0.0	ninebennink.com
 0.0.0.0	ninebet-live.com
@@ -18872,6 +19153,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	noboundaries.global
 0.0.0.0	nocn.cn
 0.0.0.0	ad-ga.nocode.com
+0.0.0.0	nod-eevolvecentrio.pics
+0.0.0.0	node1sphere.sbs
+0.0.0.0	nodeinsight360.pics
+0.0.0.0	nodelumenglobal.sbs
 0.0.0.0	dash.nodjoy.com
 0.0.0.0	mdzz2019.noip.cn
 0.0.0.0	nojtp.cn
@@ -18903,6 +19188,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	notionapp.cn
 0.0.0.0	nouljibe.cn
 0.0.0.0	nova12.xyz
+0.0.0.0	nova2025bureau.pics
+0.0.0.0	novagridstation.pics
 0.0.0.0	wps.novah.cn
 0.0.0.0	novaspectrummedia.com
 0.0.0.0	web.novogene.com
@@ -18939,6 +19226,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	nsd3dcp889.live
 0.0.0.0	nsheg.com
 0.0.0.0	nslkptv.cn
+0.0.0.0	nsn8le92own1.shop
 0.0.0.0	nsnmiaomu.cn
 0.0.0.0	ad.nsskhxga.com
 0.0.0.0	nsxtob.cn
@@ -18962,17 +19250,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	nude-wife.com
 0.0.0.0	pdns.nudt.edu.cn
 0.0.0.0	nuffnang.com.cn
-0.0.0.0	nug08030lu.com
-0.0.0.0	nug08031lu.com
 0.0.0.0	c.nuhcpf.com
 0.0.0.0	nujz-sbetsports.com.cn
+0.0.0.0	nukafidussystems24.pics
+0.0.0.0	numudixexindustriesinc.sbs
 0.0.0.0	nunbae.cn
 0.0.0.0	ray2jing.808.nuno.cn
 0.0.0.0	nuo-whatsapp.com.cn
 0.0.0.0	log.nuomi.com
-0.0.0.0	ads.nuonuo.com
 0.0.0.0	metric.nuonuo.com
 0.0.0.0	nuqqcgb.cn
+0.0.0.0	nusiquxioncapital.pics
 0.0.0.0	nuuv.cn
 0.0.0.0	m.nuxyz.cn
 0.0.0.0	promotionad.nvcam.net
@@ -19009,15 +19297,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	nxruixin.com
 0.0.0.0	nxtianji.com
 0.0.0.0	ad-static.nxtsun.com
-0.0.0.0	sans.nyaasu.top
 0.0.0.0	nyjy-china.com
 0.0.0.0	nykuailian.hl.cn
 0.0.0.0	nyonline.com.cn
+0.0.0.0	nyseibukan.com
 0.0.0.0	nyvhu.cc
 0.0.0.0	nzccwmn.cn
 0.0.0.0	nzcomenzgo.net
 0.0.0.0	logserver.nzxcloud.cn
 0.0.0.0	nzz.cc
+0.0.0.0	o-google.hl.cn
 0.0.0.0	o2-coq.cn
 0.0.0.0	o2448nwso0.live
 0.0.0.0	m.o4hpc.cn
@@ -19036,6 +19325,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ob8938.com
 0.0.0.0	obelisk-travel.com
 0.0.0.0	oboe-wending.com.cn
+0.0.0.0	obol-dv.icu
 0.0.0.0	obs.cn
 0.0.0.0	obs.com.cn
 0.0.0.0	obs.pub
@@ -19051,7 +19341,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	obsidian.hl.cn
 0.0.0.0	obsjc.com
 0.0.0.0	obspack.com
-0.0.0.0	obsproject.cn
 0.0.0.0	obsproject.com.cn
 0.0.0.0	obsstudio.net.cn
 0.0.0.0	obsworks.com
@@ -19067,6 +19356,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	od-todesk.com.cn
 0.0.0.0	oddboxbd.shop
 0.0.0.0	ode-google.com.cn
+0.0.0.0	odertaoa.s3.us-east-1.amazonaws.com
 0.0.0.0	oducygp.cn
 0.0.0.0	ffsup-s42.oduuu.com
 0.0.0.0	odyjiez.cn
@@ -19080,6 +19370,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	of-fl-google.com.cn
 0.0.0.0	ofbfgay.cn
 0.0.0.0	ofcertainly.net
+0.0.0.0	oferta394749jsbd2940729494.shop
+0.0.0.0	oferta89.shop
+0.0.0.0	ofertatxnec368722678.shop
 0.0.0.0	lt.ofeuc.cn
 0.0.0.0	offerstrack.net
 0.0.0.0	offic-wps.com.cn
@@ -19168,7 +19461,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	oklinkqukuailianliulanqiguanwang.org.cn
 0.0.0.0	oklinkqukuailianliulanqigw.org.cn
 0.0.0.0	oklinkqukuailianliulanqirukou.org.cn
-0.0.0.0	okokx.vip
 0.0.0.0	baid1.okooo.com
 0.0.0.0	analytics.okorder.com
 0.0.0.0	okpayguanfangxiazairukou.com.cn
@@ -19207,7 +19499,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	oldeworldromance.com
 0.0.0.0	oldulgk.cn
 0.0.0.0	ole7o.cn
-0.0.0.0	s-odx.oleads.com
 0.0.0.0	oleasoaps.com
 0.0.0.0	olijdwoa.shop
 0.0.0.0	olink.online
@@ -19218,6 +19509,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	om-youdao.com.cn
 0.0.0.0	omermeral.shop
 0.0.0.0	omg-kuailian.com.cn
+0.0.0.0	omni24-media.sbs
+0.0.0.0	omni247factory.sbs
+0.0.0.0	omnidatametrics.sbs
+0.0.0.0	omniomnilabs.sbs
+0.0.0.0	omnistellarnetwork.pics
+0.0.0.0	omnixnovaenterprise.sbs
+0.0.0.0	omnixprimegroup.pics
+0.0.0.0	omnizonemedia.pics
 0.0.0.0	omnwy.com
 0.0.0.0	omse-wending.com.cn
 0.0.0.0	t.omz.cc
@@ -19340,6 +19639,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ontariogh.help
 0.0.0.0	onzj79fce.com
 0.0.0.0	oochiecoochie.com
+0.0.0.0	oojnme.icu
 0.0.0.0	oone8de.cn
 0.0.0.0	ooniu.com
 0.0.0.0	analytics.ooofoo.com
@@ -19352,6 +19652,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	oou-google.com.cn
 0.0.0.0	oozushirp.com
 0.0.0.0	op-sougou.com.cn
+0.0.0.0	opalrainum.shop
 0.0.0.0	oparty.net
 0.0.0.0	opckuailian.com.cn
 0.0.0.0	opeanai.site
@@ -19480,9 +19781,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	orayr.com.cn
 0.0.0.0	orayvpn.com
 0.0.0.0	orayvpn.net
+0.0.0.0	orbit101connect.sbs
+0.0.0.0	orbitflowfactory.sbs
+0.0.0.0	orbitmatrix365.pics
+0.0.0.0	orbitnextlink.pics
+0.0.0.0	orbitnovadynamics.sbs
+0.0.0.0	orbitonetech.sbs
+0.0.0.0	orbittrade.sbs
 0.0.0.0	orbixabit.com
 0.0.0.0	orcaslicer.cn
 0.0.0.0	orchidbaybelize.com
+0.0.0.0	order-02538.shop
 0.0.0.0	orentraff.cn
 0.0.0.0	teiegram.org-cc.cn
 0.0.0.0	org-dsa.life
@@ -19504,15 +19813,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	orhebe.com
 0.0.0.0	origin.kim
 0.0.0.0	originwater.xyz
-0.0.0.0	c.originz.cn
-0.0.0.0	v.originz.cn
 0.0.0.0	oringaga.cn
 0.0.0.0	oronline.com.cn
 0.0.0.0	orsii.cn
 0.0.0.0	visit.oschina.net
-0.0.0.0	osgyx.cn
 0.0.0.0	oshoplive.com
-0.0.0.0	oslpjsbh.com
 0.0.0.0	osoft.com.cn
 0.0.0.0	osrrltw.cn
 0.0.0.0	osrt-alula.com
@@ -19524,7 +19829,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	htwhzl.osvmwyvsd.cc
 0.0.0.0	hx24z6.osvmwyvsd.cc
 0.0.0.0	otcprime.vip
-0.0.0.0	otfree.com
 0.0.0.0	otilxyzygagam.eu
 0.0.0.0	otkritie.biz
 0.0.0.0	otme.cn
@@ -19548,12 +19852,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.bxb.oupeng.com
 0.0.0.0	cp.oupeng.com
 0.0.0.0	img-ad.oupeng.com
-0.0.0.0	max-files.oupeng.com
 0.0.0.0	oumax.oupeng.com
 0.0.0.0	r.bxb.oupeng.com
 0.0.0.0	startup.oupeng.com
 0.0.0.0	turbo2sdk-push.oupeng.com
-0.0.0.0	ad.ourgame.com
 0.0.0.0	ourl.cn
 0.0.0.0	out-google.hl.cn
 0.0.0.0	out-kuailian.hl.cn
@@ -19626,6 +19928,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	paa-shadowrocket.hl.cn
 0.0.0.0	paace.cn
 0.0.0.0	pablbd.com
+0.0.0.0	paciligonservices.pics
 0.0.0.0	paddingtonplayadventures.com.cn
 0.0.0.0	login.paddlewaver.com
 0.0.0.0	sg.notice.adx.paddlewaver.com
@@ -19665,6 +19968,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ads-impression.papegames.com
 0.0.0.0	ads-monitoring.papegames.com
 0.0.0.0	pt-sentry-infinity2.papegames.com
+0.0.0.0	parcel-doruceni.cfd
 0.0.0.0	parcelstahar.shop
 0.0.0.0	parcelstahay.shop
 0.0.0.0	parcelstahck.shop
@@ -19697,6 +20001,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	parcelstasvn.shop
 0.0.0.0	parfaitdelice.com.cn
 0.0.0.0	paris-bet365.com.cn
+0.0.0.0	pariwor.cyou
 0.0.0.0	parkeringue.top
 0.0.0.0	parking-a.cn
 0.0.0.0	parking-b.cn
@@ -19754,6 +20059,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	parrotchain.xyz
 0.0.0.0	analytics.partnerboost.com
 0.0.0.0	app.partnerboost.com
+0.0.0.0	partnersfocussmart.sbs
+0.0.0.0	pasacasinoresmigiris.icu
 0.0.0.0	pasco.cc
 0.0.0.0	cht.passeway.de
 0.0.0.0	status.passnat.com
@@ -19864,6 +20171,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	pe92.com
 0.0.0.0	a8.jp.peacebird.com
 0.0.0.0	peak-pgwding.com.cn
+0.0.0.0	peakcorexfund.sbs
+0.0.0.0	peaknetvault.sbs
+0.0.0.0	peaksphere24.pics
 0.0.0.0	peanutbox.com
 0.0.0.0	eloqua.pearsonvue.com.cn
 0.0.0.0	peasrch.com
@@ -19905,6 +20215,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	petsmovies.com
 0.0.0.0	kltapp1.petusound.com
 0.0.0.0	pexnjio.cn
+0.0.0.0	solieasy.pez8is.info
 0.0.0.0	pfdth.cn
 0.0.0.0	pfkuailian.com.cn
 0.0.0.0	pfqwbqs.cn
@@ -19961,7 +20272,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	phgalaxy97.xyz
 0.0.0.0	phgalaxy99.xyz
 0.0.0.0	philipmckee.shop
-0.0.0.0	phoenixe.vip
+0.0.0.0	smetrics.marketing.lighting.philips.com.cn
 0.0.0.0	phonebooster.site
 0.0.0.0	photozoomchina.com
 0.0.0.0	phpcashshare.com
@@ -19976,6 +20287,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pi-wallet.cn
 0.0.0.0	pi87536.cn
 0.0.0.0	piabbet.com
+0.0.0.0	piabellacasino686.cam
 0.0.0.0	pian.com.cn
 0.0.0.0	pianb.cn
 0.0.0.0	pians.cn
@@ -20001,7 +20313,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pinesschoolofrealestate.com
 0.0.0.0	ping1024.cn
 0.0.0.0	download.pingan.com.cn
-0.0.0.0	matomo.dev.pingcode.tech
 0.0.0.0	gg86.pinggu.org
 0.0.0.0	img50.pingguolv.com
 0.0.0.0	pic50.pingguolv.com
@@ -20025,7 +20336,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pitbullcloths.shop
 0.0.0.0	pitbullsports.club
 0.0.0.0	pitbullwestcoast.shop
-0.0.0.0	cdn.pixelcss.org
+0.0.0.0	pixelstormworks.sbs
 0.0.0.0	pixnot.com
 0.0.0.0	stat2.pixpin.cn
 0.0.0.0	piyapatel.shop
@@ -20050,6 +20361,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	pkyz.cn
 0.0.0.0	pl-fighter.shop
 0.0.0.0	pl53l7tyw.com
+0.0.0.0	pl725383-oferta.shop
 0.0.0.0	placidocn.com
 0.0.0.0	plan-bet365.com.cn
 0.0.0.0	plane-bet365.com.cn
@@ -20064,7 +20376,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bdx.playnext.cn
 0.0.0.0	pldsd.cn
 0.0.0.0	plex2.com
-0.0.0.0	plhomla.shop
 0.0.0.0	plowboyfrazier.com
 0.0.0.0	plrbbs.cn
 0.0.0.0	plus-sogou.com.cn
@@ -20078,15 +20389,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	pmvlwjy.cn
 0.0.0.0	pn99.cc
 0.0.0.0	1.pncdn.cn
-0.0.0.0	100.pncdn.cn
 0.0.0.0	pngmin.cn
 0.0.0.0	pngspin.net
 0.0.0.0	po-line.com.cn
 0.0.0.0	po18.in
+0.0.0.0	po53pev.shop
 0.0.0.0	pocnline.com.cn
 0.0.0.0	podgro.com
 0.0.0.0	podlwf.cn
 0.0.0.0	poe.com.bd
+0.0.0.0	pofabelexaholdings.pics
 0.0.0.0	pofang.com
 0.0.0.0	pohdy.cn
 0.0.0.0	pohkf.com
@@ -20437,7 +20749,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	polyfill-js.cn
 0.0.0.0	ponging.store
 0.0.0.0	mail.ponovo.cn
-0.0.0.0	pools-game.org
 0.0.0.0	poostaco.help
 0.0.0.0	pop800.com
 0.0.0.0	i.popincdn.com
@@ -20550,6 +20861,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	prettygoods.store
 0.0.0.0	pretzelsdelivery.shop
 0.0.0.0	prime-bet365.com.cn
+0.0.0.0	primefutureio24.sbs
+0.0.0.0	primegroup-enterprise.sbs
+0.0.0.0	primeneoplatform.pics
+0.0.0.0	primestructspace.sbs
 0.0.0.0	printer-tpm.com
 0.0.0.0	printronix.net.cn
 0.0.0.0	pritre.com
@@ -20562,12 +20877,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	pro0.cn
 0.0.0.0	proai520.com
 0.0.0.0	procodec.net
+0.0.0.0	prodomainmacro.pics
 0.0.0.0	proewildfire.cn
 0.0.0.0	proffice.cn
 0.0.0.0	promo-wending-pg.com.cn
 0.0.0.0	proposalt.com
+0.0.0.0	proprolumen.sbs
 0.0.0.0	prorentisol.com
-0.0.0.0	protesidenext.com
 0.0.0.0	info.protiviti.com.cn
 0.0.0.0	proton-igame.com
 0.0.0.0	protonspace.net
@@ -20576,7 +20892,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	prtscttposty.cfd
 0.0.0.0	prxperformance.shop
 0.0.0.0	psdtckhulna.com
-0.0.0.0	psofbzu.cn
 0.0.0.0	pss-google.com.cn
 0.0.0.0	pss-kuailian.com.cn
 0.0.0.0	psscc.cn
@@ -20588,6 +20903,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sf3-ttcdn-tos.pstatp.com
 0.0.0.0	areaacity.pswci2.info
 0.0.0.0	a.psxxw.cn
+0.0.0.0	pszhtc.com
 0.0.0.0	pt-wps.com.cn
 0.0.0.0	ptcshanghai.net
 0.0.0.0	ptengine.cn
@@ -20612,9 +20928,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	pubet.net
 0.0.0.0	pubgzh-cn.vip
 0.0.0.0	puchao.hl.cn
+0.0.0.0	pucocucacapital.sbs
 0.0.0.0	sentry-sg.cs.pudutech.com
 0.0.0.0	pukeshop.com
 0.0.0.0	pukuaichuanju3nian18yixuyuelunnade.com.cn
+0.0.0.0	pulse24strategy.sbs
+0.0.0.0	pulseinnovatex.sbs
+0.0.0.0	pulseinsight.pics
+0.0.0.0	pulsesmartsolutions.sbs
 0.0.0.0	pulton.info
 0.0.0.0	oa.pumch.cn
 0.0.0.0	puntagordarent.com
@@ -20637,6 +20958,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bugly.cros.wr.pvp.net
 0.0.0.0	pvshoufa.com
 0.0.0.0	pwc-kuailian.com.cn
+0.0.0.0	smetrics.pwccn.com
 0.0.0.0	target.pwccn.com
 0.0.0.0	pwdigital.cn
 0.0.0.0	c.pwfhjjh.cn
@@ -20645,7 +20967,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	px-bybit.hl.cn
 0.0.0.0	pxvv.cn
 0.0.0.0	py010.cn
-0.0.0.0	yazhouyulewang.pydljx.cn
 0.0.0.0	vv1.pyhfxdm.cn
 0.0.0.0	pyjrxx.com
 0.0.0.0	pyoyxr.help
@@ -20666,9 +20987,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	q4ee.top
 0.0.0.0	q50v.cn
 0.0.0.0	q96bq8m39p.world
+0.0.0.0	qa-whatsapp.com.cn
 0.0.0.0	qadz.cn
 0.0.0.0	qafe.cn
+0.0.0.0	qaloucndh.cn
 0.0.0.0	qanbumianfei.com.cn
+0.0.0.0	qanuxeneusoperationsco.sbs
 0.0.0.0	dm.qaseven.cn
 0.0.0.0	qawxpzm.cn
 0.0.0.0	qazwex.cn
@@ -20683,7 +21007,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	statistics.qcc.com
 0.0.0.0	open-monex.qccmkf.cn
 0.0.0.0	qchannel04.cn
-0.0.0.0	qcjslm.com
 0.0.0.0	qckqzh120.com
 0.0.0.0	qclaw.com.cn
 0.0.0.0	bugly.qcloud.com
@@ -20697,7 +21020,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qcsc1.vip
 0.0.0.0	qcw100.com
 0.0.0.0	qcwa6wc4n2me.top
-0.0.0.0	qcyun.top
 0.0.0.0	news.qcyz.cn
 0.0.0.0	qczx.cloud
 0.0.0.0	qd8kbq0.shop
@@ -20715,6 +21037,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	qdzilh.cn
 0.0.0.0	qeeyou.cn
 0.0.0.0	qehmmcd.cc
+0.0.0.0	qehojowamanagement.sbs
 0.0.0.0	qen-sogou.com.cn
 0.0.0.0	status.qeqnet.com
 0.0.0.0	qevcxo.cn
@@ -20767,6 +21090,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.qianqian.com
 0.0.0.0	ttmsg.qianqian.com
 0.0.0.0	qianxiaoyanxuan.com
+0.0.0.0	cdn.soft.qianxin.com
 0.0.0.0	qianxin.xyz
 0.0.0.0	ad.qianyichuanmei.com.cn
 0.0.0.0	jsb.qianzhan.com
@@ -20961,7 +21285,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qlaocny.cn
 0.0.0.0	qlepy.com
 0.0.0.0	qling.com
-0.0.0.0	qlwwxx.com
 0.0.0.0	qlyxlx.cn
 0.0.0.0	qm.biz
 0.0.0.0	a-qmad.qm989.com
@@ -20969,7 +21292,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	t-remad.qm989.com
 0.0.0.0	logger.qmai.cn
 0.0.0.0	qmbwm.cn
-0.0.0.0	qmcommunity.online
 0.0.0.0	qmobilityae.bond
 0.0.0.0	qmobqa.cn
 0.0.0.0	qmobqd.cn
@@ -20998,14 +21320,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	qn0538.com.cn
 0.0.0.0	tz.qncdn.cn
 0.0.0.0	qnhi.cn
-0.0.0.0	qnm126.com
-0.0.0.0	qnm795.com
 0.0.0.0	advertisement.glb.qnniu.com
 0.0.0.0	qntop.com
 0.0.0.0	qoc-kuailian.com.cn
 0.0.0.0	qooic.com
 0.0.0.0	log.qookkagames.com
 0.0.0.0	qos-bmwy-whatsapp.com.cn
+0.0.0.0	qoxikulauscollective.sbs
+0.0.0.0	qozuxicumgroup.sbs
 0.0.0.0	qp-clash.com.cn
 0.0.0.0	qp-kuailian.com.cn
 0.0.0.0	qpguaxianshiyongzaifukuan.com.cn
@@ -21133,10 +21455,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log6.reader.qq.com
 0.0.0.0	logs.game.qq.com
 0.0.0.0	logsdk.qq.com
-0.0.0.0	mapp.qzone.qq.com
-0.0.0.0	market.m.qq.com
-0.0.0.0	masdk.3g.qq.com
-0.0.0.0	masdkv6.3g.qq.com
 0.0.0.0	mazu.3g.qq.com
 0.0.0.0	mazu.m.qq.com
 0.0.0.0	mcgi.v.qq.com
@@ -21204,6 +21522,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rs1.qq.com
 0.0.0.0	rs2.qq.com
 0.0.0.0	s.pcapps.qq.com
+0.0.0.0	safebrowsing.urlsec.qq.com
 0.0.0.0	scdown.qq.com
 0.0.0.0	sdkconfig.video.qq.com
 0.0.0.0	sdksp.video.qq.com
@@ -21211,6 +21530,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	sentry.qt.qq.com
 0.0.0.0	setting.snswin.qq.com
 0.0.0.0	show-msgch.qq.com
+0.0.0.0	sngapm.qq.com
+0.0.0.0	sngmta.qq.com
+0.0.0.0	snowflake.qq.com
 0.0.0.0	soup.v.qq.com
 0.0.0.0	ssp.qq.com
 0.0.0.0	stat.3g.music.qq.com
@@ -21278,6 +21600,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	qq937.com
 0.0.0.0	qqa.cn
 0.0.0.0	qqcartoon.com
+0.0.0.0	qqdsbnmkloi.cn
 0.0.0.0	down.qqfarmer.com.cn
 0.0.0.0	qqjay2.cn
 0.0.0.0	qqkuailian.com.cn
@@ -21330,6 +21653,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	api.qttunion.com
 0.0.0.0	qtumbrella.com
 0.0.0.0	ccgbub296.qty592.com
+0.0.0.0	quag.cn
 0.0.0.0	saa.qualcomm.cn
 0.0.0.0	qcc.qualcomm.com
 0.0.0.0	quality-ad.com
@@ -21348,7 +21672,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	quanrunze.com.cn
 0.0.0.0	quansj.cn
 0.0.0.0	quantflux.top
+0.0.0.0	quantum1advisory.sbs
+0.0.0.0	quantumchainmedia.sbs
+0.0.0.0	quantumedge101.pics
+0.0.0.0	quantumfuturelabs.sbs
+0.0.0.0	quantumgeonode.pics
+0.0.0.0	quantumprologic.sbs
 0.0.0.0	quantumproone.club
+0.0.0.0	quantumterramatrix.sbs
 0.0.0.0	quark-apps.com.cn
 0.0.0.0	adtrack.quark.cn
 0.0.0.0	applog.lc.quark.cn
@@ -21357,6 +21688,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	quarkth.com.cn
 0.0.0.0	qudajie.com
 0.0.0.0	xjqb.h5.qudei.cn
+0.0.0.0	qudufeiaoperations.sbs
 0.0.0.0	n.qudwrj.cn
 0.0.0.0	v.qudwrj.cn
 0.0.0.0	queen-bet365.com.cn
@@ -21422,9 +21754,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	userimg.qunar.com
 0.0.0.0	qunmiw.com
 0.0.0.0	quordlepuzzles.de
+0.0.0.0	quorivex.sbs
 0.0.0.0	quotationi.com
 0.0.0.0	qusell.com
-0.0.0.0	qusfybj.cn
 0.0.0.0	qutaovip.com
 0.0.0.0	quueehi.cn
 0.0.0.0	quur8jwfnd.top
@@ -21434,6 +21766,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	quyenduocbiet.com
 0.0.0.0	quyouwangluo2023.com
 0.0.0.0	quyuyouxuan.top
+0.0.0.0	quzevequoncollective.sbs
 0.0.0.0	qvikar.com
 0.0.0.0	qvkntqj.com
 0.0.0.0	qvonje.cn
@@ -21450,7 +21783,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qx-web-whatsapp.com.cn
 0.0.0.0	qxcx.cn
 0.0.0.0	qxjmw.com
-0.0.0.0	qxjwn.cn
 0.0.0.0	qxshelv.com
 0.0.0.0	qxt-kuailian.com.cn
 0.0.0.0	qy-binance.com.cn
@@ -21496,6 +21828,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	v5-se-bjtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-ex-alismart-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-ex-jx2-traffic-reading-ad.qznovelvod.com
+0.0.0.0	v5-se-ex-mc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-gddgtc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-jltc-reading-ad.qznovelvod.com
 0.0.0.0	v5-se-sjy-daily-reading-ad.qznovelvod.com
@@ -21516,17 +21849,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	v95-sz-reading-ad.qznovelvod.com
 0.0.0.0	v95-ynkmtc-reading-ad.qznovelvod.com
 0.0.0.0	v95-zjjx2tc-reading-ad.qznovelvod.com
+0.0.0.0	v96-reading-ad.qznovelvod.com
 0.0.0.0	v96-sz-daily-reading-ad.qznovelvod.com
 0.0.0.0	qzone6.com
+0.0.0.0	qzstudy.com
 0.0.0.0	tc.qzwxrtyk.com
 0.0.0.0	qzy2007.com
 0.0.0.0	r-golsport.club
 0.0.0.0	r-ie-whatsapp.com.cn
 0.0.0.0	r-tb.com
 0.0.0.0	r-x-e-whatsapp.com.cn
-0.0.0.0	ac-socket.r0csgo.com
-0.0.0.0	api.r0csgo.com
-0.0.0.0	local-api-direct.r0csgo.com
 0.0.0.0	r1kuailian.com.cn
 0.0.0.0	r1vfqq4pi3.live
 0.0.0.0	r2online.com.cn
@@ -21544,7 +21876,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	rabannelook.shop
 0.0.0.0	a2.rabbitpre.com
 0.0.0.0	rabuagc.cn
-0.0.0.0	rachelshothoney.cn
 0.0.0.0	radiancecn.com
 0.0.0.0	raej.cn
 0.0.0.0	raepower.com
@@ -21637,6 +21968,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	images.response.reedexpo.com.cn
 0.0.0.0	news.reedexpo.com.cn
 0.0.0.0	reedooai.com
+0.0.0.0	solutions.refinitiv.cn
 0.0.0.0	reformhaushealth.shop
 0.0.0.0	regencosmo.com
 0.0.0.0	register-binance.com.cn
@@ -21674,6 +22006,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	resona-wujl.com
 0.0.0.0	resone-shinab.com
 0.0.0.0	respeaonsct.com
+0.0.0.0	restbet1629.cam
 0.0.0.0	retrostage.shop
 0.0.0.0	reub.qpon
 0.0.0.0	api.revenuads.com
@@ -21787,7 +22120,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	rj-feiji.com.cn
 0.0.0.0	rj-kuailian.com.cn
 0.0.0.0	rj-kuailian.hl.cn
-0.0.0.0	rja.com.cn
 0.0.0.0	rjk6.vip
 0.0.0.0	rjmyd.com
 0.0.0.0	rjubkmn.cn
@@ -21799,6 +22131,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rlgi.cn
 0.0.0.0	rlhfsaelgwnbhy.top
 0.0.0.0	rljjt.cn
+0.0.0.0	rmb328.com
 0.0.0.0	rmb470.com
 0.0.0.0	rmqe-wending.com.cn
 0.0.0.0	rmqz.cn
@@ -21814,11 +22147,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	tags.roberthalf.cn
 0.0.0.0	roblox.gr.com
 0.0.0.0	rocketman.top
-0.0.0.0	rockstreamer.com
 0.0.0.0	rockymars.com
+0.0.0.0	rogoconoworholdingsnet.sbs
 0.0.0.0	a.rohde-schwarz.com.cn
 0.0.0.0	dl.roho.top
 0.0.0.0	metrics.rolex.cn
+0.0.0.0	smetrics.rolex.cn
 0.0.0.0	romax.com.cn
 0.0.0.0	dualstack-collection.rong-edge.com
 0.0.0.0	stats.rong-edge.com
@@ -21829,10 +22163,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	statssg01.cn.ronghub.com
 0.0.0.0	rongrongtu.cn
 0.0.0.0	rongwp.com
+0.0.0.0	roomvipsabi03.shop
+0.0.0.0	roomvipsabi13.shop
 0.0.0.0	w1.rootim.com
 0.0.0.0	w2.rootim.com
 0.0.0.0	ropaly.com.bd
-0.0.0.0	rosabellass.store
 0.0.0.0	rosabender.shop
 0.0.0.0	roseres.top
 0.0.0.0	o.rosettastone.cn
@@ -21854,6 +22189,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	route34.cn
 0.0.0.0	rovz7ekw3r.com
 0.0.0.0	rowhq05vw1.shop
+0.0.0.0	roxozoisholdings.sbs
 0.0.0.0	royalmailt.cn
 0.0.0.0	rpa.mobi
 0.0.0.0	rpahyhn.cn
@@ -21952,6 +22288,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ethowaitaire.s36e8t.info
 0.0.0.0	s3d4.cn
 0.0.0.0	s4y6lhotaw.com
+0.0.0.0	s5fds4uqx.com
 0.0.0.0	s5jqkxesys.top
 0.0.0.0	s8.pw
 0.0.0.0	s8bet.com
@@ -22126,13 +22463,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	saitef.cn
 0.0.0.0	saiyun.net
 0.0.0.0	saizen-fansubs.com
-0.0.0.0	salatds.com
+0.0.0.0	salamukadimah.blogspot.com
 0.0.0.0	salussaunasonline.shop
 0.0.0.0	samevay.com.cn
 0.0.0.0	samplesonline.com.cn
 0.0.0.0	samreensoomro.com
 0.0.0.0	samstudio.cn
 0.0.0.0	cn-api.mcsvc.samsung.com.cn
+0.0.0.0	smetrics.samsung.com.cn
 0.0.0.0	analytics-api.samsunghealthcn.com
 0.0.0.0	samsungminiprinters.com
 0.0.0.0	samyinyue.com
@@ -22152,7 +22490,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hubstat.sandai.net
 0.0.0.0	idx.m.hub.sandai.net
 0.0.0.0	ipbase.phub.sandai.net
-0.0.0.0	master.wap.dphub.sandai.net
 0.0.0.0	mcfg.sandai.net
 0.0.0.0	pmap.sandai.net
 0.0.0.0	pubstat.sandai.net
@@ -22173,6 +22510,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	dm.sanwen8.com
 0.0.0.0	sanxiangsan.com
 0.0.0.0	sanxuan.xyz
+0.0.0.0	sasoyaqauscapitalltd.sbs
 0.0.0.0	save-qiumenghui.com.cn
 0.0.0.0	save-qyh.com.cn
 0.0.0.0	sawaymarket-pl.shop
@@ -22194,6 +22532,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sbuysshop.shop
 0.0.0.0	sbw.net.cn
 0.0.0.0	wpan.sc2yun.com
+0.0.0.0	sc88vf.com
 0.0.0.0	scaffolding.com.cn
 0.0.0.0	scarefree.wiki
 0.0.0.0	scavenger.online
@@ -22204,6 +22543,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.scdn.io
 0.0.0.0	scegq.cn
 0.0.0.0	scfrwo.cn
+0.0.0.0	smetrics.schindler.cn
 0.0.0.0	schjcy.com
 0.0.0.0	schlank-21.com
 0.0.0.0	schmwl.com
@@ -22372,8 +22712,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sfys.cn
 0.0.0.0	sg-google.hl.cn
 0.0.0.0	stats.sg-light-edge.com
-0.0.0.0	lb-ndrq4ayq-1h7mf9psqdkb65lv.clb.sg-tencentclb.net
-0.0.0.0	lb-rnypyjwi-rzm2gb9ys7wtc4u0.clb.sg-tencentclb.net
 0.0.0.0	sg92.com
 0.0.0.0	sgbuyersguide.com
 0.0.0.0	dsm.hn.sgcc.com.cn
@@ -22407,7 +22745,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	shadowrockat.cn
 0.0.0.0	shaduruanjian8.com
 0.0.0.0	shaffer.cn
-0.0.0.0	shahidul.com.bd
 0.0.0.0	shajuan.cn
 0.0.0.0	shakepaymax.com
 0.0.0.0	shakhademia.xyz
@@ -22425,7 +22762,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	shanglinvpn.com.cn
 0.0.0.0	shangtuke.cn
 0.0.0.0	js.shangxueba.com
-0.0.0.0	shangyundian.cn
 0.0.0.0	shangzhishuke.com
 0.0.0.0	shanheyuemingdianshijumianfeiguankan.com.cn
 0.0.0.0	shanhulan.cn
@@ -22480,7 +22816,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	shengdgfzhengbangwrukou13.com.cn
 0.0.0.0	shengduotao.cn
 0.0.0.0	shenglijixie.cn
-0.0.0.0	shenglongmuyi.cn
 0.0.0.0	shengminsy.com
 0.0.0.0	shengushi.cn
 0.0.0.0	shengyuanmeihao.com
@@ -22622,8 +22957,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	sifuhu.cn
 0.0.0.0	sigao.cn
 0.0.0.0	m1.sigenergy.com
+0.0.0.0	sigma365systems.pics
+0.0.0.0	sigmacapitalinnovate.sbs
+0.0.0.0	sigmainsightplatform.sbs
+0.0.0.0	sigmalabsglobal.pics
 0.0.0.0	sigmob.com
-0.0.0.0	signtu.cn
+0.0.0.0	smetrics.marketing.signify.com.cn
 0.0.0.0	signup-wending-pg.com.cn
 0.0.0.0	sihuikeji.cn
 0.0.0.0	siji-safe.com.cn
@@ -22662,6 +23001,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sdkapp.mobile.sina.cn
 0.0.0.0	sdkclick.mobile.sina.cn
 0.0.0.0	slog.sina.cn
+0.0.0.0	so.sina.cn
 0.0.0.0	statistic.cj.sina.cn
 0.0.0.0	taiji.sina.cn
 0.0.0.0	trends.mobile.sina.cn
@@ -22700,7 +23040,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	interest.mix.sina.com.cn
 0.0.0.0	log.mix.sina.com.cn
 0.0.0.0	m.bala.iask.sina.com.cn
-0.0.0.0	matwbp.iask.sina.com.cn
 0.0.0.0	mg.games.sina.com.cn
 0.0.0.0	pfp.sina.com.cn
 0.0.0.0	rm.sina.com.cn
@@ -22746,6 +23085,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sinovacuum.com
 0.0.0.0	eshop.sintech.cn
 0.0.0.0	sinuokeshidadingjtiancai.com.cn
+0.0.0.0	sinwon.com.cn
 0.0.0.0	mail.siom.ac.cn
 0.0.0.0	sipcoj.com
 0.0.0.0	sipyjo.cn
@@ -22804,9 +23144,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	skykuailian.com.cn
 0.0.0.0	skymall2628.com
 0.0.0.0	log.skyroam.com.cn
-0.0.0.0	cdn1-lake.skysriver.com
 0.0.0.0	skytec.com.cn
 0.0.0.0	stats.skywork.ai
+0.0.0.0	skyworksworks.sbs
 0.0.0.0	sl.ink
 0.0.0.0	sleepwearinc.com
 0.0.0.0	netflix.slhda.com
@@ -22855,30 +23195,60 @@ ff02::3	ip6-allhosts
 0.0.0.0	form-submission-workspace.ajo-stage.srv.smart.com
 0.0.0.0	form-submission.marketing.smart.com
 0.0.0.0	raffle-entry.info.smart.com
+0.0.0.0	smetrics.future.smart.com
+0.0.0.0	sms.info.smart.com
 0.0.0.0	smart1st.online
 0.0.0.0	smartbuild.world
 0.0.0.0	smartbuilding.com.cn
 0.0.0.0	smartcn.cn
+0.0.0.0	smartenterprise247.sbs
 0.0.0.0	smartline.com.cn
+0.0.0.0	smartmacroinsight.sbs
+0.0.0.0	smartnettoken.sbs
 0.0.0.0	smartpcfixer.com
 0.0.0.0	smartpotst.icu
 0.0.0.0	smartsafe.com.cn
 0.0.0.0	smartshare.online
+0.0.0.0	smartsystems247.sbs
 0.0.0.0	smarttrade.cn
+0.0.0.0	smartvortexengine.sbs
 0.0.0.0	smbc-cardzj0.club
 0.0.0.0	smbonline.com.cn
 0.0.0.0	smcbnokkihabak.com
 0.0.0.0	smcbnokkirederc.com
 0.0.0.0	smds.com
+0.0.0.0	smh0706.com.cn
+0.0.0.0	smibre.com
+0.0.0.0	smisogou.com.cn
+0.0.0.0	smiwin.com
 0.0.0.0	probe.smjb.cn
 0.0.0.0	a1.smnuwd.cn
+0.0.0.0	smoxewac.cn
+0.0.0.0	smpa-go-kr.xyz
+0.0.0.0	smsas1162p.com
+0.0.0.0	smsz.xyz
+0.0.0.0	smucdn.com
+0.0.0.0	smxyjhg.com
 0.0.0.0	status.smy.me
 0.0.0.0	analytics-api-01.smzdm.com
 0.0.0.0	res-ga.smzdm.com
+0.0.0.0	sn1.cn
+0.0.0.0	sn5.xyz
+0.0.0.0	snakuailian.hl.cn
 0.0.0.0	errortracking.snapp.site
 0.0.0.0	sensors.snappea.com
 0.0.0.0	misc.api.snaptube.app
 0.0.0.0	sensors.snaptube.app
+0.0.0.0	snb15ws11wwa.top
+0.0.0.0	snchain.com.cn
+0.0.0.0	sneis.com
+0.0.0.0	snj33.cn
+0.0.0.0	snkding.com.cn
+0.0.0.0	snmi.cn
+0.0.0.0	snowandice.online
+0.0.0.0	snowfire.cn
+0.0.0.0	snowvm.com
+0.0.0.0	snri.cn
 0.0.0.0	abtest-ch.snssdk.com
 0.0.0.0	analytics.snssdk.com
 0.0.0.0	applog.snssdk.com
@@ -22927,13 +23297,64 @@ ff02::3	ip6-allhosts
 0.0.0.0	vas-hl-x.snssdk.com
 0.0.0.0	vcl-brain.snssdk.com
 0.0.0.0	xlog.snssdk.com
+0.0.0.0	sntzq.com
+0.0.0.0	snvpvno.com
+0.0.0.0	snwlai.top
+0.0.0.0	snyu.com
+0.0.0.0	snzfj.net
+0.0.0.0	snzsb.com
+0.0.0.0	snzy.cc
+0.0.0.0	so-sogouinput.com.cn
+0.0.0.0	so-wending.com.cn
+0.0.0.0	so-wps.com.cn
 0.0.0.0	p.sug.so.com
 0.0.0.0	spro.so.com
 0.0.0.0	tran.news.so.com
+0.0.0.0	soarfi.cn
+0.0.0.0	soarpower.com
+0.0.0.0	sobgou.hl.cn
+0.0.0.0	sobot.com
+0.0.0.0	soccersearchengine.com
+0.0.0.0	social-touch.com
+0.0.0.0	socksonline.com.cn
+0.0.0.0	sod-sogou.com.cn
+0.0.0.0	sodastreampro.shop
+0.0.0.0	soegou.hl.cn
+0.0.0.0	soemyidcbiue.cn
+0.0.0.0	sofgou.hl.cn
+0.0.0.0	sofizjo.shop
+0.0.0.0	softba.cn
+0.0.0.0	softbd.cn
+0.0.0.0	softbox.site
+0.0.0.0	softonic-winrar.cn
 0.0.0.0	pub.softonic.cn
 0.0.0.0	tlauncher.softonic.cn
 0.0.0.0	wct.softonic.cn
+0.0.0.0	softonline.com.cn
+0.0.0.0	softpro-wpsoffice.cn
+0.0.0.0	softtube.cn
+0.0.0.0	softxz.com
 0.0.0.0	adx.sogaha.cn
+0.0.0.0	sogardens.shop
+0.0.0.0	sogo-sogou.com.cn
+0.0.0.0	sogou-alc.com.cn
+0.0.0.0	sogou-ap.com.cn
+0.0.0.0	sogou-app.hl.cn
+0.0.0.0	sogou-bz.com.cn
+0.0.0.0	sogou-ch.com.cn
+0.0.0.0	sogou-cn.hl.cn
+0.0.0.0	sogou-co.com.cn
+0.0.0.0	sogou-mvh.com.cn
+0.0.0.0	sogou-ping.hl.cn
+0.0.0.0	sogou-qh.com.cn
+0.0.0.0	sogou-sco.com.cn
+0.0.0.0	sogou-th.com.cn
+0.0.0.0	sogou-tp.com.cn
+0.0.0.0	sogou-wpss.com.cn
+0.0.0.0	sogou-xiazai.com.cn
+0.0.0.0	sogou-xr.com.cn
+0.0.0.0	sogou-xz.com.cn
+0.0.0.0	sogou-zip.com.cn
 0.0.0.0	123.sogou.com
 0.0.0.0	files2.sogou.com
 0.0.0.0	info.pinyin.sogou.com
@@ -22945,7 +23366,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	web.sogou.com
 0.0.0.0	worldwide.sogou.com
 0.0.0.0	ws-keyboard.shouji.sogou.com
+0.0.0.0	sogou.hl.cn
+0.0.0.0	sogou2.com.cn
+0.0.0.0	sogouapps.com.cn
+0.0.0.0	sogoubrowserl.com.cn
 0.0.0.0	theta.sogoucdn.com
+0.0.0.0	sogous.cn
+0.0.0.0	sogoushurufa.hl.cn
+0.0.0.0	sohelelectronics.com
 0.0.0.0	888.tv.sohu.com
 0.0.0.0	ad.sohu.com
 0.0.0.0	ads.sohu.com
@@ -22987,10 +23415,21 @@ ff02::3	ip6-allhosts
 0.0.0.0	yule.sohu.com
 0.0.0.0	click.hd.sohu.com.cn
 0.0.0.0	pb.hd.sohu.com.cn
+0.0.0.0	soizvffz.com
+0.0.0.0	sol777.bet
+0.0.0.0	solelyshoes.com
 0.0.0.0	api-dt.qj7h5.soletower.com
+0.0.0.0	soliah.com
+0.0.0.0	solidifyk.com
+0.0.0.0	smetrics.solidigmtech.com.cn
+0.0.0.0	smetrics.solidigmtechnology.cn
+0.0.0.0	solitarymc.top
+0.0.0.0	solomao.cn
 0.0.0.0	rtb-uswest-ak.solomath.com
+0.0.0.0	solorojos.com
+0.0.0.0	solutionsnode360.sbs
+0.0.0.0	som-sogou.com.cn
 0.0.0.0	status.someo.top
-0.0.0.0	sonaoko.shop
 0.0.0.0	sonear-sports.com.cn
 0.0.0.0	song001.com
 0.0.0.0	songlaoban.cn
@@ -23071,6 +23510,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	sp-qishui.com.cn
 0.0.0.0	sp0551.top
 0.0.0.0	spalemandarin.com
+0.0.0.0	spark101systems.pics
+0.0.0.0	sparkcodespace.pics
+0.0.0.0	sparkdevflare.sbs
 0.0.0.0	sparkedgecap.com
 0.0.0.0	sparktive.com.cn
 0.0.0.0	spaziogossip.com
@@ -23080,6 +23522,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	speed-firefox.com.cn
 0.0.0.0	speed-google.com.cn
 0.0.0.0	forge.speedtest.cn
+0.0.0.0	spheredata.sbs
+0.0.0.0	sphereedgeenterprise.pics
 0.0.0.0	spiderr9.online
 0.0.0.0	sport-live-kaiyun.com.cn
 0.0.0.0	sportmora.shop
@@ -23089,7 +23533,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cohorts.spotify.com.cn
 0.0.0.0	mcwp.spotify.com.cn
 0.0.0.0	xn--6krsm155l.spotify.com.cn
-0.0.0.0	yasukichi.spotify.com.cn
 0.0.0.0	spotify.hl.cn
 0.0.0.0	spp-kuailian.com.cn
 0.0.0.0	spp-pumps.com
@@ -23097,6 +23540,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	spreadable.com.cn
 0.0.0.0	springcloud.top
 0.0.0.0	springing.top
+0.0.0.0	spumps.lol
 0.0.0.0	spweod.cn
 0.0.0.0	spwi-wps.com.cn
 0.0.0.0	spwpack.com
@@ -23118,7 +23562,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	srtzjt.hl.cn
 0.0.0.0	ss3344.top
 0.0.0.0	ssecom.cn
-0.0.0.0	ssefcv.shop
 0.0.0.0	ssim-guadalajar.top
 0.0.0.0	ssl-wps.com.cn
 0.0.0.0	sslfix.online
@@ -23128,18 +23571,20 @@ ff02::3	ip6-allhosts
 0.0.0.0	ssmaczm.cfd
 0.0.0.0	data.ssports.com
 0.0.0.0	show.ssports.com
+0.0.0.0	3.ssqzj.com
 0.0.0.0	ssrw-sbetsports.com.cn
 0.0.0.0	sss-kuailian.hl.cn
 0.0.0.0	sss348499.com
 0.0.0.0	sss437942.com
 0.0.0.0	sss495830.com
-0.0.0.0	sssjhvycytjnjoo.cn
 0.0.0.0	ssur.cc
 0.0.0.0	st-kuailian.com.cn
 0.0.0.0	st-sougou.com.cn
 0.0.0.0	st-wps.com.cn
+0.0.0.0	stacklumen-365.pics
 0.0.0.0	staemcommunity.cc
 0.0.0.0	staimall.com
+0.0.0.0	staketsone.sbs
 0.0.0.0	stalcopl.shop
 0.0.0.0	stalcos.shop
 0.0.0.0	stalcoshop.club
@@ -23155,6 +23600,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ec-web.staticec.com
 0.0.0.0	staticfile.net
 0.0.0.0	staticfile.org
+0.0.0.0	stationstructgamma.pics
 0.0.0.0	statistic.run
 0.0.0.0	trackmarketing.staubli.cn
 0.0.0.0	stbpr.com
@@ -23170,7 +23616,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	steeltrader.com.cn
 0.0.0.0	stelarbridgecorp.com
 0.0.0.0	stellaredgeconsults.com
+0.0.0.0	stellarglobalpoint.sbs
 0.0.0.0	stellaroptics.cn
+0.0.0.0	stellarpromatrix.sbs
+0.0.0.0	stellarspacecode.sbs
 0.0.0.0	stelliers.cn
 0.0.0.0	stereorise.com
 0.0.0.0	sterilizationvalidation.com
@@ -23195,7 +23644,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	strategy-whatsapp.com.cn
 0.0.0.0	strauss-market.shop
 0.0.0.0	stripcheck.bond
+0.0.0.0	struc-t24studio.pics
+0.0.0.0	struc-tbureaudev.sbs
+0.0.0.0	structnextdynamics.sbs
+0.0.0.0	structzonemedia.sbs
+0.0.0.0	sts-cisco.com
 0.0.0.0	studentguideusa.com
+0.0.0.0	studio247prime.pics
 0.0.0.0	studyhere.com.cn
 0.0.0.0	studylabs.cn
 0.0.0.0	autotrack.studyquicks.com
@@ -23295,6 +23750,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	susannagle.shop
 0.0.0.0	eo1.sushen.tk
 0.0.0.0	suvpg.com
+0.0.0.0	suwaqonisresourcesltd.sbs
 0.0.0.0	bdunion1.suxiazai.com
 0.0.0.0	download.suxiazai.com
 0.0.0.0	suyx.net
@@ -23318,6 +23774,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sw67.cn
 0.0.0.0	swaadist.com
 0.0.0.0	swacjerseys.com
+0.0.0.0	swappingnews.shop
 0.0.0.0	www.sweetdominique.com
 0.0.0.0	swet.qpon
 0.0.0.0	sentry.swiftpass.cn
@@ -23332,7 +23789,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sxehny.cn
 0.0.0.0	sxeye.org.cn
 0.0.0.0	sxfanshifu.com
-0.0.0.0	aa.sxghzj.cn
+0.0.0.0	sxgczj.cn
 0.0.0.0	sxhangtie.com
 0.0.0.0	sxhhyy.com
 0.0.0.0	sxiulqxi.cn
@@ -23369,6 +23826,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	syr66.com.cn
 0.0.0.0	sysadult.cn
 0.0.0.0	sysowo.cn
+0.0.0.0	systemhub.nx.cn
+0.0.0.0	systemhub.sc.cn
+0.0.0.0	systemtokenx.pics
 0.0.0.0	syswnw.cn
 0.0.0.0	sytimewell.com
 0.0.0.0	syux-sbetsports.com.cn
@@ -23403,6 +23863,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	szmpc.cn
 0.0.0.0	szmxsj.com.cn
 0.0.0.0	szobis.com
+0.0.0.0	szplgk.cn
 0.0.0.0	szpnc.cn
 0.0.0.0	ad.szprize.cn
 0.0.0.0	szqingding.com
@@ -23456,9 +23917,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	taihetoy.com
 0.0.0.0	taihulive.com
 0.0.0.0	taikang-tech.com
+0.0.0.0	tailscale-ai.sbs
 0.0.0.0	takaelot.cfd
+0.0.0.0	takafafioncapital48.sbs
 0.0.0.0	takjttz.cn
-0.0.0.0	tale-gram.site
 0.0.0.0	tale-matic.com
 0.0.0.0	taleexchange.com
 0.0.0.0	talk99.cn
@@ -23476,6 +23938,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tangyuan-ai.cn
 0.0.0.0	pl.taniej-pl.shop
 0.0.0.0	identify.tankeai.com
+0.0.0.0	tanofitisoperations.sbs
 0.0.0.0	clog.tanshudata.com
 0.0.0.0	affiliate.tantanapp.com
 0.0.0.0	client-monitor.tantanapp.com
@@ -23603,7 +24066,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gg.taoseyy.cn
 0.0.0.0	img.taotaosou.cn
 0.0.0.0	img01.taotaosou.cn
-0.0.0.0	taotui.cn
 0.0.0.0	taou.cn
 0.0.0.0	app-sentry.taou.com
 0.0.0.0	qw2v.taoxiehui.cn
@@ -23616,6 +24078,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tapdb.net
 0.0.0.0	tapiche.cn
 0.0.0.0	tapjoy.cn
+0.0.0.0	tapokimiwiorresources.sbs
 0.0.0.0	sentry.tapsvc.com
 0.0.0.0	crash.taptap.com
 0.0.0.0	targetedmedia.com.cn
@@ -23627,6 +24090,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tasniyaenterprise.com
 0.0.0.0	tastevision.cn
 0.0.0.0	tastybigass.com
+0.0.0.0	tastykoxem.cyou
 0.0.0.0	tatagou.com.cn
 0.0.0.0	ad.tatatimes.com
 0.0.0.0	gamelogs-ttxq.tataxingqiu.com
@@ -23699,9 +24163,20 @@ ff02::3	ip6-allhosts
 0.0.0.0	tebie.cn
 0.0.0.0	tebiede.cn
 0.0.0.0	tg.tebiezhuan.com
+0.0.0.0	tebojogionmanagement.sbs
 0.0.0.0	log.tec73.com
+0.0.0.0	techdomain.sbs
 0.0.0.0	techkey.com.cn
 0.0.0.0	techman-usa.com
+0.0.0.0	techn-ochain360.pics
+0.0.0.0	techn-ofactory247.sbs
+0.0.0.0	techno247metrics.sbs
+0.0.0.0	techno24network.pics
+0.0.0.0	technoglobal-node.pics
+0.0.0.0	technoplussolutions.sbs
+0.0.0.0	technosmarttech.sbs
+0.0.0.0	technot-eam365.pics
+0.0.0.0	technovatechno.sbs
 0.0.0.0	tongji.techweb.com.cn
 0.0.0.0	tecronsafety.com.cn
 0.0.0.0	tecunonline.com
@@ -23732,6 +24207,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	telegramqweb.com.cn
 0.0.0.0	telegramtgappc.com.cn
 0.0.0.0	telegramtoke.com
+0.0.0.0	telegramu.cn
 0.0.0.0	telegramus.com.cn
 0.0.0.0	telegramvv.com.cn
 0.0.0.0	telegramxweb.com.cn
@@ -23795,7 +24271,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adstats.tencentmusic.com
 0.0.0.0	report.tencentmusic.com
 0.0.0.0	ssp.tencentmusic.com
-0.0.0.0	1325813086-kvn4jlpgeu.ap-shanghai.tencentscf.com
 0.0.0.0	beacon.tencentwm.com
 0.0.0.0	tendata.cn
 0.0.0.0	tendata.net
@@ -23807,6 +24282,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	dc.tensgpt.com
 0.0.0.0	tepusi888.cn
 0.0.0.0	answers.teradata.com.cn
+0.0.0.0	terra365platform.pics
+0.0.0.0	terrainnovate24.sbs
+0.0.0.0	terrainnovatesystems.sbs
 0.0.0.0	tesco-en00.cn
 0.0.0.0	tesco-ena.cn
 0.0.0.0	tesco-enb.cn
@@ -23885,6 +24363,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	theairil.org
 0.0.0.0	thechristianbbs.com
 0.0.0.0	thecrandalloffice.shop
+0.0.0.0	conn.webpush.theengagelab.com
 0.0.0.0	theflexbueromoebel.shop
 0.0.0.0	thefoxandhoundswalton.com
 0.0.0.0	thegiot.com
@@ -23913,9 +24392,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	thinkingdata.cn
 0.0.0.0	thinkmarkets.cn
 0.0.0.0	ad.thinkmedia.cn
-0.0.0.0	thirstea.com.cn
 0.0.0.0	thkawa.com
-0.0.0.0	thkjhg.cn
 0.0.0.0	thkuailian.hl.cn
 0.0.0.0	trk.thomas-pump.cn
 0.0.0.0	trail.thomsonreuters.cn
@@ -23943,6 +24420,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yptqys.tianqistatic.com
 0.0.0.0	tianrun.com
 0.0.0.0	tianshidanbao.shop
+0.0.0.0	fz.tiansys.cn
 0.0.0.0	tiantangdianyingyuan2.com.cn
 0.0.0.0	tiantiansoft.com
 0.0.0.0	tianyi5g.cn
@@ -23962,6 +24440,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ticp.vip
 0.0.0.0	server.tidymoon.top
 0.0.0.0	tiexing.com
+0.0.0.0	smetrics.tiffany.cn
 0.0.0.0	tigerborn.com
 0.0.0.0	tigote.cc
 0.0.0.0	tigovip.click
@@ -23977,10 +24456,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	tiktokjob.work
 0.0.0.0	tiktokshop.bond
 0.0.0.0	tiktokshop.cyou
-0.0.0.0	tnc100-useast1a.tiktokv.com
 0.0.0.0	tikz.cn
 0.0.0.0	timaa.cn
-0.0.0.0	timberpolis.cn
 0.0.0.0	time-google.com.cn
 0.0.0.0	hub.timeflagship.cn
 0.0.0.0	node.timelate.com
@@ -23994,11 +24471,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	tingyun.com
 0.0.0.0	tinya1.cn
 0.0.0.0	www.tiompanalley.com
+0.0.0.0	tiqasuxispartners.sbs
 0.0.0.0	tisszhb.cn
 0.0.0.0	img2.titan007.com
 0.0.0.0	tiyupingtaigwdlrukoushoujiban.com.cn
 0.0.0.0	a.tiyuxiu.com
 0.0.0.0	stats.tj.gov.cn
+0.0.0.0	tj56vg.com
 0.0.0.0	tjblhg.cn
 0.0.0.0	tjfytech.com
 0.0.0.0	tjnkxy.cn
@@ -24122,6 +24601,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	toniesdirect.shop
 0.0.0.0	tonnn.com
 0.0.0.0	tonxin.top
+0.0.0.0	tonyedu.com
 0.0.0.0	myad.toocle.com
 0.0.0.0	tool-qiumenghui.com.cn
 0.0.0.0	tool-youdao.com.cn
@@ -24229,7 +24709,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trackingab.help
 0.0.0.0	trackingac.help
 0.0.0.0	trackinge.click
-0.0.0.0	trackingfr.click
 0.0.0.0	trackingh.click
 0.0.0.0	trackingh.help
 0.0.0.0	trackingh.top
@@ -24301,7 +24780,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	true-bet365.com.cn
 0.0.0.0	ad.truerun.com
 0.0.0.0	trumerholz-store.shop
+0.0.0.0	trust-matrixneural.pics
 0.0.0.0	trust-wending.com.cn
+0.0.0.0	trustedgeprime.sbs
 0.0.0.0	trustflowlogistics.com
 0.0.0.0	trustgame.cn
 0.0.0.0	trustutn.org
@@ -24395,7 +24876,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.tutuapp.com
 0.0.0.0	tutuyun.cc
 0.0.0.0	tutvp.com
+0.0.0.0	smetrics.tuvsud.cn
 0.0.0.0	tuxi.com.cn
+0.0.0.0	tuxonewusaumindustries12.sbs
 0.0.0.0	blog.tuziip.com
 0.0.0.0	tv-wending.com.cn
 0.0.0.0	log.tv360.vn
@@ -24448,7 +24931,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	txhighlands.com
 0.0.0.0	txkuailian.com.cn
 0.0.0.0	livetech.shopee.co.id.txlivecdn.com
-0.0.0.0	livetech.shopee.co.th.txlivecdn.com
 0.0.0.0	livetech.shopee.com.br.txlivecdn.com
 0.0.0.0	livetech.shopee.vn.txlivecdn.com
 0.0.0.0	txmwxca.xyz
@@ -24489,6 +24971,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ee.u0r9.cn
 0.0.0.0	m.u0r9.cn
 0.0.0.0	u22web6.cn
+0.0.0.0	u28.uk
 0.0.0.0	u2vb0c.cn
 0.0.0.0	u334c6qvpy.live
 0.0.0.0	u39752.shop
@@ -24507,9 +24990,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	u8ad.com
 0.0.0.0	u8u888.com
 0.0.0.0	uaal-sbetsports.com.cn
+0.0.0.0	uaedisscount.com
 0.0.0.0	uaqe.cn
 0.0.0.0	uasorbb.cn
 0.0.0.0	uavgxx.click
+0.0.0.0	ub89hb5.com
 0.0.0.0	images.info.ubmsinoexpo.com
 0.0.0.0	images.service.ubmsinoexpo.com
 0.0.0.0	ubxcrqny.shop
@@ -24635,7 +25120,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	countly.ulanzistudio.com
 0.0.0.0	jifen.ule.com
 0.0.0.0	ulki.cn
-0.0.0.0	ultraaiproxy.com
+0.0.0.0	ultra101dynamics.pics
+0.0.0.0	ultraadvisorywo-rks.sbs
 0.0.0.0	ultrapay.net
 0.0.0.0	ultrasoftbd.com
 0.0.0.0	ultrasonice.com
@@ -24722,7 +25208,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	adscfg.uqualities.com
 0.0.0.0	adsoss.uqualities.com
 0.0.0.0	uqz.com
-0.0.0.0	urbanfind.club
 0.0.0.0	urbe-wending.com.cn
 0.0.0.0	urgalaxy.com
 0.0.0.0	urhu.cn
@@ -24751,7 +25236,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	usafew.com.cn
 0.0.0.0	usagoodclothes.com
 0.0.0.0	usb217.com
-0.0.0.0	usb222.com
 0.0.0.0	uschesssalesstore.shop
 0.0.0.0	uscn-wps.com.cn
 0.0.0.0	uscoin.gold
@@ -24791,7 +25275,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	utkuailian.com.cn
 0.0.0.0	gyqpyr.utsource.net
 0.0.0.0	uttravel.cn
-0.0.0.0	utuhv.cn
 0.0.0.0	utve.cn
 0.0.0.0	uu-sougou.com.cn
 0.0.0.0	app.uu.cc
@@ -24874,8 +25357,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	v61.com
 0.0.0.0	v66v66.com
 0.0.0.0	m.v76rk.cn
+0.0.0.0	v84tz11w7.com
 0.0.0.0	v9-net.top
 0.0.0.0	va3yq7si6w.com
+0.0.0.0	vacagisonsystems21.sbs
+0.0.0.0	vaduhiisindustries.pics
 0.0.0.0	vaeo.cn
 0.0.0.0	vaeth.cn
 0.0.0.0	vagabundtimes.shop
@@ -24891,8 +25377,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	sea-log-rcv.vansound.com
 0.0.0.0	vapor-whatsapp.com.cn
 0.0.0.0	api.vasb.cn
+0.0.0.0	vasogoisoperations.sbs
 0.0.0.0	vataotao.com
 0.0.0.0	tz.vay1314.top
+0.0.0.0	vaycasino-tekgirisadresi.icu
 0.0.0.0	vb-kuailian.com.cn
 0.0.0.0	vbc08100op.com
 0.0.0.0	vbc08101op.com
@@ -24922,6 +25410,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	veminar.net
 0.0.0.0	venauniformystyle.shop
 0.0.0.0	ventnor.com.cn
+0.0.0.0	ventureblock.sbs
+0.0.0.0	venturesastro360.pics
 0.0.0.0	verifyhub.gx.cn
 0.0.0.0	verifyhub.ha.cn
 0.0.0.0	verifyhub.he.cn
@@ -24936,6 +25426,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	g.analytics.versa-ai.com
 0.0.0.0	versatilebi.online
 0.0.0.0	versedskinshop.shop
+0.0.0.0	vertexgro-upinvest.sbs
+0.0.0.0	vertexinvestultra.sbs
 0.0.0.0	veryboys.com
 0.0.0.0	veryromantica.com
 0.0.0.0	crash.verysync.cn
@@ -24983,6 +25475,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	rtas.videocc.net
 0.0.0.0	videojj.com
 0.0.0.0	apkdata.vidmatefilm.org
+0.0.0.0	vidor168.com
 0.0.0.0	conf.vidown.cn
 0.0.0.0	gg.vidown.cn
 0.0.0.0	minisite.vidown.cn
@@ -24993,7 +25486,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vigyn4gpx.com
 0.0.0.0	vihppjk.cn
 0.0.0.0	viktilabslabs.shop
-0.0.0.0	villainm695.top
 0.0.0.0	vim-bet365.com.cn
 0.0.0.0	vingi.online
 0.0.0.0	vintvids.com
@@ -25041,7 +25533,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	visaxpanama.cn
 0.0.0.0	vishoping.com
 0.0.0.0	vision123.cn
+0.0.0.0	visionblock365.sbs
+0.0.0.0	visiongammapattern.pics
+0.0.0.0	visionhorizonmatrix.sbs
+0.0.0.0	visionmatrix24.pics
 0.0.0.0	stat.visionular.cn
+0.0.0.0	visionunionnetwork.sbs
+0.0.0.0	visionvertexworks.sbs
+0.0.0.0	smetrics.visitsingapore.com.cn
 0.0.0.0	vismaasale.shop
 0.0.0.0	vismadeal.shop
 0.0.0.0	visvn.cn
@@ -25050,6 +25549,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	tls.vitcop.com
 0.0.0.0	vitoboy.com
 0.0.0.0	vitte.com.cn
+0.0.0.0	vivclo.com
 0.0.0.0	adlog.vivo.com
 0.0.0.0	ads-api.vivo.com
 0.0.0.0	bhwkju.vivo.com
@@ -25212,7 +25712,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	kz-st-sl.vivoglobal.com
 0.0.0.0	kz-st-sysupgrade.vivoglobal.com
 0.0.0.0	kz-stsdk.vivoglobal.com
-0.0.0.0	kz-vcode-api.vivoglobal.com
 0.0.0.0	kz-vcode-od.vivoglobal.com
 0.0.0.0	kz-vcode-or.vivoglobal.com
 0.0.0.0	monitor-stsdk.vivoglobal.com
@@ -25334,6 +25833,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	vmrrobotics.com
 0.0.0.0	vn-mtws-whatsapp.com.cn
 0.0.0.0	vn-wps.com.cn
+0.0.0.0	vn682.com
+0.0.0.0	vn777s.com
+0.0.0.0	vn9833.com
 0.0.0.0	vncn-wps.com.cn
 0.0.0.0	vncq.cn
 0.0.0.0	vnnv777.cn
@@ -25373,9 +25875,14 @@ ff02::3	ip6-allhosts
 0.0.0.0	volctrack.com
 0.0.0.0	voldam.com
 0.0.0.0	vole11.cn
+0.0.0.0	vole22.cn
 0.0.0.0	voltrao.digital
 0.0.0.0	report.voovmeeting.com
 0.0.0.0	vorluic.cn
+0.0.0.0	vort-exedgefinance.pics
+0.0.0.0	vortex24fusion.sbs
+0.0.0.0	vortexcapital1.pics
+0.0.0.0	vortexstrategy101.pics
 0.0.0.0	vothea.com
 0.0.0.0	vovxi.cn
 0.0.0.0	vp5lr0.cn
@@ -25386,7 +25893,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vpn39.com
 0.0.0.0	vps-status.de
 0.0.0.0	vq-kuailian.hl.cn
-0.0.0.0	p.vq6nsu.cn
 0.0.0.0	smbcarad.vq8d54.info
 0.0.0.0	vqaa1vr5v4km.top
 0.0.0.0	vrbrothers.com
@@ -25407,6 +25913,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	vst76.cn
 0.0.0.0	vtdytwo.cn
 0.0.0.0	vtech-gz.com
+0.0.0.0	vteyu.shop
 0.0.0.0	vtoshop.com
 0.0.0.0	vttf.cn
 0.0.0.0	vu30.com
@@ -25479,6 +25986,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wailuobo.online
 0.0.0.0	waite.wang
 0.0.0.0	waitfor.cn
+0.0.0.0	wakohimeussolutions.sbs
 0.0.0.0	wakwak168.com
 0.0.0.0	wal521.com
 0.0.0.0	walden9.com
@@ -25527,9 +26035,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	dlog.wanmei.com
 0.0.0.0	log1.wanmei.com
 0.0.0.0	log2.wanmei.com
-0.0.0.0	matomo.wanqianyun.cn
 0.0.0.0	wansafe.com.cn
 0.0.0.0	wansan17.cn
+0.0.0.0	wantoucz.com
 0.0.0.0	k1.wanwenwan.cn
 0.0.0.0	wanxiongzhilu.cn
 0.0.0.0	wanyuchaowan.com
@@ -25537,6 +26045,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wap-openclaw.com.cn
 0.0.0.0	wap-wendinggame.com.cn
 0.0.0.0	wapadv.com
+0.0.0.0	img.warron.cn
 0.0.0.0	was84.cc
 0.0.0.0	collector.wasu.cn
 0.0.0.0	delivery.wasu.cn
@@ -25556,6 +26065,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bd.watu.cn
 0.0.0.0	api.anti.wauee.com
 0.0.0.0	wavww.com
+0.0.0.0	wb7p5y8.com
 0.0.0.0	wbe4.cn
 0.0.0.0	wbecrisfro.com
 0.0.0.0	appdownload.wbiao.cn
@@ -25574,7 +26084,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wdavtrk.com
 0.0.0.0	nz.wdcc.fun
 0.0.0.0	wdcdn.com
-0.0.0.0	manage.wdfans.cn
 0.0.0.0	c.wdgrtug.cn
 0.0.0.0	v.wdgrtug.cn
 0.0.0.0	kmr.wdjptto.cn
@@ -25588,6 +26097,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wdte-wending.com.cn
 0.0.0.0	we-wending.com.cn
 0.0.0.0	wean238.top
+0.0.0.0	weareholy.shop
 0.0.0.0	weareing.store
 0.0.0.0	weareqy.com
 0.0.0.0	wearvlone.shop
@@ -25670,7 +26180,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	webvivah.com
 0.0.0.0	server.webzz.com
 0.0.0.0	ads.app.wechat.com
-0.0.0.0	c.wechat.jx.cn
 0.0.0.0	wechatapi.net
 0.0.0.0	log.wechatpay.cn
 0.0.0.0	wechatregister.cn
@@ -25774,6 +26283,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wetinkmagazine.com
 0.0.0.0	htrace.wetvinfo.com
 0.0.0.0	wexrty.cn
+0.0.0.0	weyazagibuonpartners.sbs
 0.0.0.0	wfd-todesk.com.cn
 0.0.0.0	wgooglegoogle.com
 0.0.0.0	wgrt.pro
@@ -25827,7 +26337,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	whsbpw.cn
 0.0.0.0	whshunshi.top
 0.0.0.0	whsxb.xyz
-0.0.0.0	whtsapp-part.team
 0.0.0.0	whtybw.com
 0.0.0.0	whytd.com
 0.0.0.0	whyybc.com
@@ -25846,6 +26355,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	wifi33.com
 0.0.0.0	wifidown.com
 0.0.0.0	v.wifiwin.cn
+0.0.0.0	wifuxarapeexservices88.sbs
+0.0.0.0	wihakeiaconsulting.sbs
 0.0.0.0	wihimall.com
 0.0.0.0	wiiuii.cn
 0.0.0.0	wikilai.com
@@ -25872,6 +26383,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	winchdesign.cn
 0.0.0.0	wind-safew.com.cn
 0.0.0.0	wind-sogou.com.cn
+0.0.0.0	wind138.com
 0.0.0.0	windblow.top
 0.0.0.0	window-rar.cn
 0.0.0.0	windows-rar.cn
@@ -25900,6 +26412,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wireless-driver.com
 0.0.0.0	wis-whatsapp.com.cn
 0.0.0.0	wis-wps.com.cn
+0.0.0.0	wisecapitalorbit.sbs
 0.0.0.0	wiselaser.cn
 0.0.0.0	wish58.com
 0.0.0.0	wisport-pl.shop
@@ -25918,7 +26431,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wjxcdn.com
 0.0.0.0	wk-htx.hl.cn
 0.0.0.0	wk-zrp-whatsapp.com.cn
-0.0.0.0	h1.wk2.com
 0.0.0.0	wkanx.com
 0.0.0.0	wkp-zm-whatsapp.com.cn
 0.0.0.0	lm1.wkpcw.cn
@@ -25928,7 +26440,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	opensdk.wlanbanlv.com
 0.0.0.0	wlclw.com.cn
 0.0.0.0	nz.wldwz.icu
-0.0.0.0	tz.wle.cc
 0.0.0.0	wlgjz02mo.com
 0.0.0.0	wlhcb.cn
 0.0.0.0	wljc0898.com
@@ -25952,8 +26463,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	woai117.cn
 0.0.0.0	woaifeishu.com.cn
 0.0.0.0	wobeg.com
+0.0.0.0	wodogogutusgroupltd.pics
 0.0.0.0	cdn.wofdsp.com
 0.0.0.0	wohuitao.cn
+0.0.0.0	wojusetesousmanagementnet.pics
 0.0.0.0	wok-google.com.cn
 0.0.0.0	womenwan.com
 0.0.0.0	analytics.wondershare.cc
@@ -25989,6 +26502,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wowokun.icu
 0.0.0.0	wowostar.cn
 0.0.0.0	wowou.cn
+0.0.0.0	wp-stat.s3.amazonaws.com
 0.0.0.0	wp-wps.hl.cn
 0.0.0.0	wp-youdao.com.cn
 0.0.0.0	wp9.cc
@@ -26139,6 +26653,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	log.wqxsw.com
 0.0.0.0	wqzedu.cn
 0.0.0.0	wr232.cn
+0.0.0.0	wr63mv.com
 0.0.0.0	wr8.com
 0.0.0.0	wrapifybd.com
 0.0.0.0	wrating.com
@@ -26191,6 +26706,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	update.taobao.cn.wswebcdn.com
 0.0.0.0	taoche.cn.wswebpic.com
 0.0.0.0	wsygj.com
+0.0.0.0	soft.wsyhn.com
 0.0.0.0	wsyszg.com
 0.0.0.0	wsyzsm.com
 0.0.0.0	wsz10j.shop
@@ -26240,7 +26756,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wukong-safelogin.com.cn
 0.0.0.0	wukongtongji.com
 0.0.0.0	wulemei.com
-0.0.0.0	xmrs.wulifang.nl
 0.0.0.0	wuling.org.cn
 0.0.0.0	wuliu178.com
 0.0.0.0	wuma.online
@@ -26257,7 +26772,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wuxingscoreline.com.cn
 0.0.0.0	wuxirc.cn
 0.0.0.0	wuykbb.com
-0.0.0.0	wuyou.store
+0.0.0.0	wuzenedeyonholdings.sbs
 0.0.0.0	wuzhulink.com
 0.0.0.0	nezha.wuzm219.cn
 0.0.0.0	wv26d.cn
@@ -26351,7 +26866,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wwwg77951.com
 0.0.0.0	wwwgoogle.com.cn
 0.0.0.0	wwwsei.cn
-0.0.0.0	wwwvbcsajmj.cn
 0.0.0.0	wwww-wps.hl.cn
 0.0.0.0	wwwx67373.com
 0.0.0.0	wwwzapas.cn
@@ -26398,6 +26912,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	wzvycmuf.xyz
 0.0.0.0	wzx037600.cn
 0.0.0.0	x-diy.cn
+0.0.0.0	x-google.hl.cn
 0.0.0.0	x-safew.com.cn
 0.0.0.0	x-sougou.hl.cn
 0.0.0.0	x-steam.com
@@ -26412,6 +26927,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	x1ka.cn
 0.0.0.0	x1kuailian.com.cn
 0.0.0.0	trans.x2e.cn
+0.0.0.0	x2primenova.sbs
 0.0.0.0	x4062.com
 0.0.0.0	x4hu95mh0t.com
 0.0.0.0	x7gkxnx7uz.top
@@ -26432,6 +26948,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xael78api.top
 0.0.0.0	xaeoadoskss.com
 0.0.0.0	xahuapu.net
+0.0.0.0	xahujiyuiaadvisory.pics
 0.0.0.0	xajcgs.com
 0.0.0.0	xajingchun.cn
 0.0.0.0	xajyfr.com
@@ -26447,7 +26964,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	enstat.xbext.com
 0.0.0.0	xbfk.cn
 0.0.0.0	xbh-wfqb.com
-0.0.0.0	xbjy123.com
 0.0.0.0	xbt-kuailian.com.cn
 0.0.0.0	xbtw.com
 0.0.0.0	xbuqpa.com
@@ -26493,11 +27009,15 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.xeig.cn
 0.0.0.0	imp.ad.xelements.cn
 0.0.0.0	mon.ad.xelements.cn
+0.0.0.0	v.ad.xelements.cn
 0.0.0.0	xemfura.com
 0.0.0.0	xenjswd.cn
 0.0.0.0	xenor.top
+0.0.0.0	xenupuonmanagement.pics
+0.0.0.0	xeqaqivihexmanagementltd.sbs
 0.0.0.0	xerhibx.cn
 0.0.0.0	xesjedul.cn
+0.0.0.0	xeyosotogousoperationsltd.pics
 0.0.0.0	xeze-wending.com.cn
 0.0.0.0	xezhjjyc.com
 0.0.0.0	xf187.com
@@ -26529,6 +27049,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xgsv.cn
 0.0.0.0	xgua.top
 0.0.0.0	xgvomerb.com
+0.0.0.0	bbs.xhamster.com
 0.0.0.0	m.xhera.cn
 0.0.0.0	ad.xhey.top
 0.0.0.0	ad-server.xhgamesdk.com
@@ -26574,7 +27095,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	xiangrikuei-zw.com.cn
 0.0.0.0	xiangrikuia.com.cn
 0.0.0.0	xiangshunjy.com
-0.0.0.0	xiangshuntu.top
 0.0.0.0	xiangzhiqifu.com
 0.0.0.0	xianlaibao.cn
 0.0.0.0	xianliao.me
@@ -26699,7 +27219,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	live.miphone.pandora.xiaomi.com
 0.0.0.0	log.pt.xiaomi.com
 0.0.0.0	logs.n.xiaomi.com
-0.0.0.0	mantual.pandora.xiaomi.com
 0.0.0.0	media.pre.pandora.xiaomi.com
 0.0.0.0	mi4crawler.pandora.xiaomi.com
 0.0.0.0	mibi.xiaomi.com
@@ -26810,7 +27329,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	1x1elma7.xiaomy.net
 0.0.0.0	sentry.xiaopeng.com
 0.0.0.0	xiaoqianbaoguanwanggw.com.cn
-0.0.0.0	tes.xiaoshabi.cc
 0.0.0.0	xiaotangji.cn
 0.0.0.0	dashboard.xiaotiewinner.com
 0.0.0.0	xiaoweiqianbaoapp.com.cn
@@ -26906,9 +27424,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	logc-sg.tsd.xindong.com
 0.0.0.0	sentry.xindong.com
 0.0.0.0	xindongli99.cn
-0.0.0.0	marketing.xineurope.com
 0.0.0.0	xinfeng120198888.top
 0.0.0.0	xingchenjia.com
+0.0.0.0	1-analytics-wjmj.xingchihuyu.cn
 0.0.0.0	xingfabuhang.com
 0.0.0.0	xingga.com
 0.0.0.0	xinghenjun.cn
@@ -26985,6 +27503,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xlgtblj.cn
 0.0.0.0	vps.xlhhy.com
 0.0.0.0	xlkqyh.cn
+0.0.0.0	xlogicinsight.sbs
 0.0.0.0	req.adx.xlqeai.com
 0.0.0.0	xlsldy.com
 0.0.0.0	xlxxy.com
@@ -26995,6 +27514,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	supervisexxl.xmainc.com
 0.0.0.0	xmbgb.cn
 0.0.0.0	pcdn.xmcdn.com
+0.0.0.0	z1hihu.xmcimg.com
 0.0.0.0	zhihu.xmcimg.com
 0.0.0.0	xmcvq.cn
 0.0.0.0	xmcxz.com
@@ -27062,6 +27582,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xoaylrrp.cn
 0.0.0.0	xodn.cn
 0.0.0.0	xokhilc.cn
+0.0.0.0	xokotikumadvisoryltd.sbs
 0.0.0.0	xoso13.com
 0.0.0.0	xoso57.com
 0.0.0.0	xoso64.com
@@ -27149,6 +27670,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xuezha.cn
 0.0.0.0	xufu9.com
 0.0.0.0	xuhuanqidian.com
+0.0.0.0	xuhuruumresources.pics
 0.0.0.0	xuie-wending.com.cn
 0.0.0.0	xukou.net
 0.0.0.0	xulizui6.com
@@ -27169,7 +27691,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	kkpgv2.xunlei.com
 0.0.0.0	live.xunlei.com
 0.0.0.0	log-vip-ssl.xunlei.com
-0.0.0.0	material.xl7.xunlei.com
 0.0.0.0	msg.client.xunlei.com
 0.0.0.0	niu.xunlei.com
 0.0.0.0	pgv.m.xunlei.com
@@ -27177,6 +27698,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	scene.vip.xunlei.com
 0.0.0.0	sentry.xunlei.com
 0.0.0.0	sentry-youxi.xunlei.com
+0.0.0.0	soa-vip-ssl.xunlei.com
+0.0.0.0	soagw.pw.xunlei.com
 0.0.0.0	stat-download-ssl.xunlei.com
 0.0.0.0	stat.download.xunlei.com
 0.0.0.0	union.xunlei.com
@@ -27206,6 +27729,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	xwuad.com
 0.0.0.0	xx-feishu.com.cn
 0.0.0.0	xx-motor.com
+0.0.0.0	xx07.cn
 0.0.0.0	xx3586xx.xyz
 0.0.0.0	xx6931xx.xyz
 0.0.0.0	xx7530xx.xyz
@@ -27226,7 +27750,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	xxm.cn
 0.0.0.0	xxmh456.com
 0.0.0.0	xxmzzyy.com
-0.0.0.0	xxnoyhngfg.cn
 0.0.0.0	xxo.ai
 0.0.0.0	xxokx.hl.cn
 0.0.0.0	p2p-punch.xxpkg.com
@@ -27318,10 +27841,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	yabo077.com
 0.0.0.0	yabo083.com
 0.0.0.0	yabo085.com
+0.0.0.0	yabo098.com
 0.0.0.0	yabo159.com
 0.0.0.0	yabo170.com
+0.0.0.0	yabo189.com
 0.0.0.0	yabo199.com
-0.0.0.0	yabo2015.net
+0.0.0.0	yabo552.com
 0.0.0.0	yabo593.com
 0.0.0.0	yabo602.com
 0.0.0.0	yabo64.com
@@ -27331,13 +27856,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	yabo75.com
 0.0.0.0	yabo7755.com
 0.0.0.0	yacin111.com
+0.0.0.0	yadekuhiduumventures.pics
 0.0.0.0	yah00.site
 0.0.0.0	yahekby.cn
 0.0.0.0	yahoo.com.cn
 0.0.0.0	nz.yaidea.cn
 0.0.0.0	yaioo.cn
 0.0.0.0	m.yajuke.com.cn
+0.0.0.0	yakexi.net
 0.0.0.0	m.yalayi.com
+0.0.0.0	yalomuhiacollective.pics
 0.0.0.0	yamaidei.cn
 0.0.0.0	yamm.online
 0.0.0.0	yan-assembly.org
@@ -27351,16 +27879,25 @@ ff02::3	ip6-allhosts
 0.0.0.0	yangqifoods.com
 0.0.0.0	img.yangshengtang123.com
 0.0.0.0	ca.yangshengtv.com
+0.0.0.0	yangshengzu.cn
 0.0.0.0	yangshuqianbaoappxiazaianzhuang.com.cn
 0.0.0.0	yangzhie293.com
 0.0.0.0	yangzhouxz.com
 0.0.0.0	m.yanjunbo.com
+0.0.0.0	yanming129.top
+0.0.0.0	yannduval.shop
+0.0.0.0	yanpai.com
+0.0.0.0	yantaigongmao.com
+0.0.0.0	yanyz.com
+0.0.0.0	yanz.com
+0.0.0.0	yanzier.com
 0.0.0.0	yaodedianlan.cn
 0.0.0.0	adnetpub.yaolan.com
 0.0.0.0	adpub.yaolan.com
 0.0.0.0	adpubs.yaolan.com
 0.0.0.0	ylads.yaolan.com
 0.0.0.0	yaoliankeji.vip
+0.0.0.0	yaomaicai.cn
 0.0.0.0	cps.yaoqing.com
 0.0.0.0	yaoshenjzaxianguankanqanjmianfeibofang.com.cn
 0.0.0.0	yaoyao.party
@@ -27406,6 +27943,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ycsshb.cn
 0.0.0.0	ycttrvm.cc
 0.0.0.0	yctuoyu.com
+0.0.0.0	ycxjtd.com
 0.0.0.0	pl.ycxvhw.top
 0.0.0.0	ycyba.com
 0.0.0.0	01.yd-jun.com
@@ -27431,17 +27969,19 @@ ff02::3	ip6-allhosts
 0.0.0.0	ir.mail.yeah.net
 0.0.0.0	yeak.net
 0.0.0.0	yearqi.com
+0.0.0.0	yedimuuscapital36.sbs
 0.0.0.0	logs-bigdata.yeehaw.com.cn
 0.0.0.0	store.yeelight.com
 0.0.0.0	yeeok.com.cn
 0.0.0.0	yeet-whatsapp.com.cn
 0.0.0.0	yefangedu.com
 0.0.0.0	yehuitudu.cn
-0.0.0.0	yehyehyeh.com
 0.0.0.0	yejec.cn
+0.0.0.0	yekifirabumindustriesnet.sbs
 0.0.0.0	a.yellowurl.cn
 0.0.0.0	yeluozhiqiu.site
 0.0.0.0	yemenerdianshijuqanj45jmianfeiguankan.com.cn
+0.0.0.0	yemiderigexholdings.sbs
 0.0.0.0	yemnn.cn
 0.0.0.0	yeql3hzbd.com
 0.0.0.0	yerongyi.cn
@@ -27459,7 +27999,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yfandxt.asia
 0.0.0.0	yfanyi.com.cn
 0.0.0.0	yfjtfdc.com
-0.0.0.0	yfps3ls.cn
 0.0.0.0	yfuwchb.cn
 0.0.0.0	yfynwl.com
 0.0.0.0	ygcrsbpj.cn
@@ -27469,6 +28008,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ygtawq.com
 0.0.0.0	ygwdai.cn
 0.0.0.0	ygxgk.cn
+0.0.0.0	yh-whatssapp.com.cn
 0.0.0.0	yh00030.com
 0.0.0.0	yh2285.com
 0.0.0.0	yh2293.com
@@ -27641,6 +28181,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yinghuatextile.com.cn
 0.0.0.0	yinghuatv.cn
 0.0.0.0	yinghuaweixiu.cn
+0.0.0.0	yinghuayingsh.com.cn
 0.0.0.0	yinghuayingyuan.org.cn
 0.0.0.0	yinghuayshi.com.cn
 0.0.0.0	yinghuayy.com
@@ -27648,7 +28189,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yingjie.com.cn
 0.0.0.0	yingleku.com
 0.0.0.0	yingshidaquan.hl.cn
-0.0.0.0	img.yingshidiguo.cn
 0.0.0.0	data-track.yingxiong.com
 0.0.0.0	data-track-global.yingxiong.com
 0.0.0.0	sentry2-pan01.yingxiong.com
@@ -27684,7 +28224,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	yiyiscrm.com
 0.0.0.0	wr.yiyouliao.com
 0.0.0.0	yiyouyinli.com
+0.0.0.0	yiysvcp.icu
 0.0.0.0	yiyuanqp2019jubanbendaquan.com.cn
+0.0.0.0	yizerausadvisory.pics
 0.0.0.0	app.yizu.tv
 0.0.0.0	yj-zn.com
 0.0.0.0	yj86n.com
@@ -27752,6 +28294,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	sensors.yodo1api.com
 0.0.0.0	uc-ap.yodo1api.com
 0.0.0.0	yokemart.com
+0.0.0.0	yokowasooroperations.sbs
 0.0.0.0	sdk.yolanda.hk
 0.0.0.0	ad.yoloby.com
 0.0.0.0	yomob.com.cn
@@ -27911,6 +28454,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	youzdao.com.cn
 0.0.0.0	wenxue.youzhicn.com
 0.0.0.0	youzi9.cn
+0.0.0.0	yowubefaqaonsystems.sbs
 0.0.0.0	yoyi.tv
 0.0.0.0	yoyoclaw.com.cn
 0.0.0.0	yoyxri.com.cn
@@ -27950,6 +28494,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ysjwj.com
 0.0.0.0	ysmgp.com
 0.0.0.0	ysont.cn
+0.0.0.0	z.ysshj.cn
 0.0.0.0	ysti.org
 0.0.0.0	ysunr.cn
 0.0.0.0	yswin.com
@@ -28012,6 +28557,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yuniqingxin.com
 0.0.0.0	yunjianhao.cn
 0.0.0.0	niuwxt.haowusong.com.cname.yunjiasu-cdn.net
+0.0.0.0	yunjukeji.top
 0.0.0.0	yunlaifs.com
 0.0.0.0	yunmengxq.cn
 0.0.0.0	lijiang.yunnan.cn
@@ -28030,6 +28576,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yunzhi.vip
 0.0.0.0	yunzhui.cn
 0.0.0.0	wwujiao2w.x.yupoo.com
+0.0.0.0	yuqapifonventuresco.pics
 0.0.0.0	yuqishanhe.com.cn
 0.0.0.0	yurtox.com
 0.0.0.0	yuwesq.net
@@ -28052,6 +28599,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	ywye.top
 0.0.0.0	ywzkiug.cn
 0.0.0.0	adsclick.yx.js.cn
+0.0.0.0	yx28382.top
 0.0.0.0	yx4ztp.shop
 0.0.0.0	yxb77.com
 0.0.0.0	yxdown.cn
@@ -28091,7 +28639,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	yxu-9betsports.com.cn
 0.0.0.0	yxwg21lyyn.com
 0.0.0.0	yxxcdc.com
+0.0.0.0	yxyhxj.com
 0.0.0.0	yxykjfw.cn
+0.0.0.0	yxzyjx.com
 0.0.0.0	cloud-log.yy.com
 0.0.0.0	gt.yy.com
 0.0.0.0	httpdns.gslb.yy.com
@@ -28101,6 +28651,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	yymobilegame.game.yy.com
 0.0.0.0	yy.mba
 0.0.0.0	yy0001.com
+0.0.0.0	yy138.com
+0.0.0.0	yy55.app
+0.0.0.0	yy555.app
+0.0.0.0	yy80.vip
+0.0.0.0	yy82.app
 0.0.0.0	yybbc.cn
 0.0.0.0	kwai.yyclub.work
 0.0.0.0	yyds.link
@@ -28123,8 +28678,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	yyze.cn
 0.0.0.0	yz-i.com
 0.0.0.0	dl.yzcdn.cn
-0.0.0.0	yzgdcx.cn
 0.0.0.0	d.yzh.li
+0.0.0.0	yzkzixun.com
 0.0.0.0	yzl-whatssapp.com.cn
 0.0.0.0	yznwyng.cn
 0.0.0.0	sentry.yzw.cn
@@ -28138,6 +28693,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	z1-binance.com.cn
 0.0.0.0	z6.com
 0.0.0.0	z650.cn
+0.0.0.0	z66gj2df.com
 0.0.0.0	z6j.cn
 0.0.0.0	z7293.cn
 0.0.0.0	smbcarad.z7d2q.info
@@ -28146,6 +28702,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	z9sab7vr0b.com
 0.0.0.0	z9zmszmohf.live
 0.0.0.0	zacobd.com
+0.0.0.0	zacutahonadvisory.pics
 0.0.0.0	zaishengxia.com
 0.0.0.0	log1.zaixiandata.com
 0.0.0.0	zaixianguankandianshijumianfeiquanjgaoqing4.org.cn
@@ -28154,14 +28711,12 @@ ff02::3	ip6-allhosts
 0.0.0.0	zaixianxuexi.top
 0.0.0.0	zaixianyongjumianfeikanbushoufeidedianshi.com.cn
 0.0.0.0	zak-dingtalk.com.cn
+0.0.0.0	zaklady-ceramiczne.shop
 0.0.0.0	zakladyboleslawieconlines-pl.shop
 0.0.0.0	zakladyboleslawieconsale-pl.shop
 0.0.0.0	zakladyboleslawiecpl-online.shop
 0.0.0.0	zakladyboleslawieczone-pl.shop
-0.0.0.0	zakladyboleslk.homes
-0.0.0.0	zakladybolslk.homes
-0.0.0.0	zakladybolslka.homes
-0.0.0.0	zakladybolslkz.homes
+0.0.0.0	zakladybolslkzs.homes
 0.0.0.0	zakladykspl.shop
 0.0.0.0	zakladyspl.shop
 0.0.0.0	zakuailian.com.cn
@@ -28170,7 +28725,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	zalando-q.cn
 0.0.0.0	zalando-z.cn
 0.0.0.0	zalandow.cn
+0.0.0.0	zalimugoliscollective.sbs
 0.0.0.0	zaly1314.cn
+0.0.0.0	ad.zamae.cn
 0.0.0.0	zamplus.com
 0.0.0.0	zanbi.fun
 0.0.0.0	zanox.com.cn
@@ -28179,7 +28736,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zapads.zapak.com
 0.0.0.0	zaplnhyuuu.cn
 0.0.0.0	i1.zastatic.com
-0.0.0.0	zasxcd.shop
 0.0.0.0	zaxhiyw.cn
 0.0.0.0	zaxian1.com.cn
 0.0.0.0	zaxianbofang1.com.cn
@@ -28244,6 +28800,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	detaillog1506224533-api.zego.im
 0.0.0.0	zelleactive.shop
 0.0.0.0	zellerfeldstudio.shop
+0.0.0.0	zenith2025alliance.sbs
+0.0.0.0	zenithflowmax.sbs
+0.0.0.0	zenithprime247.sbs
+0.0.0.0	zenithprimelabs.sbs
+0.0.0.0	zenithsp-acex.sbs
 0.0.0.0	zentravodigital.com
 0.0.0.0	zephiloyd.com
 0.0.0.0	api-analytics.zepp.com
@@ -28265,10 +28826,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	zeszo.cn
 0.0.0.0	zetaholdings.com.cn
 0.0.0.0	zevie.cn
+0.0.0.0	zezayihucuiscollective.sbs
+0.0.0.0	zezegegiluusindustries.pics
 0.0.0.0	zf-wps.com.cn
 0.0.0.0	zfbi.art
 0.0.0.0	zfhi.art
-0.0.0.0	zfhpx.com
 0.0.0.0	zfld1.com
 0.0.0.0	zfrv-sbetsports.com.cn
 0.0.0.0	zfsonline.com
@@ -28362,7 +28924,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sys.zhangyue.com
 0.0.0.0	saad.ms.zhangyue.net
 0.0.0.0	smad.ms.zhangyue.net
-0.0.0.0	zhangyuge.xyz
 0.0.0.0	zhanmusidingdingchicun.com.cn
 0.0.0.0	zhansankun.top
 0.0.0.0	zhantai.com
@@ -28464,6 +29025,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	zhongguociwang.com
 0.0.0.0	panel.jinglin.zhonghaizhi.cn
 0.0.0.0	zhongjia.hl.cn
+0.0.0.0	zhongjiawuyou.com
 0.0.0.0	w11.zhongkaohelp.com
 0.0.0.0	zhongkaowu.com
 0.0.0.0	zhongketajian.com
@@ -28592,15 +29154,18 @@ ff02::3	ip6-allhosts
 0.0.0.0	view.zijieapi.com
 0.0.0.0	zijonline.com.cn
 0.0.0.0	zili.online
+0.0.0.0	zimivuqahiumcollective.sbs
 0.0.0.0	zingdeal.cn
 0.0.0.0	datasink.ziniao.com
 0.0.0.0	logs-collect.ziniao.com
 0.0.0.0	test-cb-log.ziniao.com
 0.0.0.0	zinqtrack.com
 0.0.0.0	zioe.com.cn
+0.0.0.0	ziovoe.com
 0.0.0.0	zip-sogou.com.cn
 0.0.0.0	zip-winrar.cn
 0.0.0.0	zip-winrar.com.cn
+0.0.0.0	zipobulisumcapitalco.sbs
 0.0.0.0	zippin.top
 0.0.0.0	zishahh.com
 0.0.0.0	ziuak.cn
@@ -28628,7 +29193,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zjxtju.com
 0.0.0.0	zjydl.com
 0.0.0.0	zjypy.xyz
-0.0.0.0	apg3but9.zjz-service.cn
 0.0.0.0	zk-fr-google.hl.cn
 0.0.0.0	zk-jg-google.hl.cn
 0.0.0.0	zk-yh-google.hl.cn
@@ -28663,6 +29227,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	znzhou.top
 0.0.0.0	zo-gate.com.cn
 0.0.0.0	zobac.cn
+0.0.0.0	zocejuqeiacollective.pics
 0.0.0.0	c.zoepb.cn
 0.0.0.0	v.zoepb.cn
 0.0.0.0	zogvip.com
@@ -28692,6 +29257,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	wappv.zol.com.cn
 0.0.0.0	ydjs.zol.com.cn
 0.0.0.0	zombieden.cn
+0.0.0.0	zomexisoiaconsulting.sbs
+0.0.0.0	zone2025lumen.sbs
 0.0.0.0	zongchuangtui.com
 0.0.0.0	static.zongheng.com
 0.0.0.0	zonst.com
@@ -28705,7 +29272,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zoom-g.com.cn
 0.0.0.0	zoom-h.com.cn
 0.0.0.0	zoom-j.com.cn
-0.0.0.0	zoom-svip.com.cn
 0.0.0.0	zoom01webin.sbs
 0.0.0.0	zoomspace.cn
 0.0.0.0	zoosnet.net
@@ -28745,6 +29311,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	jk.zshai.cn
 0.0.0.0	zshkvast.shop
 0.0.0.0	zshtxfx.cn
+0.0.0.0	zsjiggif.icu
 0.0.0.0	zsjxwj.com
 0.0.0.0	zskuailian.com.cn
 0.0.0.0	zsmba.com.cn
@@ -28765,6 +29332,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	zu9srbxg0t.com
 0.0.0.0	zua.com
 0.0.0.0	zucaionline.com.cn
+0.0.0.0	zucaxaonsystems26.sbs
+0.0.0.0	zuforasausservices.sbs
 0.0.0.0	ad.zui.com
 0.0.0.0	api.bs.zui.com
 0.0.0.0	lds.zui.com
@@ -28817,7 +29386,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zwv28.com
 0.0.0.0	zx-wps.com.cn
 0.0.0.0	zxcasd.asia
-0.0.0.0	zxcdfr.shop
 0.0.0.0	zxcv.ltd
 0.0.0.0	tc.zxcvbnml.com
 0.0.0.0	zxcwwsazze.shop
@@ -28862,6 +29430,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	zz777.bet
 0.0.0.0	zz777.tv
 0.0.0.0	zzad.com
+0.0.0.0	zzanme.icu
 0.0.0.0	zzbdc.com
 0.0.0.0	zzbfxvgn.shop
 0.0.0.0	zzce-wending.com.cn
