@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: +mkun2pXiaWrN+Ng7YPRqg
-! Version: 202609110541
+! Checksum: 3uVfoGBFGliFUgnXhvD/qg
+! Version: 202609120532
 ! Title: EasyPrivacy
-! Last modified: 11 Sep 2026 05:41 UTC
+! Last modified: 12 Sep 2026 05:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -7548,6 +7548,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Portuguese
 ||ad5track.com^$third-party
 ||afilio.com.br^$third-party
+||atendimen.to^$third-party
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
@@ -12179,6 +12180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||netdeal.com.br/open/event/
 ||neurotrack.neurolake.io^
+||osuper.com.br/beta/bundles/analytics/analytics-$script
 ||pageviews.tray.com.br^
 ||pixel.leadlovers.app^
 ||sat.soluall.net^
@@ -14486,6 +14488,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.americansongwriter.com^
 ||track.bestpornsites.tv^
 ||track.dictionary.com^
+||track.dws.com^
 ||track.eurogirlsescort.com^
 ||track.iegcom.com^
 ||track.kueez.com^
@@ -52489,6 +52492,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
+||vannacci.gay/~flock.js
 ||video.mediaset.it/polymediashowanalytics/
 ||videogame.it/a/logview/
 ||vinted.it/relay/events
