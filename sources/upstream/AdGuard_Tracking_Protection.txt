@@ -571,6 +571,20 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 !
 !
 !
+||justice.maybeoneday.ch^
+||a.ussp.io^
+||bidderstack.com^
+||cs.ifedata.ru^
+||myweb3id.io^
+||targetrtb.com^
+||mpartner.digital^
+||onetarget.ru^
+||intent.ai^
+||rtb.dynotech.io^
+||sp.linkssp.ru^
+||sync.adsp.io^
+||sync.gonet-ads.com^
+||smartcallback.ru^
 ||inmobicdn.net^
 ||mydatascript.bubbleup.com^
 ||getads.ru^
@@ -100572,6 +100586,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||gadata.motorpresse.de^
+||p.food.ru^
 ||7lzwgj.donaukurier.de^
 ||events.plutus.ninja^
 ||metrics.earlygame.com^
@@ -313929,6 +313945,9 @@ zonedirector.avadacom.com$image
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+/api/videos/*/embed/view|$xmlhttprequest
+/api/videos/*/embed/heartbeat|$xmlhttprequest
+.io/yndx^
 /jc/gtm.js
 /static/modules/js/AssertiveYield/*
 /get/live/web/_/*$script,~third-party
@@ -314377,7 +314396,8 @@ zonedirector.avadacom.com$image
 /astrack.js
 /gv-analytics/*
 /gapro.js
-/duracelltomi-google-tag-manager/*$script
+/analytics-talk-content-tracking.
+/gtm4wp-$script
 /img.gif?
 /mtracking.
 /sr.gif?
@@ -314771,10 +314791,20 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||iplayer.is/lib/tk.js
+||index.hr/api/stats/
+||omr.com/reviews/gtm-
+||api.winstall.app/analytics/
+||berrybase.de/widgets/cbax/analytics/
+||app.easy.tools/api/stats
+||chatgpt.com/ces/v1/telemetry/
+||yandex.*/an/count/$ping
+ellegirl.jp##div[aria-label="Recommended articles carousel"]
 ||wargamings.net/track.js
 ||media-analytic.com/gtag.js
 na2ka4.blog.fc2.com###inner2 > div.section2:has(> div.ninja-recommend-block)
 ||pornhub.com/utils/reportTimeWatched
+||live.dealer-asset.co/globalscripts/analytics.min.js
 ||supportecom.ru/server.php?rqst=track
 ||independent.co.uk/Agent/GA/
 ||independent.co.uk/_build/prebid_
@@ -314792,6 +314822,7 @@ newsnow.com#%#//scriptlet('set-session-storage-item', 'nfPageCount', '$remove$')
 newsnow.com#%#//scriptlet('set-session-storage-item', 'pageCount', '$remove$')
 ||bwapi.irunfar.com/log/
 ||bwapi.irunfar.com/event/
+||animegratis.net/js/layout-signal.js
 harpersbazaar.com##div[aria-labelledby="recirc-heading"]
 na2ka4.blog.fc2.com###inner2 > div.section2:has(> div.ninja-recommend-block)
 ||otrium.*/static/newrelic.js
@@ -320733,9 +320764,6 @@ dzen.ru#%#//scriptlet('json-prune', 'ssrData.exportResponse.feedData.adPixelsDat
 !
 !#if (!adguard_app_ios && !adguard_ext_android_cb)
 ||chat.deepseek.com/api/v0/events
-! https://github.com/AdguardTeam/AdguardFilters/issues/241127
-! chat.deepseek.com##.ds-modal-overlay
-! chat.deepseek.com#?#.ds-theme.ds-modal-wrapper:contains(AdGuard)
 !#endif
 !
 ! Netflix
@@ -321844,6 +321872,11 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241391
+||nikkei.com^$cookie=atlasId
+! https://github.com/AdguardTeam/AdguardFilters/issues/241302
+||food.ru^$cookie=spid
+||food.ru^$cookie=foodrusid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239398
 ||gipfel.ru^$cookie=UniqAnalyticsId
 ! newsnow.com
@@ -322888,6 +322921,7 @@ $app=com.miui.analytics
 dynamic-report-api.appsflyersdk.com^
 ||privacy-sandbox.appsflyersdk.com^
 -pia.appsflyersdk.com^
+.skadsdkless.appsflyersdk.com^
 -skadsdkless.appsflyersdk.com^
 -adrevenue.appsflyersdk.com^
 -attr.appsflyersdk.com^
@@ -324292,6 +324326,10 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241300
+@@||rj.com/layouts/system/VisitorIdentification.js$domain=rj.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/241161
+@@||sgtm.viking.de/gtm.js$domain=viking.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240995
 @@||pub-static.fotor.com/static/web/lib/sensors/sensorsdata.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240759
@@ -329918,6 +329956,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
+||driedwheat.com^
 ||driftingchef.com^
 ||driftpizza.com^
 ||droidwiz.com^
@@ -330019,6 +330058,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||extramonies.com^
 ||exuberantedge.com^
 ||fabcharting.com^
+||fabledglory.com^
 ||fabledsoul.com^
 ||fabulousbooking.com^
 ||facilitatebreakfast.com^
@@ -330050,6 +330090,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||fatcoil.com^
 ||faucetfoot.com^
 ||faultycanvas.com^
+||faxardent.net^
 ||faxcoupons.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
@@ -330081,7 +330122,9 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||findyourdelight.com^
 ||firecatfilms.com^
 ||fireworkcamp.com^
+||firmasset.com^
 ||firstendpoint.com^
+||firsthoughtstudios.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
 ||fishingtoolsbox.com^
@@ -330362,6 +330405,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||infinityhedge.com^
 ||informalbook.com^
 ||infrafood.com^
+||inkcarts.net^
 ||inkcoupon.com^
 ||innocentlamp.com^
 ||inputicicle.com^
@@ -330455,6 +330499,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||lasttaco.com^
 ||laughcloth.com^
 ||launchjack.com^
+||launchkite.com^
 ||lavaorganic.com^
 ||lazychord.com^
 ||lazyexplore.com^
@@ -330478,6 +330523,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||limepeal.com^
 ||linksoutside.com^
 ||linkstable.com^
+||littlegeese.com^
 ||littlesun.net^
 ||livelumber.com^
 ||livelylaugh.com^
@@ -330502,6 +330548,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||lostwaxlab.com^
 ||loudlunch.com^
 ||lovelydrum.com^
+||lovesbooks.com^
 ||loveseashore.com^
 ||lowercases.com^
 ||lowerthewatts.net^
@@ -330932,6 +330979,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||queenskart.com^
 ||questionate.com^
 ||quicklyedit.com^
+||quicktattoo.com^
 ||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
@@ -331516,6 +331564,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||thebestpaints.com^
 ||thebigvan.com^
 ||thebrainybulb.com^
+||thecodingpad.com^
 ||thecounter.net^
 ||thecrazychili.com^
 ||thefishstops.com^
