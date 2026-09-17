@@ -100586,6 +100586,8 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||counter.wargamings.net^
+||analyticssec.overwolf.com^
 ||gadata.motorpresse.de^
 ||p.food.ru^
 ||7lzwgj.donaukurier.de^
@@ -313945,6 +313947,8 @@ zonedirector.avadacom.com$image
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+/static/js/tracker.js^
+/api/eventTracking/batchReport.json
 /api/videos/*/embed/view|$xmlhttprequest
 /api/videos/*/embed/heartbeat|$xmlhttprequest
 .io/yndx^
@@ -314791,6 +314795,9 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||gorbilet.ru/blog/js/metrics.js
+||mediaexpert.pl/_internal/metrics/
+||wargamings.net/png.php?id=
 ||iplayer.is/lib/tk.js
 ||index.hr/api/stats/
 ||omr.com/reviews/gtm-
@@ -323124,7 +323131,6 @@ dlsdk.appsflyer.com^
 ||news-sports-events.apple.com^
 ||track.applicaster.com^
 ||hb-mob2.optiword.com^
-||tracking.geo.*.amazonaws.com^
 ||telemetry.doxo.com^
 ||sensorsdata-datasink.stardust-tv.com^
 ||event-api-cs.stardust-tv.com^
@@ -324326,6 +324332,8 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241523
+@@||data.tm-awx.com$domain=gloucestershirelive.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241300
 @@||rj.com/layouts/system/VisitorIdentification.js$domain=rj.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241161
@@ -324396,6 +324404,9 @@ d4?appid*type*
 @@.my.salesforce-setup.com/_ui/common/config/field/*/d?id=*&type=
 ! https://gall.dcinside.com/mgallery/board/view/?id=adguard&no=11021&page=1
 @@||static.cloudflareinsights.com^$domain=quasarzone.com,script
+! https://github.com/AdguardTeam/AdguardFilters/issues/241516
+@@||feliz.data.tm-awx.com^$domain=cheshire-live.co.uk
+@@||feliz-web.data.tm-awx.com^$domain=cheshire-live.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235154
 @@||feliz.data.tm-awx.com^$domain=football.london
 @@||feliz-web.data.tm-awx.com^$domain=football.london
@@ -329479,6 +329490,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||barkfactor.com^
 ||barqueue.com^
 ||barrelcider.com^
+||bartcons.com^
 ||baseboosters.com^
 ||basketballbelieve.com^
 ||baskettexture.com^
@@ -330447,6 +330459,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||joyfulharbor.com^
 ||joyouspool.com^
 ||joyoussurprise.com^
+||jqioregvpxgte.website^
 ||jubilantaura.com^
 ||jubilantcanyon.com^
 ||jubilantglimmer.com^
@@ -330505,6 +330518,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||lazyexplore.com^
 ||lazylivingroom.com^
 ||lazypecan.com^
+||ldrws.com^
 ||leafpilot.com^
 ||leaplunchroom.com^
 ||leapquick.com^
@@ -330608,6 +330622,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||measlymiddle.com^
 ||meatydime.com^
 ||meddleplant.com^
+||mediamaker.net^
 ||mediatescarf.com^
 ||mellowhush.com^
 ||melodiouschorus.com^
@@ -330635,6 +330650,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||messmonster.com^
 ||messyoranges.com^
 ||metajaws.com^
+||metalsfactory.com^
 ||metawelcome.com^
 ||metricfresh.com^
 ||midnightmead.com^
@@ -330677,6 +330693,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
 ||mountedbattery.com^
+||mousescene.com^
 ||movableobject.com^
 ||movemeal.com^
 ||mowgoats.com^
@@ -330887,6 +330904,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||pluckypocket.com^
 ||pluckyzone.com^
 ||pluggedlabs.com^
+||pluxpdzouwubj.space^
 ||pocketfaucet.com^
 ||podname.com^
 ||poemprompt.com^
@@ -331068,6 +331086,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||retrocrypt.com^
 ||retrorays.com^
 ||reversetickets.com^
+||reviewacousticguitar.com^
 ||revivalvoice.com^
 ||rhetoricalactivity.com^
 ||rhetoricalloss.com^
@@ -331737,6 +331756,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||viewresource.com^
 ||vilenexus.com^
 ||violetdemise.com^
+||viowrel.com^
 ||viralfoodie.net^
 ||virtualvincent.com^
 ||vividcache.com^
