@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CvQbwudLeOuk3a/ssQWlTQ
-! Version: 202609170542
+! Checksum: jDCtfr/V1jF8OfMtSGSIYA
+! Version: 202609180533
 ! Title: EasyList China
-! Last modified: 17 Sep 2026 05:42 UTC
+! Last modified: 18 Sep 2026 05:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1710,6 +1710,17 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+!
+||95d684gnf.com^
+||ec00t7oue1.com^
+||4kngwxegq5.com^
+||tdlqxdwwpptpli.com^
+||hawsehole52.top^
+||ruoky41k7a.com^
+||fe7xxmtg3.com^
+||zdr6wn2f5.com^
+||j17xor750.com^
+||2ypqjxnzo.com^
 !
 ||bridge32.top^
 ||yl9c8v1le.com^
@@ -4444,7 +4455,6 @@ newduba.cn###jq_youxi
 ||elmerpmsd.com^
 ||qmoqruden.com^
 ||lkthfpii.xyz^
-!
 ||k90ey77nx.com^
 ||xmgi1tqka.com^
 ||z2ubj8bpk.com^
@@ -18681,7 +18691,6 @@ yemancomic.com##.z-index-99 > a
 ||xdyn0*jy.com^$script,xmlhttprequest,third-party
 ||xscp0*xq.com^$script,xmlhttprequest,third-party
 ||hhba0*kdh.com^$script,xmlhttprequest,third-party
-fcenxe*.top/$script,xmlhttprequest,third-party
 ||55561.net/ml.
 ||miaoshu6.com/static/js/read.
 .net/themes/jieqi/wap/js/test.
