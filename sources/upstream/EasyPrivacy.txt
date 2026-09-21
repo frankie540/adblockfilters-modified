@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: NII4oWEY8xraobzllP4ReQ
-! Version: 202609200552
+! Checksum: DeMEblRTtqO/6Ab107DgEg
+! Version: 202609210603
 ! Title: EasyPrivacy
-! Last modified: 20 Sep 2026 05:52 UTC
+! Last modified: 21 Sep 2026 06:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12886,6 +12886,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||chat.groq.com/global_stats
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
+||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/v1/telemetry/intake^$ping,xmlhttprequest
@@ -14139,6 +14140,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secure.teamtalk.com/tag/
 ||secure.tennis365.com/tag/
 ||seekingalpha.com/mone_event
+||seekingalpha.com/mone_v2
 ||segapi.whop.com^
 ||seismic.com/playerservice/api/v1/log?
 ||service.techzine.eu^

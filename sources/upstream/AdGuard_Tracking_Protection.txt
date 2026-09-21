@@ -100586,6 +100586,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||n.nstbrowser.io^
 ||stats.stellar.rip^
 ||dtam.thrive.today^
 ||jnt.bild.de^
@@ -314798,6 +314799,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||finanzen.*/api/page-visits/track
+||cdn.shopify.com/extensions/*/affliate-by-secomapp-125/
 ||wlct-one.de/api/*/mtrcs/
 ||oeamtc.at/*/js/cms.frontend._js.tracking/
 ||spaziogames.it/6vzv/
@@ -330742,6 +330745,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||neighborhoodbiketours.com^
 ||neighborlywatch.com^
 ||neonsites.com^
+||nerdworldcon.com^
 ||nervoussummer.com^
 ||nestbuyers.com^
 ||netandbytes.com^
@@ -330902,6 +330906,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||piquantprice.com^
 ||piquantvortex.com^
 ||pixeledhub.com^
+||pixelmoonstudio.com^
 ||pixeltrouble.com^
 ||pixelvariety.com^
 ||pizzasnut.com^
@@ -331534,6 +331539,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||superficialeyes.com^
 ||superficialspring.com^
 ||superficialsquare.com^
+||superstarorganizer.com^
 ||supplyreward.com^
 ||supportwaves.com^
 ||surfacesmedia.com^
