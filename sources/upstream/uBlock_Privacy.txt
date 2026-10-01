@@ -1020,7 +1020,7 @@ lit.link##+js(href-sanitizer, a[href^="/redirects/link-ad?redirectUrl=aHR0c"], ?
 ||c.pc.qq.com^$urlskip=?pfurl
 
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-17978685
-/^https:\/\/link\.theverge\.com\/click\/[0-9]+\.[0-9]+\/aHR0c/$doc,urlskip=/(aHR0c[a-zA-Z0-9%_-]+)/ -base64
+/^https:\/\/link\.theverge\.com\/click\/[0-9]+\.[0-9]+\/aHR0c/$doc,urlskip=/(aHR0c[a-zA-Z0-9%_-]+)/ -safebase64
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34528
 ||s.click.aliexpress.com/deep_link.*^dl_target_url=http$doc,urlskip=?dl_target_url
@@ -3351,6 +3351,11 @@ okteve.com##+js(no-fetch-if, method:POST body:tracker)
 ! https://github.com/uBlockOrigin/uAssets/issues/33097
 ||minhatela.xyz/api/rpc/sig/hit
 ||minhatela.xyz/api/rpc/sig/b
+
+! https://github.com/uBlockOrigin/uAssets/issues/34676
+oklivetv.com##+js(no-fetch-if, method:POST body:tracker)
+||oklivetv.com/xplay/embed-beacon.php
+||oklivetv.com/p/e
 
 ! Merge in resource-abuse.txt
 !#include resource-abuse.txt
