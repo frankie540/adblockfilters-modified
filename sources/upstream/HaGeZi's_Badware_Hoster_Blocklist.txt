@@ -1,9 +1,9 @@
 !
 ! Title: HaGeZi's Badware Hoster Blocklist
 ! Description: Blocks known free hosters that also host badware via user content to prevent the use of these hosters for malicious purposes.
-! Version: 1.0.21.8
+! Version: 1.0.21.10
 ! Homepage: https://github.com/hagezi/dns-blocklists
-! Last modified: 2026-10-02T00:51:35.390Z
+! Last modified: 2026-10-05T00:56:49.357Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
@@ -407,6 +407,7 @@
 ||corolain.ru^
 ||craftum.io^
 ||created.app^
+||creatorlink.net^
 ||crypto-market-world.com^
 ||cryptonight.net^
 ||cs-clan.org^
@@ -829,6 +830,7 @@
 ||mybluehost.me^
 ||mybluehostin.me^
 ||myclickfunnels.com^
+||mycpanel.rs^
 ||mydiscussion.net^
 ||myeweb.net^
 ||myfoolmoon.com^
@@ -927,6 +929,7 @@
 ||pl.de^
 ||pl.gp^
 ||planet.tl^
+||plasmic.run^
 ||plu.sh^
 ||portal.lc^
 ||preview-domain.com^
@@ -992,6 +995,7 @@
 ||seite.ru^
 ||seite24.eu^
 ||seite77.de^
+||sendspace.com^
 ||serv00.net^
 ||server.gg^
 ||server.tl^
