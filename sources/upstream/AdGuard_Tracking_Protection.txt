@@ -571,6 +571,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 !
 !
 !
+||buballmighty.com^
 ||heatmap-tracking-do-to-s3-worker-prod.flipdesk.workers.dev^
 ||ymzu9eeo1y.ru^
 ||a3kvau184uea.com^
@@ -100592,6 +100593,11 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||one01.stright.bizris.com^
+||analytics.infomaniak.com^
+||biprx.n12.co.il^
+||apm.volccdn.com^
+||apmplus.volces.com^
 ||evs.segwww.incident.io^
 ||scout.data.funkedigital.de^
 ||sp.data.funkedigital.de^
@@ -314807,6 +314813,14 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+v-1.co.il#%#//scriptlet('set-local-storage-item', 'v1_device_id', '$remove$')
+||api.cdnlivetv.tv/p2p-stats
+||media.flixcar.com/log/
+||independentaustralia.net/_js/realtrack.js
+||mizuhobank.co.jp/bk-common/pc/js/rt_track_event.js
+||mizuhobank.co.jp/common/js/rt_track.js
+||lf3-data.volccdn.com/obj/data-static/log-sdk/
+||news-postseven.com/wp-content/common/visitdata.js
 /vite/assets/Viafoura/Core/Events.*.js$domain=imore.com|coachweb.com
 /.events-handler/*$domain=imore.com|coachweb.com
 ||coachweb.com/vite/assets/JwPlayer/Shared/TrackingEvents.*.js
@@ -315153,7 +315167,7 @@ mego.travel#%#//scriptlet('set-local-storage-item', '/^snowplowOutQueue_/', '$re
 ||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||naturallieplantbased.com/?*&ver=$script,~third-party
-||caf.fr/*/stormcaster.js
+/stormcaster.js$domain=caf.fr|v-1.co.il
 ||caf.fr/sites/default/files/smarttag/
 ||google.com/rmkt/collect/
 ||google.com/pagead/
@@ -321921,6 +321935,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! v-1.co.il
+||v-1.co.il^$cookie=visit_id
 ! yanolja.com
 ||yanolja.com^$cookie=nol_device_id
 ! OpenAI
@@ -324378,6 +324394,18 @@ d4?appid*type*
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/243470
+@@||power.mhi.com/modules/contrib/google_tag/js/gtm.js$domain=power.mhi.com
+@@||googletagmanager.com/gtm.js$domain=power.mhi.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/243386
+@@||cmp.optimizely.com/assets/$image,domain=roadscholar.org
+! https://github.com/AdguardTeam/AdguardFilters/issues/243436
+@@||googletagmanager.com/gtm.js$domain=news-postseven.com
+! https://github.com/AdguardTeam/AdguardFilters/pull/243384
+@@||googletagmanager.com/gtm.js$domain=mizuhobank.co.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/243416
+@@||googletagmanager.com/gtm.js$domain=unicef.or.jp
+@@||googletagmanager.com/gtag/js$domain=unicef.or.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/242943
 @@||priem.menu^$cookie=_ga
 ! https://github.com/AdguardTeam/AdguardFilters/issues/241876
@@ -331870,6 +331898,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||viowrel.com^
 ||viralfoodie.net^
 ||virtualvincent.com^
+||visualcommservices.com^
 ||vividcache.com^
 ||vividcanopy.com^
 ||vividfrost.com^
